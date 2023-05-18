@@ -1,0 +1,1192 @@
+fileFormatVersion: 2
+guid: 2d9c66440efb96a44833cb2c479733fa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 32
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boyo_run_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 15
+        width: 47
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: -57}
+        - {x: -0.5, y: -54}
+        - {x: 0.5, y: -53}
+        - {x: 0.5, y: -51}
+        - {x: 2.5, y: -47}
+        - {x: 2.5, y: -44}
+        - {x: 2.5, y: -47}
+        - {x: 3.5, y: -48}
+        - {x: 3.5, y: -51}
+        - {x: 4.5, y: -52}
+        - {x: 4.5, y: -56}
+        - {x: 5.5, y: -57}
+        - {x: 5.5, y: -62}
+        - {x: 6.5, y: -63}
+        - {x: 7.5, y: -73}
+        - {x: 9.5, y: -75}
+        - {x: 23.5, y: -75}
+        - {x: 23.5, y: -58}
+        - {x: 22.5, y: -57}
+        - {x: 22.5, y: -27}
+        - {x: 23.5, y: -26}
+        - {x: 23.5, y: 28}
+        - {x: 22.5, y: 31}
+        - {x: 17.5, y: 36}
+        - {x: 13.5, y: 37}
+        - {x: 17.5, y: 42}
+        - {x: 18.5, y: 46}
+        - {x: 20.5, y: 48}
+        - {x: 21.5, y: 55}
+        - {x: 20.5, y: 56}
+        - {x: 20.5, y: 62}
+        - {x: 19.5, y: 63}
+        - {x: 19.5, y: 66}
+        - {x: 11.5, y: 75}
+        - {x: -3.5, y: 75}
+        - {x: -4.5, y: 74}
+        - {x: -6.5, y: 74}
+        - {x: -12.5, y: 69}
+        - {x: -12.5, y: 67}
+        - {x: -14.5, y: 65}
+        - {x: -14.5, y: 58}
+        - {x: -15.5, y: 57}
+        - {x: -15.5, y: 53}
+        - {x: -11.5, y: 45}
+        - {x: -9.5, y: 45}
+        - {x: -5.5, y: 41}
+        - {x: -7.5, y: 40}
+        - {x: -12.5, y: 37}
+        - {x: -14.5, y: 37}
+        - {x: -19.5, y: 35}
+        - {x: -21.5, y: 32}
+        - {x: -22.5, y: 28}
+        - {x: -23.5, y: 27}
+        - {x: -23.5, y: 10}
+        - {x: -22.5, y: 9}
+        - {x: -22.5, y: -17}
+        - {x: -21.5, y: -18}
+        - {x: -21.5, y: -21}
+        - {x: -19.5, y: -23}
+        - {x: -19.5, y: -71}
+        - {x: -20.5, y: -72}
+        - {x: -20.5, y: -75}
+        - {x: -2.5, y: -75}
+        - {x: -2.5, y: -65}
+        - {x: -1.5, y: -64}
+        - {x: -1.5, y: -58}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 5df5597678db41c47a520cca2c36659e
+      internalID: -2009771417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 87
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 35.5, y: -45}
+        - {x: 35.5, y: -42}
+        - {x: 34.5, y: -41}
+        - {x: 34.5, y: -35}
+        - {x: 33.5, y: -34}
+        - {x: 32.5, y: -28}
+        - {x: 25.5, y: -21}
+        - {x: 25.5, y: -20}
+        - {x: 13.5, y: -8}
+        - {x: 13.5, y: -6}
+        - {x: 15.5, y: -3}
+        - {x: 16.5, y: -4}
+        - {x: 24.5, y: -5}
+        - {x: 25.5, y: -4}
+        - {x: 29.5, y: -4}
+        - {x: 35.5, y: 2}
+        - {x: 39.5, y: 3}
+        - {x: 43.5, y: 6}
+        - {x: 43.5, y: 19}
+        - {x: 41.5, y: 21}
+        - {x: 30.5, y: 21}
+        - {x: 27.5, y: 18}
+        - {x: 27.5, y: 14}
+        - {x: 26.5, y: 12}
+        - {x: 16.5, y: 23}
+        - {x: 14.5, y: 24}
+        - {x: 14.5, y: 23}
+        - {x: 15.5, y: 24}
+        - {x: 16.5, y: 23}
+        - {x: 23.5, y: 23}
+        - {x: 24.5, y: 24}
+        - {x: 26.5, y: 24}
+        - {x: 30.5, y: 28}
+        - {x: 30.5, y: 38}
+        - {x: 33.5, y: 42}
+        - {x: 33.5, y: 50}
+        - {x: 32.5, y: 51}
+        - {x: 32.5, y: 53}
+        - {x: 27.5, y: 59}
+        - {x: 26.5, y: 59}
+        - {x: 24.5, y: 61}
+        - {x: 19.5, y: 61}
+        - {x: 16.5, y: 63}
+        - {x: 9.5, y: 63}
+        - {x: 7.5, y: 60}
+        - {x: 6.5, y: 60}
+        - {x: -2.5, y: 54}
+        - {x: -2.5, y: 51}
+        - {x: -3.5, y: 50}
+        - {x: -3.5, y: 35}
+        - {x: -1.5, y: 32}
+        - {x: -2.5, y: 31}
+        - {x: -6.5, y: 31}
+        - {x: -13.5, y: 27}
+        - {x: -15.5, y: 27}
+        - {x: -18.5, y: 25}
+        - {x: -20.5, y: 25}
+        - {x: -23.5, y: 22}
+        - {x: -23.5, y: 21}
+        - {x: -35.5, y: 10}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -4}
+        - {x: -32.5, y: -8}
+        - {x: -27.5, y: -8}
+        - {x: -26.5, y: -7}
+        - {x: -23.5, y: -7}
+        - {x: -20.5, y: -4}
+        - {x: -20.5, y: 1}
+        - {x: -17.5, y: 4}
+        - {x: -18.5, y: 0}
+        - {x: -15.5, y: -6}
+        - {x: -15.5, y: -8}
+        - {x: -18.5, y: -11}
+        - {x: -19.5, y: -15}
+        - {x: -21.5, y: -16}
+        - {x: -23.5, y: -20}
+        - {x: -39.5, y: -20}
+        - {x: -43.5, y: -24}
+        - {x: -43.5, y: -45}
+        - {x: -41.5, y: -47}
+        - {x: -38.5, y: -47}
+        - {x: -36.5, y: -45}
+        - {x: -34.5, y: -45}
+        - {x: -29.5, y: -40}
+        - {x: -28.5, y: -40}
+        - {x: -24.5, y: -42}
+        - {x: -19.5, y: -42}
+        - {x: -18.5, y: -43}
+        - {x: -10.5, y: -43}
+        - {x: -3.5, y: -37}
+        - {x: -3.5, y: -36}
+        - {x: -1.5, y: -35}
+        - {x: 1.5, y: -29}
+        - {x: 7.5, y: -36}
+        - {x: 12.5, y: -38}
+        - {x: 16.5, y: -41}
+        - {x: 18.5, y: -49}
+        - {x: 21.5, y: -53}
+        - {x: 21.5, y: -55}
+        - {x: 23.5, y: -57}
+        - {x: 23.5, y: -62}
+        - {x: 24.5, y: -63}
+        - {x: 37.5, y: -63}
+        - {x: 43.5, y: -60}
+        - {x: 43.5, y: -47}
+        - {x: 41.5, y: -45}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e8d5e64bc139f96479ce3420d1e86c21
+      internalID: -1768517204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 19
+        width: 79
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 22.5, y: -49}
+        - {x: 23.5, y: -48}
+        - {x: 24.5, y: -40}
+        - {x: 25.5, y: -39}
+        - {x: 25.5, y: -26}
+        - {x: 17.5, y: -18}
+        - {x: 16.5, y: -18}
+        - {x: 12.5, y: -13}
+        - {x: 8.5, y: -12}
+        - {x: 9.5, y: -11}
+        - {x: 9.5, y: -8}
+        - {x: 11.5, y: -5}
+        - {x: 16.5, y: -9}
+        - {x: 22.5, y: -10}
+        - {x: 26.5, y: -7}
+        - {x: 33.5, y: -3}
+        - {x: 34.5, y: -4}
+        - {x: 36.5, y: -4}
+        - {x: 39.5, y: -2}
+        - {x: 39.5, y: 13}
+        - {x: 38.5, y: 14}
+        - {x: 30.5, y: 14}
+        - {x: 29.5, y: 15}
+        - {x: 26.5, y: 15}
+        - {x: 23.5, y: 12}
+        - {x: 23.5, y: 9}
+        - {x: 22.5, y: 9}
+        - {x: 15.5, y: 17}
+        - {x: 14.5, y: 17}
+        - {x: 12.5, y: 19}
+        - {x: 16.5, y: 19}
+        - {x: 19.5, y: 20}
+        - {x: 22.5, y: 23}
+        - {x: 24.5, y: 28}
+        - {x: 24.5, y: 37}
+        - {x: 27.5, y: 42}
+        - {x: 27.5, y: 44}
+        - {x: 28.5, y: 45}
+        - {x: 28.5, y: 49}
+        - {x: 18.5, y: 59}
+        - {x: 14.5, y: 59}
+        - {x: 12.5, y: 61}
+        - {x: 3.5, y: 61}
+        - {x: 3.5, y: 58}
+        - {x: 2.5, y: 58}
+        - {x: -2.5, y: 56}
+        - {x: -9.5, y: 50}
+        - {x: -9.5, y: 48}
+        - {x: -10.5, y: 47}
+        - {x: -10.5, y: 34}
+        - {x: -9.5, y: 33}
+        - {x: -10.5, y: 30}
+        - {x: -6.5, y: 27}
+        - {x: -12.5, y: 26}
+        - {x: -17.5, y: 23}
+        - {x: -19.5, y: 23}
+        - {x: -24.5, y: 21}
+        - {x: -26.5, y: 18}
+        - {x: -26.5, y: 17}
+        - {x: -27.5, y: 16}
+        - {x: -28.5, y: 16}
+        - {x: -36.5, y: 8}
+        - {x: -36.5, y: 6}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -8}
+        - {x: -33.5, y: -12}
+        - {x: -24.5, y: -12}
+        - {x: -20.5, y: -9}
+        - {x: -20.5, y: -18}
+        - {x: -21.5, y: -19}
+        - {x: -21.5, y: -22}
+        - {x: -22.5, y: -23}
+        - {x: -23.5, y: -31}
+        - {x: -24.5, y: -32}
+        - {x: -28.5, y: -32}
+        - {x: -29.5, y: -33}
+        - {x: -30.5, y: -32}
+        - {x: -33.5, y: -32}
+        - {x: -34.5, y: -33}
+        - {x: -37.5, y: -33}
+        - {x: -39.5, y: -35}
+        - {x: -39.5, y: -57}
+        - {x: -38.5, y: -58}
+        - {x: -34.5, y: -58}
+        - {x: -32.5, y: -56}
+        - {x: -31.5, y: -56}
+        - {x: -27.5, y: -52}
+        - {x: -26.5, y: -52}
+        - {x: -25.5, y: -53}
+        - {x: -15.5, y: -53}
+        - {x: -14.5, y: -52}
+        - {x: -11.5, y: -52}
+        - {x: -8.5, y: -51}
+        - {x: -4.5, y: -46}
+        - {x: -4.5, y: -45}
+        - {x: -1.5, y: -41}
+        - {x: -1.5, y: -39}
+        - {x: -0.5, y: -36}
+        - {x: 4.5, y: -39}
+        - {x: 4.5, y: -56}
+        - {x: 3.5, y: -58}
+        - {x: 4.5, y: -59}
+        - {x: 4.5, y: -61}
+        - {x: 28.5, y: -61}
+        - {x: 29.5, y: -60}
+        - {x: 28.5, y: -56}
+        - {x: 22.5, y: -50}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 85cfe4769bde3d34585d2b6ebc103d58
+      internalID: -915032349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 15
+        width: 56
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -44}
+        - {x: 9, y: -37}
+        - {x: 9, y: -35}
+        - {x: 11, y: -32}
+        - {x: 11, y: -28}
+        - {x: 10, y: -27}
+        - {x: 10, y: -23}
+        - {x: 9, y: -22}
+        - {x: 11, y: -22}
+        - {x: 14, y: -20}
+        - {x: 15, y: -17}
+        - {x: 15, y: -9}
+        - {x: 14, y: -8}
+        - {x: 15, y: -7}
+        - {x: 15, y: 9}
+        - {x: 14, y: 10}
+        - {x: 14, y: 16}
+        - {x: 13, y: 18}
+        - {x: 18, y: 19}
+        - {x: 24, y: 23}
+        - {x: 26, y: 28}
+        - {x: 26, y: 38}
+        - {x: 28, y: 40}
+        - {x: 28, y: 54}
+        - {x: 22, y: 59}
+        - {x: 18, y: 60}
+        - {x: 17, y: 61}
+        - {x: 15, y: 61}
+        - {x: 11, y: 63}
+        - {x: 5, y: 63}
+        - {x: 3, y: 61}
+        - {x: 3, y: 59}
+        - {x: 2, y: 59}
+        - {x: 0, y: 58}
+        - {x: -7, y: 53}
+        - {x: -10, y: 46}
+        - {x: -10, y: 40}
+        - {x: -9, y: 39}
+        - {x: -9, y: 33}
+        - {x: -8, y: 32}
+        - {x: -8, y: 30}
+        - {x: -5, y: 27}
+        - {x: -9, y: 26}
+        - {x: -13, y: 21}
+        - {x: -13, y: 19}
+        - {x: -15, y: 15}
+        - {x: -15, y: 12}
+        - {x: -16, y: 11}
+        - {x: -16, y: 7}
+        - {x: -17, y: 6}
+        - {x: -17, y: -2}
+        - {x: -18, y: -3}
+        - {x: -18, y: -7}
+        - {x: -19, y: -8}
+        - {x: -19, y: -14}
+        - {x: -17, y: -16}
+        - {x: -17, y: -19}
+        - {x: -16, y: -20}
+        - {x: -16, y: -22}
+        - {x: -14, y: -26}
+        - {x: -15, y: -27}
+        - {x: -24, y: -27}
+        - {x: -25, y: -28}
+        - {x: -28, y: -28}
+        - {x: -28, y: -49}
+        - {x: -26, y: -50}
+        - {x: -22, y: -50}
+        - {x: -16, y: -44}
+        - {x: -16, y: -45}
+        - {x: -17, y: -46}
+        - {x: -17, y: -49}
+        - {x: -20, y: -54}
+        - {x: -20, y: -58}
+        - {x: -18, y: -60}
+        - {x: -16, y: -60}
+        - {x: -13, y: -63}
+        - {x: 3, y: -63}
+        - {x: 5, y: -61}
+        - {x: 5, y: -56}
+        - {x: 0, y: -51}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8af11901f58fb9543af3bfcf2dfce0bf
+      internalID: 1295775482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 15
+        width: 75
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18.5, y: -53}
+        - {x: -14.5, y: -49}
+        - {x: -13.5, y: -49}
+        - {x: -8.5, y: -44}
+        - {x: -7.5, y: -44}
+        - {x: 5.5, y: -31}
+        - {x: 6.5, y: -31}
+        - {x: 5.5, y: -32}
+        - {x: 5.5, y: -36}
+        - {x: 7.5, y: -38}
+        - {x: 7.5, y: -48}
+        - {x: 9.5, y: -52}
+        - {x: 12.5, y: -53}
+        - {x: 26.5, y: -53}
+        - {x: 30.5, y: -50}
+        - {x: 30.5, y: -44}
+        - {x: 29.5, y: -41}
+        - {x: 26.5, y: -39}
+        - {x: 26.5, y: -33}
+        - {x: 27.5, y: -32}
+        - {x: 27.5, y: -30}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: -27}
+        - {x: 30.5, y: -23}
+        - {x: 30.5, y: -15}
+        - {x: 26.5, y: -11}
+        - {x: 34.5, y: -11}
+        - {x: 35.5, y: -10}
+        - {x: 37.5, y: -10}
+        - {x: 37.5, y: 5}
+        - {x: 36.5, y: 6}
+        - {x: 29.5, y: 6}
+        - {x: 26.5, y: 4}
+        - {x: 24.5, y: 7}
+        - {x: 19.5, y: 16}
+        - {x: 20.5, y: 17}
+        - {x: 20.5, y: 22}
+        - {x: 21.5, y: 22}
+        - {x: 25.5, y: 24}
+        - {x: 29.5, y: 29}
+        - {x: 29.5, y: 30}
+        - {x: 31.5, y: 32}
+        - {x: 31.5, y: 41}
+        - {x: 33.5, y: 43}
+        - {x: 33.5, y: 46}
+        - {x: 34.5, y: 47}
+        - {x: 34.5, y: 55}
+        - {x: 33.5, y: 58}
+        - {x: 30.5, y: 61}
+        - {x: 19.5, y: 66}
+        - {x: 15.5, y: 66}
+        - {x: 14.5, y: 67}
+        - {x: 6.5, y: 67}
+        - {x: 5.5, y: 66}
+        - {x: 6.5, y: 63}
+        - {x: 2.5, y: 62}
+        - {x: -4.5, y: 54}
+        - {x: -4.5, y: 52}
+        - {x: -5.5, y: 51}
+        - {x: -5.5, y: 47}
+        - {x: -4.5, y: 46}
+        - {x: -4.5, y: 41}
+        - {x: -3.5, y: 40}
+        - {x: -2.5, y: 35}
+        - {x: 0.5, y: 31}
+        - {x: -2.5, y: 29}
+        - {x: -3.5, y: 29}
+        - {x: -8.5, y: 24}
+        - {x: -9.5, y: 24}
+        - {x: -20.5, y: 13}
+        - {x: -20.5, y: -8}
+        - {x: -18.5, y: -11}
+        - {x: -18.5, y: -14}
+        - {x: -16.5, y: -16}
+        - {x: -12.5, y: -17}
+        - {x: -16.5, y: -21}
+        - {x: -20.5, y: -29}
+        - {x: -23.5, y: -33}
+        - {x: -24.5, y: -33}
+        - {x: -33.5, y: -42}
+        - {x: -34.5, y: -46}
+        - {x: -37.5, y: -49}
+        - {x: -37.5, y: -55}
+        - {x: -34.5, y: -61}
+        - {x: -28.5, y: -67}
+        - {x: -17.5, y: -67}
+        - {x: -12.5, y: -64}
+        - {x: -14.5, y: -58}
+        - {x: -16.5, y: -56}
+      tessellationDetail: 1
+      bones: []
+      spriteID: bb243d28be55b1941a615127b0190c1a
+      internalID: 1775441898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 18
+        width: 84
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 37, y: -50.5}
+        - {x: 36, y: -49.5}
+        - {x: 36, y: -42.5}
+        - {x: 35, y: -41.5}
+        - {x: 35, y: -37.5}
+        - {x: 34, y: -36.5}
+        - {x: 34, y: -34.5}
+        - {x: 32, y: -32.5}
+        - {x: 32, y: -31.5}
+        - {x: 30, y: -28.5}
+        - {x: 28, y: -24.5}
+        - {x: 24, y: -20.5}
+        - {x: 21, y: -14.5}
+        - {x: 16, y: -9.5}
+        - {x: 16, y: -5.5}
+        - {x: 19, y: -5.5}
+        - {x: 24, y: -8.5}
+        - {x: 26, y: -8.5}
+        - {x: 34, y: -1.5}
+        - {x: 39, y: -1.5}
+        - {x: 42, y: 1.5}
+        - {x: 42, y: 16.5}
+        - {x: 41, y: 17.5}
+        - {x: 30, y: 17.5}
+        - {x: 28, y: 15.5}
+        - {x: 28, y: 10.5}
+        - {x: 27, y: 9.5}
+        - {x: 24, y: 9.5}
+        - {x: 23, y: 10.5}
+        - {x: 23, y: 11.5}
+        - {x: 19, y: 16.5}
+        - {x: 19, y: 18.5}
+        - {x: 23, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 29, y: 26.5}
+        - {x: 30, y: 27.5}
+        - {x: 30, y: 38.5}
+        - {x: 32, y: 41.5}
+        - {x: 33, y: 47.5}
+        - {x: 31, y: 50.5}
+        - {x: 31, y: 52.5}
+        - {x: 25, y: 58.5}
+        - {x: 17, y: 60.5}
+        - {x: 13, y: 65.5}
+        - {x: 8, y: 65.5}
+        - {x: 6, y: 63.5}
+        - {x: 6, y: 62.5}
+        - {x: 7, y: 61.5}
+        - {x: 7, y: 59.5}
+        - {x: 5, y: 59.5}
+        - {x: 4, y: 58.5}
+        - {x: 2, y: 58.5}
+        - {x: -3, y: 56.5}
+        - {x: -8, y: 51.5}
+        - {x: -10, y: 46.5}
+        - {x: -10, y: 41.5}
+        - {x: -9, y: 40.5}
+        - {x: -9, y: 33.5}
+        - {x: -8, y: 32.5}
+        - {x: -7, y: 28.5}
+        - {x: -5, y: 26.5}
+        - {x: -11, y: 25.5}
+        - {x: -17, y: 21.5}
+        - {x: -19, y: 21.5}
+        - {x: -21, y: 19.5}
+        - {x: -22, y: 19.5}
+        - {x: -27, y: 15.5}
+        - {x: -27, y: 14.5}
+        - {x: -30, y: 11.5}
+        - {x: -31, y: 11.5}
+        - {x: -38, y: 5.5}
+        - {x: -38, y: 3.5}
+        - {x: -39, y: 2.5}
+        - {x: -39, y: -6.5}
+        - {x: -35, y: -12.5}
+        - {x: -22, y: -12.5}
+        - {x: -18, y: -9.5}
+        - {x: -17, y: -5.5}
+        - {x: -18, y: -4.5}
+        - {x: -18, y: -1.5}
+        - {x: -14, y: 0.5}
+        - {x: -15, y: -0.5}
+        - {x: -16, y: -7.5}
+        - {x: -14, y: -9.5}
+        - {x: -14, y: -14.5}
+        - {x: -19, y: -20.5}
+        - {x: -19, y: -21.5}
+        - {x: -22, y: -24.5}
+        - {x: -23, y: -23.5}
+        - {x: -29, y: -23.5}
+        - {x: -31, y: -22.5}
+        - {x: -32, y: -23.5}
+        - {x: -38, y: -24.5}
+        - {x: -42, y: -26.5}
+        - {x: -42, y: -45.5}
+        - {x: -40, y: -47.5}
+        - {x: -35, y: -47.5}
+        - {x: -30, y: -43.5}
+        - {x: -30, y: -42.5}
+        - {x: -29, y: -41.5}
+        - {x: -28, y: -41.5}
+        - {x: -25, y: -43.5}
+        - {x: -23, y: -43.5}
+        - {x: -19, y: -45.5}
+        - {x: -14, y: -45.5}
+        - {x: -10, y: -42.5}
+        - {x: -9, y: -42.5}
+        - {x: -6, y: -39.5}
+        - {x: -5, y: -39.5}
+        - {x: 0, y: -34.5}
+        - {x: 1, y: -34.5}
+        - {x: 5, y: -38.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -40.5}
+        - {x: 11, y: -40.5}
+        - {x: 16, y: -45.5}
+        - {x: 18, y: -48.5}
+        - {x: 19, y: -53.5}
+        - {x: 22, y: -57.5}
+        - {x: 22, y: -63.5}
+        - {x: 24, y: -65.5}
+        - {x: 42, y: -65.5}
+        - {x: 42, y: -53.5}
+        - {x: 39, y: -50.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: a1c577b96f3db2d439cc168c893e3897
+      internalID: 554051075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 16
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 25, y: -41}
+        - {x: 26, y: -40}
+        - {x: 26, y: -25}
+        - {x: 23, y: -18}
+        - {x: 19, y: -15}
+        - {x: 18, y: -15}
+        - {x: 12, y: -9}
+        - {x: 12, y: -7}
+        - {x: 15, y: -9}
+        - {x: 19, y: -9}
+        - {x: 20, y: -8}
+        - {x: 22, y: -8}
+        - {x: 29, y: -1}
+        - {x: 29, y: 0}
+        - {x: 30, y: 1}
+        - {x: 35, y: 1}
+        - {x: 37, y: 2}
+        - {x: 37, y: 17}
+        - {x: 33, y: 19}
+        - {x: 24, y: 19}
+        - {x: 22, y: 17}
+        - {x: 22, y: 11}
+        - {x: 20, y: 9}
+        - {x: 19, y: 10}
+        - {x: 16, y: 15}
+        - {x: 16, y: 17}
+        - {x: 17, y: 18}
+        - {x: 21, y: 19}
+        - {x: 25, y: 22}
+        - {x: 26, y: 25}
+        - {x: 26, y: 28}
+        - {x: 27, y: 29}
+        - {x: 27, y: 38}
+        - {x: 30, y: 42}
+        - {x: 32, y: 50}
+        - {x: 30, y: 52}
+        - {x: 25, y: 56}
+        - {x: 24, y: 56}
+        - {x: 20, y: 59}
+        - {x: 18, y: 59}
+        - {x: 17, y: 60}
+        - {x: 11, y: 60}
+        - {x: 8, y: 63}
+        - {x: 1, y: 63}
+        - {x: 1, y: 60}
+        - {x: 2, y: 59}
+        - {x: -2, y: 58}
+        - {x: -8, y: 51}
+        - {x: -8, y: 50}
+        - {x: -11, y: 47}
+        - {x: -11, y: 45}
+        - {x: -12, y: 44}
+        - {x: -12, y: 36}
+        - {x: -11, y: 35}
+        - {x: -11, y: 31}
+        - {x: -8, y: 26}
+        - {x: -6, y: 26}
+        - {x: -15, y: 22}
+        - {x: -17, y: 22}
+        - {x: -21, y: 18}
+        - {x: -22, y: 18}
+        - {x: -33, y: 7}
+        - {x: -33, y: -6}
+        - {x: -29, y: -12}
+        - {x: -19, y: -12}
+        - {x: -18, y: -11}
+        - {x: -18, y: -13}
+        - {x: -19, y: -14}
+        - {x: -19, y: -16}
+        - {x: -21, y: -20}
+        - {x: -21, y: -23}
+        - {x: -22, y: -24}
+        - {x: -22, y: -30}
+        - {x: -26, y: -30}
+        - {x: -27, y: -31}
+        - {x: -34, y: -31}
+        - {x: -37, y: -34}
+        - {x: -37, y: -54}
+        - {x: -35, y: -56}
+        - {x: -30, y: -56}
+        - {x: -29, y: -55}
+        - {x: -27, y: -55}
+        - {x: -24, y: -53}
+        - {x: -22, y: -49}
+        - {x: -5, y: -49}
+        - {x: -3, y: -47}
+        - {x: -2, y: -43}
+        - {x: -1, y: -42}
+        - {x: 0, y: -35}
+        - {x: 1, y: -33}
+        - {x: 5, y: -34}
+        - {x: 5, y: -52}
+        - {x: 6, y: -53}
+        - {x: 6, y: -62}
+        - {x: 7, y: -63}
+        - {x: 28, y: -63}
+        - {x: 29, y: -62}
+        - {x: 29, y: -58}
+        - {x: 25, y: -50}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 3c7f4e60dd0426b488e11dcb17bb6e92
+      internalID: -777872957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_7
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 15
+        width: 56
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -53}
+        - {x: 8, y: -46}
+        - {x: 10, y: -41}
+        - {x: 10, y: -39}
+        - {x: 12, y: -36}
+        - {x: 12, y: -25}
+        - {x: 16, y: -24}
+        - {x: 18, y: -22}
+        - {x: 18, y: -10}
+        - {x: 16, y: -7}
+        - {x: 16, y: 9}
+        - {x: 15, y: 10}
+        - {x: 15, y: 15}
+        - {x: 14, y: 17}
+        - {x: 16, y: 16}
+        - {x: 20, y: 16}
+        - {x: 25, y: 20}
+        - {x: 26, y: 23}
+        - {x: 26, y: 27}
+        - {x: 27, y: 28}
+        - {x: 27, y: 34}
+        - {x: 28, y: 35}
+        - {x: 28, y: 51}
+        - {x: 22, y: 57}
+        - {x: 18, y: 58}
+        - {x: 17, y: 59}
+        - {x: 13, y: 59}
+        - {x: 12, y: 60}
+        - {x: 4, y: 60}
+        - {x: 3, y: 61}
+        - {x: -3, y: 61}
+        - {x: -5, y: 59}
+        - {x: -5, y: 57}
+        - {x: -3, y: 55}
+        - {x: -8, y: 51}
+        - {x: -10, y: 46}
+        - {x: -10, y: 43}
+        - {x: -11, y: 42}
+        - {x: -11, y: 33}
+        - {x: -9, y: 31}
+        - {x: -9, y: 27}
+        - {x: -7, y: 25}
+        - {x: -7, y: 24}
+        - {x: -12, y: 20}
+        - {x: -13, y: 17}
+        - {x: -14, y: 9}
+        - {x: -15, y: 8}
+        - {x: -15, y: 4}
+        - {x: -16, y: 3}
+        - {x: -16, y: -2}
+        - {x: -17, y: -3}
+        - {x: -17, y: -12}
+        - {x: -16, y: -13}
+        - {x: -17, y: -15}
+        - {x: -17, y: -20}
+        - {x: -16, y: -21}
+        - {x: -14, y: -29}
+        - {x: -16, y: -30}
+        - {x: -19, y: -32}
+        - {x: -25, y: -32}
+        - {x: -27, y: -34}
+        - {x: -27, y: -36}
+        - {x: -28, y: -37}
+        - {x: -28, y: -51}
+        - {x: -26, y: -55}
+        - {x: -23, y: -56}
+        - {x: -20, y: -56}
+        - {x: -17, y: -53}
+        - {x: -17, y: -60}
+        - {x: -14, y: -65}
+        - {x: -11, y: -66}
+        - {x: 4, y: -66}
+        - {x: 6, y: -64}
+        - {x: 6, y: -60}
+        - {x: 4, y: -57}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 79959a5646f3a2344a5fb68cd1df8c76
+      internalID: -19508634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyo_run_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 14
+        width: 79
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19.5, y: -52}
+        - {x: -5.5, y: -38}
+        - {x: -5.5, y: -37}
+        - {x: 0.5, y: -31}
+        - {x: 0.5, y: -30}
+        - {x: 2.5, y: -28}
+        - {x: 6.5, y: -28}
+        - {x: 4.5, y: -36}
+        - {x: 5.5, y: -37}
+        - {x: 5.5, y: -46}
+        - {x: 8.5, y: -49}
+        - {x: 14.5, y: -50}
+        - {x: 15.5, y: -51}
+        - {x: 22.5, y: -51}
+        - {x: 23.5, y: -50}
+        - {x: 25.5, y: -50}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: -43}
+        - {x: 26.5, y: -39}
+        - {x: 26.5, y: -38}
+        - {x: 24.5, y: -36}
+        - {x: 25.5, y: -35}
+        - {x: 24.5, y: -33}
+        - {x: 27.5, y: -28}
+        - {x: 28.5, y: -24}
+        - {x: 30.5, y: -22}
+        - {x: 30.5, y: -18}
+        - {x: 29.5, y: -17}
+        - {x: 29.5, y: -13}
+        - {x: 28.5, y: -12}
+        - {x: 28.5, y: -10}
+        - {x: 27.5, y: -7}
+        - {x: 24.5, y: -5}
+        - {x: 29.5, y: -4}
+        - {x: 33.5, y: -1}
+        - {x: 38.5, y: -1}
+        - {x: 39.5, y: 0}
+        - {x: 39.5, y: 17}
+        - {x: 37.5, y: 18}
+        - {x: 28.5, y: 18}
+        - {x: 24.5, y: 14}
+        - {x: 23.5, y: 15}
+        - {x: 23.5, y: 17}
+        - {x: 20.5, y: 20}
+        - {x: 20.5, y: 21}
+        - {x: 17.5, y: 24}
+        - {x: 17.5, y: 25}
+        - {x: 18.5, y: 24}
+        - {x: 23.5, y: 24}
+        - {x: 26.5, y: 25}
+        - {x: 29.5, y: 29}
+        - {x: 29.5, y: 33}
+        - {x: 30.5, y: 34}
+        - {x: 30.5, y: 41}
+        - {x: 33.5, y: 46}
+        - {x: 33.5, y: 50}
+        - {x: 31.5, y: 53}
+        - {x: 31.5, y: 56}
+        - {x: 29.5, y: 58}
+        - {x: 29.5, y: 59}
+        - {x: 24.5, y: 64}
+        - {x: 22.5, y: 64}
+        - {x: 21.5, y: 65}
+        - {x: 17.5, y: 65}
+        - {x: 16.5, y: 66}
+        - {x: 1.5, y: 66}
+        - {x: 0.5, y: 64}
+        - {x: 2.5, y: 62}
+        - {x: 1.5, y: 61}
+        - {x: 0.5, y: 61}
+        - {x: -4.5, y: 57}
+        - {x: -7.5, y: 50}
+        - {x: -7.5, y: 43}
+        - {x: -6.5, y: 42}
+        - {x: -6.5, y: 37}
+        - {x: -4.5, y: 34}
+        - {x: -4.5, y: 32}
+        - {x: -12.5, y: 23}
+        - {x: -13.5, y: 23}
+        - {x: -17.5, y: 19}
+        - {x: -17.5, y: 17}
+        - {x: -19.5, y: 15}
+        - {x: -19.5, y: 13}
+        - {x: -20.5, y: 12}
+        - {x: -20.5, y: -5}
+        - {x: -19.5, y: -6}
+        - {x: -19.5, y: -8}
+        - {x: -17.5, y: -11}
+        - {x: -15.5, y: -11}
+        - {x: -19.5, y: -19}
+        - {x: -19.5, y: -21}
+        - {x: -22.5, y: -26}
+        - {x: -22.5, y: -28}
+        - {x: -31.5, y: -37}
+        - {x: -31.5, y: -38}
+        - {x: -38.5, y: -45}
+        - {x: -38.5, y: -46}
+        - {x: -39.5, y: -47}
+        - {x: -39.5, y: -54}
+        - {x: -36.5, y: -56}
+        - {x: -36.5, y: -57}
+        - {x: -34.5, y: -60}
+        - {x: -32.5, y: -64}
+        - {x: -29.5, y: -66}
+        - {x: -15.5, y: -66}
+        - {x: -13.5, y: -64}
+        - {x: -13.5, y: -62}
+        - {x: -17.5, y: -56}
+      - - {x: 16.5, y: -2}
+        - {x: 17.5, y: -4}
+        - {x: 20.5, y: -4}
+        - {x: 16.5, y: -4}
+        - {x: 17.5, y: -3}
+      tessellationDetail: 1
+      bones: []
+      spriteID: c3b3ed6b870894b42884876b069cd0b3
+      internalID: 1326088270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boyo_run_0: -2009771417
+      boyo_run_1: -1768517204
+      boyo_run_2: -915032349
+      boyo_run_3: 1295775482
+      boyo_run_4: 1775441898
+      boyo_run_5: 554051075
+      boyo_run_6: -777872957
+      boyo_run_7: -19508634
+      boyo_run_8: 1326088270
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
