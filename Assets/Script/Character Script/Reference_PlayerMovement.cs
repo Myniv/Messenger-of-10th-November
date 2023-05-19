@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
+public class Reference_PlayerMovement : MonoBehaviour
 // , IPointerDownHandler, IPointerUpHandler
 {
 
