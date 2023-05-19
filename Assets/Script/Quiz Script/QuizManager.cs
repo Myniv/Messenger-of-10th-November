@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class QuizManager : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class QuizManager : MonoBehaviour
     public TMP_Text QuestiontTxt;
     private bool correct_TF = false;
 
+    public UnityEvent popUpQuizDone;
+
+    int startQuestion = 0;
+
     private void Start()
     {
         WaktuMundur = SetWaktu;
@@ -21,6 +26,7 @@ public class QuizManager : MonoBehaviour
     }
     public void correct()
     {
+
         resetTimer();
         if (correct_TF == true)
         {
@@ -45,10 +51,30 @@ public class QuizManager : MonoBehaviour
 
     }
     void generateQuestion()
+    {            
+        Debug.Log(startQuestion);
+        //If the startQuestion is more than all QNA list, PopUpQuiz Appear;
+        //TODO :
+        //Find another trick because its still error using startQuestion>QnA,Count;
+        if (startQuestion>QnA.Count)
+        {
+            Debug.Log("Quiz Done");
+        }
+        else
+        {
+            // currentQuestion = Random.Range(0,QnA.Count);
+            QuestiontTxt.text = QnA[startQuestion].Question;
+            startQuestion++;
+            SetAnswers();
+        }
+
+    }
+
+    private void AfterQuiz()
     {
-        currentQuestion = Random.Range(0, QnA.Count);
-        QuestiontTxt.text = QnA[currentQuestion].Question;
-        SetAnswers();
+        popUpQuizDone.Invoke();
+        Debug.Log("QuizDone");
+
     }
 
     //Setting Waktu Mundur

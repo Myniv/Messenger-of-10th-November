@@ -13,13 +13,13 @@ public class AnswerScript : MonoBehaviour
     public void Answer(){
         if(isCorrect){
             Debug.Log("Correct Answer");
-            quizManager.QnA.RemoveAt(quizManager.currentQuestion);
+            // quizManager.QnA.RemoveAt(quizManager.currentQuestion);
             quizManager.ValueSkillPoint+=10;
             quizManager.correct();
             
         }else {
             Debug.Log("Wrong Answer");
-            quizManager.QnA.RemoveAt(quizManager.currentQuestion);
+            // quizManager.QnA.RemoveAt(quizManager.currentQuestion);
             quizManager.correct();
         }
     }
