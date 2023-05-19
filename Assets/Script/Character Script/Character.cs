@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Character : MonoBehaviour
 {
     [SerializeField] Animator animator;
+    [SerializeField] UnityEvent meetNPC;
+    [SerializeField] UnityEvent foundObject;
     public float force = 5f;
 
     public virtual void MovementSpeed(float Speed = 0.0f){
@@ -25,8 +28,11 @@ public class Character : MonoBehaviour
             theScale.x *= -1;
         }
         transform.localScale = theScale;
-
-        // Multiply the player's x local scale by -1.
-
     }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.CompareTag("NPC")){
+            meetNPC.Invoke();
+        }
+    }    
 }
