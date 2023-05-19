@@ -8,7 +8,7 @@ public class Reference_PlayerMovement : MonoBehaviour
 // , IPointerDownHandler, IPointerUpHandler
 {
 
-    [SerializeField] CharacterController2D controller;
+    [SerializeField] Reference_CharacterController2D controller;
     [SerializeField] Animator animator;
     [SerializeField] float runSpeed = 40f;
     [SerializeField] Button buttonRight;
