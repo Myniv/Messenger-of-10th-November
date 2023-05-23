@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
     [SerializeField] Animator animator;
-    [SerializeField] UnityEvent meetNPC;
-    [SerializeField] UnityEvent foundObject;
+    [SerializeField] Button button;
     public float force = 5f;
+    [SerializeField] UnityEvent enterNPC;
+    [SerializeField] UnityEvent leaveNPC;
+    [SerializeField] UnityEvent enterObject;
+    [SerializeField] UnityEvent leaveObject;
 
+    
+    
     public virtual void RunAnimation(float Speed = 0.0f){
         animator.SetFloat("Speed",Mathf.Abs(Speed));
     }
@@ -31,8 +37,18 @@ public class Character : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
+        button.enabled=true;
+
         if(other.CompareTag("NPC")){
-            meetNPC.Invoke();
+            enterNPC.Invoke();
         }
-    }    
+    } 
+
+    private void OnTriggerExit2D(Collider2D other) {
+        button.enabled=false;
+
+        if(other.CompareTag("NPC")){
+            leaveNPC.Invoke();
+        }
+    }   
 }
