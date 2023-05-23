@@ -28,7 +28,7 @@ public class Character : MonoBehaviour
             rb.AddForce(Vector2.up * 700f);
         }
         if(Mathf.Abs(dirX)>0&&rb.velocity.y == 0){
-            anim.SetBool("IsRuning",true);
+            anim.SetBool("IsRunning",true);
         }else{
             anim.SetBool("IsRunning",false);
         }
