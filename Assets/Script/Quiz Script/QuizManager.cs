@@ -52,13 +52,9 @@ public class QuizManager : MonoBehaviour
     }
     void generateQuestion()
     {            
-        Debug.Log(startQuestion);
-        //If the startQuestion is more than all QNA list, PopUpQuiz Appear;
-        //TODO :
-        //Find another trick because its still error using startQuestion>QnA,Count;
-        if (startQuestion>QnA.Count)
+        if (startQuestion>=QnA.Count)
         {
-            Debug.Log("Quiz Done");
+            AfterQuiz();
         }
         else
         {

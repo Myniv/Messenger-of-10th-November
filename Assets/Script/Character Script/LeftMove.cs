@@ -23,13 +23,13 @@ public class LeftMove : Character , IPointerDownHandler, IPointerUpHandler
     {
         isPressed = true;
         character.Flip(m_FacingRight);
-        character.MovementSpeed(1);
+        character.RunAnimation(1);
         
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         isPressed=false;
-        character.MovementSpeed(0);
+        character.RunAnimation(0);
     }
 }
