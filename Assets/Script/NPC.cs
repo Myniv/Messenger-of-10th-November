@@ -11,9 +11,10 @@ public class NPC : MonoBehaviour
     public string[] dialogue;
     private int index;
 
-    public GameObject contButton;
-    public float wordSpeed;
-    public bool playerIsClose;
+    [SerializeField] GameObject contButton;
+    [SerializeField] GameObject quiz;
+    [SerializeField] float wordSpeed;
+    [SerializeField] bool playerIsClose;
 
     void Update()
     {
@@ -65,6 +66,7 @@ public class NPC : MonoBehaviour
 
         else
         {
+            quiz.SetActive(true);
             zeroText();
         }
     }
