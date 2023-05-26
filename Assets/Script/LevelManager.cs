@@ -5,19 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public void GamePlay(string sceneName)
-    {
-        SceneManager.LoadScene("Movement Scene");
-    }
-    public void LevelList(string sceneName)
-    {
-        SceneManager.LoadScene("Mulai");
-    }
-    public void Option(string sceneName)
-    {
-        SceneManager.LoadScene("Pengaturan");
-    }
-    public void Menu(string sceneName)
+    [SerializeField] string sceneName;
+    
+    public void Menu()
     {
         SceneManager.LoadScene("Main Menu");
     }
@@ -25,5 +15,10 @@ public class LevelManager : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("tombol sudah ditekan");
+    }
+
+    public void MoveScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

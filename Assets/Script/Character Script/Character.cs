@@ -1,67 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    private Animator anim;
-    private float moveSpeed;
-    private float dirX;
-    private bool facingRight = true;
-    private Vector3 localScale;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Animator animator;
+    [SerializeField] Button button;
+    public float force = 5f;
+    [SerializeField] UnityEvent enterNPC;
+    [SerializeField] UnityEvent leaveNPC;
+    [SerializeField] UnityEvent enterObject;
+    [SerializeField] UnityEvent leaveObject;
+
+    
+    
+    public virtual void RunAnimation(float Speed = 0.0f){
+        animator.SetFloat("Speed",Mathf.Abs(Speed));
+    }
+    public virtual void Flip(bool m_FacingRight)
     {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        localScale = transform.localScale;
-        moveSpeed = 5f;
+        // Switch the way the player is labelled as facing.
+        Vector3 theScale = transform.localScale;
+        //Face Right
+        if (m_FacingRight == true && theScale.x < 0)
+        {
+            theScale.x *= -1;
+        }
+        //Face Left
+        else if (m_FacingRight == false && theScale.x > 0)
+        {
+            theScale.x *= -1;
+        }
+        transform.localScale = theScale;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        dirX = Input.GetAxisRaw("Horizontal")*moveSpeed;
+    private void OnTriggerEnter2D(Collider2D other) {
+        button.enabled=true;
 
-        if(Input.GetButtonDown("Jump") && rb.velocity.y == 0){
-            rb.AddForce(Vector2.up * 700f);
+        if(other.CompareTag("NPC")){
+            enterNPC.Invoke();
         }
-        if(Mathf.Abs(dirX)>0&&rb.velocity.y == 0){
-            anim.SetBool("IsRuning",true);
-        }else{
-            anim.SetBool("IsRunning",false);
-        }
+    } 
 
-        if(rb.velocity.y==0){
-            anim.SetBool("IsJumping",false);
-            anim.SetBool("IsFalling",false);
-        }
-        if(rb.velocity.y>0){
-            anim.SetBool("IsJumping",true);
-        }
-        if(rb.velocity.y<0){
-            anim.SetBool("IsJumping",false);
-            anim.SetBool("IsFalling",true);
-        }
-        
-    }
+    private void OnTriggerExit2D(Collider2D other) {
+        button.enabled=false;
 
-    private void FixedUpdate() {
-        rb.velocity = new Vector2(dirX,rb.velocity.y);
-    }
-
-    private void LateUpdate() {
-        //flip
-        if(dirX>0){
-            facingRight=true;
-        }else  if(dirX<0){
-            facingRight=false;
+        if(other.CompareTag("NPC")){
+            leaveNPC.Invoke();
         }
-
-        if(((facingRight)&&(localScale.x<0)) ||((facingRight)&&(localScale.x>0))){
-            localScale.x *=-1;
-        }
-        transform.localScale = localScale;
-    }
+    }   
 }
