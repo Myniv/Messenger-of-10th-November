@@ -48,14 +48,20 @@ public class Reference_PlayerMovement : MonoBehaviour
         Movement();
 
         //With different Axis Raw
-        if(Input.GetKey("d") || Input.GetKey("right")){
+        if(Input.GetKey("d") || Input.GetKey("right"))
+        {
             horizontalMove = Input.GetAxisRaw("Right")*runSpeed;
-        }else if(Input.GetKeyUp("d") || Input.GetKeyUp("right")){
+        }
+        else if(Input.GetKeyUp("d") || Input.GetKeyUp("right"))
+        {
             horizontalMove=0*runSpeed;
         }
-        if(Input.GetKey("a") || Input.GetKey("left")){
+        if(Input.GetKey("a") || Input.GetKey("left"))
+        {
             horizontalMove = Input.GetAxisRaw("Left")*runSpeed;
-        }else if(Input.GetKeyUp("a") || Input.GetKeyUp("left")){
+        }
+        else if(Input.GetKeyUp("a") || Input.GetKeyUp("left"))
+        {
             horizontalMove=0*runSpeed;
         }
 
@@ -68,11 +74,11 @@ public class Reference_PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", true);
         }
 
-        if(Input.GetButtonDown("Crouch")){
-            crouch = true;
-        } else if (Input.GetButtonUp("Crouch")){
-            crouch = false;
-        }
+        // if(Input.GetButtonDown("Crouch")){
+        //     crouch = true;
+        // } else if (Input.GetButtonUp("Crouch")){
+        //     crouch = false;
+        // }
     }
 
     public void pointerDownRight(){
