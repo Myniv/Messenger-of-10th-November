@@ -40,6 +40,7 @@ public class Character : MonoBehaviour
         button.enabled=true;
 
         if(other.CompareTag("NPC")){
+            Debug.Log("TESTT");
             enterNPC.Invoke();
         }
     } 
