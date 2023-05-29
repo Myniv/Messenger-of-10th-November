@@ -1069,7 +1069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 153
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1083,6 +1083,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2321380444534333089, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Color.a
+      value: 0.80784315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444534333089, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444534333089, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444534333089, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333091, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_Name
       value: Dialogue Panel
@@ -1090,6 +1106,30 @@ PrefabInstance:
     - target: {fileID: 2321380444534333091, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.9815198
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.07075471
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8987571
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418344, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1145,15 +1185,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_text
-      value: Bu... Boyo pamit berangkat dulu ya...
+      value: 'Boyo : Bu... Boyo pamit berangkat dulu ya...'
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSize
-      value: 24
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSizeBase
-      value: 24
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1161,7 +1209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1169,7 +1217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 27
+      value: 27.50001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380445912023796, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445912023797, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1407,7 +1459,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1121988705}
   dialogue:
   - 
-  - Iya nak, hati-hati dijalan.
+  - 'Ibu Boyo : Iya nak, hati-hati dijalan.'
   contButton: {fileID: 1889548170}
   quiz: {fileID: 1016659981}
   wordSpeed: 0.06
