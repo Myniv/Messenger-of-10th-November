@@ -1460,7 +1460,8 @@ MonoBehaviour:
   dialogue:
   - 
   - 'Boyo : Apa aku jual saja ya?'
-  - 'Boyo : Ah tapikan kata ibu tidak boleh mengambil yang bukan hak kita'
+  - 'Boyo : Ah tapikan kata ibu tidak boleh mengambil yang bukan hak kita.'
+  - 'Boyo : Tapi aku ambil aja deh, siapa tau nanti ada yang mencarinya.'
   contButton: {fileID: 1889548170}
   quiz: {fileID: 1016659981}
   wordSpeed: 0.06
