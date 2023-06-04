@@ -77,6 +77,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerIsClose = true;
+            dialoguePanel.SetActive(true);
         }
     }
 
@@ -85,6 +86,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerIsClose = false;
+            dialoguePanel.SetActive(value: false);
             zeroText();
         }
     }
