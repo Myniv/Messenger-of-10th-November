@@ -1185,7 +1185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_text
-      value: 'Boyo : Wah bagus sekali, ini sepertinya mahal.'
+      value: 'Boyo : Apa Kalian sedang mencari sesuatu?'
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSize
@@ -1459,9 +1459,17 @@ MonoBehaviour:
   dialogueText: {fileID: 1121988705}
   dialogue:
   - 
-  - 'Boyo : Apa aku jual saja ya?'
-  - 'Boyo : Ah tapikan kata ibu tidak boleh mengambil yang bukan hak kita.'
-  - 'Boyo : Tapi aku ambil aja deh, siapa tau nanti ada yang mencarinya.'
+  - 'Ajudan : Kami sedang mencari sebuah arloji'
+  - 'Ajudan : Apakah kau melihatnya?'
+  - 'Mrs.X(yumma) : Jika kau menemukannya, aku akan memberikan apapun untukmu'
+  - 'Boyo : Kebetulan aku menemukan sebuah arloji waktu berkeliling'
+  - 'Mrs.X(yumma) : Hei nak, itu benar punyaku'
+  - 'Mrs.X(yumma) : Barang ini sangat penting. Sebutkan apa keinginanmu?'
+  - 'Boyo : Sebenarnya aku tidak berharap imbalan apapun'
+  - 'Boyo : Tetapi aku punya mimpi menjadi bagian dari PETA, seperti ayahku yang
+    telah gugur'
+  - 'Mrs.X(yumma) : Oh kamu mau masuk PETA'
+  - 'Mrs.X(yumma) : Coba jawab pertanyaan ini'
   contButton: {fileID: 1889548170}
   quiz: {fileID: 1016659981}
   wordSpeed: 0.06

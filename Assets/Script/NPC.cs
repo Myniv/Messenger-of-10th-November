@@ -66,7 +66,7 @@ public class NPC : MonoBehaviour
 
         else
         {
-            quiz.SetActive(true);
+            quiz.SetActive(false);
             Debug.Log("test");
             zeroText();
         }
