@@ -8,6 +8,7 @@ public class NPC2 : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
+    [SerializeField] GameObject panelChapter;
     public string[] dialogue;
     private int index;
 
@@ -88,6 +89,7 @@ public class NPC2 : MonoBehaviour
             playerIsClose = false;
             dialoguePanel.SetActive(value: false);
             zeroText();
+            panelChapter.SetActive(true);
         }
     }
 }

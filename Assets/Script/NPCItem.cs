@@ -28,6 +28,11 @@ public class NPCItem : MonoBehaviour
         }
     }
 
+    public void retry()
+    {
+        nextPanel.SetActive(false);
+    }
+
     public void NextScene()
     {
         SceneManager.LoadScene("Level 1.1.1");
