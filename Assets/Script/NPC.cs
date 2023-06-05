@@ -80,6 +80,7 @@ public class NPC : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
             
             playerIsClose = true;
+            dialoguePanel.SetActive(true);
         }
     }
 
@@ -91,6 +92,7 @@ public class NPC : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(false);
             
             playerIsClose = false;
+            dialoguePanel.SetActive(value: false);
             zeroText();
         }
     }
