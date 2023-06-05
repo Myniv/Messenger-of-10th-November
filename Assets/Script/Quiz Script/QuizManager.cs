@@ -15,7 +15,7 @@ public class QuizManager : MonoBehaviour
     public TMP_Text QuestiontTxt;
     private bool correct_TF = false;
 
-    public UnityEvent popUpQuizDone;
+    public UnityEvent OnQuizDone;
 
     int startQuestion = 0;
 
@@ -68,9 +68,7 @@ public class QuizManager : MonoBehaviour
 
     private void AfterQuiz()
     {
-        popUpQuizDone.Invoke();
-        Debug.Log("QuizDone");
-
+        OnQuizDone.Invoke();
     }
 
     //Setting Waktu Mundur

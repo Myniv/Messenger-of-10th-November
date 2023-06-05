@@ -38,8 +38,6 @@ public class Character : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        button.enabled=true;
-
         if(other.CompareTag("NPC")){
             enterNPC.Invoke();
         }
