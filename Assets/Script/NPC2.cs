@@ -4,10 +4,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPC : MonoBehaviour
+public class NPC2 : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
+    [SerializeField] GameObject panelChapter;
     public string[] dialogue;
     private int index;
 
@@ -88,6 +89,7 @@ public class NPC : MonoBehaviour
             playerIsClose = false;
             dialoguePanel.SetActive(value: false);
             zeroText();
+            panelChapter.SetActive(true);
         }
     }
 }

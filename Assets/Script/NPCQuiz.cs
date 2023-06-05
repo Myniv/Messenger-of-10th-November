@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPC : MonoBehaviour
+public class NPCQuiz : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
@@ -66,7 +66,7 @@ public class NPC : MonoBehaviour
 
         else
         {
-            quiz.SetActive(false);
+            quiz.SetActive(true);
             Debug.Log("test");
             zeroText();
         }
