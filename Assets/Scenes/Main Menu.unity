@@ -3557,7 +3557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bgm: {fileID: 538811379}
   Sfx: {fileID: 259193455}
-  music: {fileID: 8300000, guid: af6820b68bf376a43998c5f50d5cde34, type: 3}
+  music: {fileID: 8300000, guid: fdf5c196ba068364693183956d9dfa30, type: 3}
 --- !u!4 &1198317190
 Transform:
   m_ObjectHideFlags: 0

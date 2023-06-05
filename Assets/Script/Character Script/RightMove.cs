@@ -15,7 +15,14 @@ public class RightMove : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (isPressed)
         {
-            character.transform.Translate(character.force * Time.deltaTime, 0, 0);
+            if (character.Corner == true)
+            {
+                character.transform.Translate(0 * Time.deltaTime, 0, 0);
+            }
+            else
+            {
+                character.transform.Translate(character.force * Time.deltaTime, 0, 0);
+            }
         }
     }
 
