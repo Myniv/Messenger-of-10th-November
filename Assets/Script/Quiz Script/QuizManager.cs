@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class QuizManager : MonoBehaviour
 {
     //Membuat Quiz
+    [SerializeField] GameObject Quiz;
     public List<QuestionAndAnaswer> QnA;
     public GameObject[] options;
     public int currentQuestion;
@@ -40,9 +41,9 @@ public class QuizManager : MonoBehaviour
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
-            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answer[i];
+            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[startQuestion].Answer[i];
             correct_TF = true;
-            if (QnA[currentQuestion].CorrectAnswer == i)
+            if (QnA[startQuestion].CorrectAnswer == i)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
                 correct_TF = true;
@@ -60,16 +61,17 @@ public class QuizManager : MonoBehaviour
         {
             // currentQuestion = Random.Range(0,QnA.Count);
             QuestiontTxt.text = QnA[startQuestion].Question;
-            startQuestion++;
             SetAnswers();
-        }
+            startQuestion++;
+        }
 
-    }
+    }
 
     private void AfterQuiz()
     {
         popUpQuizDone.Invoke();
         Debug.Log("QuizDone");
+        Quiz.SetActive(false);
 
     }
 
