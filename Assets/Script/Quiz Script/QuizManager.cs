@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class QuizManager : MonoBehaviour
 {
     //Membuat Quiz
+    [SerializeField] GameObject Quiz;
     public List<QuestionAndAnaswer> QnA;
     public GameObject[] options;
     public int currentQuestion;
@@ -70,6 +71,7 @@ public class QuizManager : MonoBehaviour
     {
         popUpQuizDone.Invoke();
         Debug.Log("QuizDone");
+        Quiz.SetActive(false);
 
     }
 
