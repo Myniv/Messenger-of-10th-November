@@ -9,13 +9,14 @@ public class Character : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] Button button;
     public float force = 5f;
+    bool corner=false;
+    public bool Corner { get => corner;}
     [SerializeField] UnityEvent enterNPC;
     [SerializeField] UnityEvent leaveNPC;
     [SerializeField] UnityEvent enterObject;
     [SerializeField] UnityEvent leaveObject;
 
-    
-    
+
     public virtual void RunAnimation(float Speed = 0.0f){
         animator.SetFloat("Speed",Mathf.Abs(Speed));
     }
@@ -37,11 +38,10 @@ public class Character : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        button.enabled=true;
-
         if(other.CompareTag("NPC")){
             enterNPC.Invoke();
         }
+     
     } 
 
     private void OnTriggerExit2D(Collider2D other) {
@@ -50,5 +50,6 @@ public class Character : MonoBehaviour
         if(other.CompareTag("NPC")){
             leaveNPC.Invoke();
         }
+
     }   
 }
