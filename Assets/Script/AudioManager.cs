@@ -14,7 +14,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip music;
 
     public static AudioManager instance;
-    private void Awake() 
+    private void Start() 
     {
         if (instance == null)
         {
@@ -25,9 +25,7 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-    private void Start() 
-    {
+
         Bgm.clip = music;
         Bgm.Play();
 
@@ -37,7 +35,7 @@ public class AudioManager : MonoBehaviour
         Sfx.PlayOneShot(clip);
     }
 
-    public void Mute(){
+    public void IsMute(){
         Bgm.mute = !Bgm.mute;
         Sfx.mute = !Sfx.mute;
     }

@@ -9,7 +9,7 @@ public class pengaturan : MonoBehaviour
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Slider SFXSlider;
-
+    [SerializeField] private bool toggleMute;
     private void Start() 
     {
         if (PlayerPrefs.HasKey("musicVolume"))
@@ -37,7 +37,7 @@ public class pengaturan : MonoBehaviour
     }
     public void SetMute () 
     {
-        AudioManager.instance.Mute();
+        if(toggleMute)AudioManager.instance.IsMute();
     }
      private void LoadVolume()
      {
