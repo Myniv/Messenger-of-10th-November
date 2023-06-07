@@ -9,16 +9,19 @@ public class QuizManager : MonoBehaviour
 {
     //Membuat Quiz
     [SerializeField] GameObject Quiz;
+    [SerializeField] GameObject finishedCanvas;
+    [SerializeField] TMP_Text finishedText;
+    [SerializeField] GameObject falsePopUp;
+    bool gameOver = false;
+    public bool GameOver1 { get => gameOver; }
     public List<QuestionAndAnaswer> QnA;
     public GameObject[] options;
-    public int currentQuestion;
-    public int ValueSkillPoint;
+    public int correctAnswer;
     public TMP_Text QuestiontTxt;
-    private bool correct_TF = false;
+    private bool resetTimerBool = false;
+    int currentQuestion = 0;
+    Coroutine countCoroutine;
 
-    public UnityEvent popUpQuizDone;
-
-    int startQuestion = 0;
 
     private void Start()
     {
@@ -29,49 +32,76 @@ public class QuizManager : MonoBehaviour
     {
 
         resetTimer();
-        if (correct_TF == true)
+        if (resetTimerBool == true)
         {
             WaktuMundur = SetWaktu;
             generateQuestion();
+
         }
     }
     void SetAnswers()
     {
-        correct_TF = false;
+        resetTimerBool = false;
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
-            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[startQuestion].Answer[i];
-            correct_TF = true;
-            if (QnA[startQuestion].CorrectAnswer == i)
+            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answer[i];
+            resetTimerBool = true;
+            if (QnA[currentQuestion].CorrectAnswer == i)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
-                correct_TF = true;
+                resetTimerBool = true;
             }
         }
 
     }
     void generateQuestion()
-    {            
-        if (startQuestion>=QnA.Count)
+    {
+        if (currentQuestion >= QnA.Count)
         {
             AfterQuiz();
         }
         else
         {
-            // currentQuestion = Random.Range(0,QnA.Count);
-            QuestiontTxt.text = QnA[startQuestion].Question;
+            QuestiontTxt.text = QnA[currentQuestion].Question;
             SetAnswers();
-            startQuestion++;
-        }
+            currentQuestion++;
+        }
 
-    }
+    }
+
+    public void GameOver()
+    {
+        finishedText.text = "You Failed";
+        finishedCanvas.SetActive(true);
+        gameOver = true;
+    }
+
+    public void TryAgain()
+    {
+        correctAnswer = 0;
+        currentQuestion = 0;
+        generateQuestion();
+        resetTimer();
+        Debug.Log("Try Again");
+    }
+
+    public void PlayerWin()
+    {
+        finishedText.text = "You Win";
+        finishedCanvas.SetActive(true);
+    }
 
     private void AfterQuiz()
     {
-        popUpQuizDone.Invoke();
-        Debug.Log("QuizDone");
-        Quiz.SetActive(false);
+        if (correctAnswer >= 3)
+        {
+            PlayerWin();
+        }
+        else
+        {
+            GameOver();
+        }
 
     }
 
@@ -85,15 +115,25 @@ public class QuizManager : MonoBehaviour
         int Detik = WaktuMundur % 60;
         TimerText.text = Detik.ToString("00");
     }
+    private IEnumerator PopUpFalseAnswer()
+    {
+        Debug.Log("TEST");
+        falsePopUp.SetActive(true);
+        yield return new WaitForSecondsRealtime(1);
+        falsePopUp.SetActive(false);
+    }
     void resetTimer()
     {
         if (WaktuMundur == -1)
         {
+            StartCoroutine(PopUpFalseAnswer());
             WaktuMundur = SetWaktu;
             generateQuestion();
         }
     }
     float sec;
+
+
     private void Update()
     {
         SetText();
