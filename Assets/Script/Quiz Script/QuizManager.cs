@@ -12,8 +12,8 @@ public class QuizManager : MonoBehaviour
     [SerializeField] GameObject finishedCanvas;
     [SerializeField] TMP_Text finishedText;
     [SerializeField] GameObject falsePopUp;
-    bool gameOver = false;
-    public bool GameOver1 { get => gameOver; }
+    bool winGame = false;
+    public bool WinGame { get => winGame; }
     public List<QuestionAndAnaswer> QnA;
     public GameObject[] options;
     public int correctAnswer;
@@ -72,9 +72,8 @@ public class QuizManager : MonoBehaviour
 
     public void GameOver()
     {
-        finishedText.text = "You Failed";
+        finishedText.text = "Ohh tidak, kamu gagal menyelesaikan quiz ini. Apakah ingin mengulanginya? atau membuka catatan terlebih dahulu?";
         finishedCanvas.SetActive(true);
-        gameOver = true;
     }
 
     public void TryAgain()
@@ -88,8 +87,9 @@ public class QuizManager : MonoBehaviour
 
     public void PlayerWin()
     {
-        finishedText.text = "You Win";
+        finishedText.text = "Selamat! Kamu telah menyelesaikan quiz ini!";
         finishedCanvas.SetActive(true);
+        winGame = true;
     }
 
     private void AfterQuiz()

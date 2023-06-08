@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLevelButton : MonoBehaviour
+public class TryAgainQuiz : MonoBehaviour
 {
     [SerializeField] QuizManager quizManager;
 
     private void Start() {
-        var gameOver=quizManager.GameOver1;
-        if(gameOver==true){
+        var winGame=quizManager.WinGame;
+        if(winGame==true){
             this.gameObject.SetActive(false);
+        } else{
+            this.gameObject.SetActive(true);
         }
     }
 
