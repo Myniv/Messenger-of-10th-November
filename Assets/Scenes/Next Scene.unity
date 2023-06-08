@@ -634,11 +634,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 1800
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 268
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_LocalPosition.x
@@ -674,7 +674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200
+      value: -395
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -790,40 +790,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 191
+      value: 821
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75
+      value: -71
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSize
       value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+    - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSizeBase
       value: 24
       objectReference: {fileID: 0}
+    - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_text
       value: 'Mrs.Yumma : Hey nak, pengetahuan kamu lumayan juga ya'
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSizeBase
-      value: 36
+      value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
@@ -834,11 +850,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 462.207
+      value: 1710
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 121.897
+      value: 156
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -916,6 +932,7 @@ MonoBehaviour:
   panelChapter: {fileID: 108070222}
   dialogue:
   - 
+  - 'Boyo : Permisi bu, saya sudah menjawabnya. Silahkan di cek'
   - 'Mrs.Yumma : Jika kau mau, silahkan datang ke markas PETA'
   - 'Mrs.Yumma : dan tunjukkan surat ini'
   - 'Boyo : Hey, sebenarnya kamu ini siapa?'
@@ -936,18 +953,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.8737657, y: 0}
+  m_Offset: {x: -0.04486376, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.72, y: 1.77}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.7475324, y: 2}
+  m_Size: {x: 1.9102734, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &375945751
 SpriteRenderer:
@@ -990,8 +1007,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.105882354}
+  m_Sprite: {fileID: 2110711080, guid: c679b28d3f154bf45bc2217092617de0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1008,16 +1025,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375945748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.95, y: 1.88, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 37.53, y: 3.19, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2003564618}
   - {fileID: 1332053244}
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &405513460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,7 +1407,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 19.28, y: 0.45, z: -0.5}
   m_LocalScale: {x: 97, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2645,11 +2662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 1804.885
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 267.175
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2681,11 +2698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 8
+      value: -1.326
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200
+      value: -403.91272
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2801,27 +2818,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 191
+      value: 836.4
       objectReference: {fileID: 0}
     - target: {fileID: 2321380444806418351, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75
+      value: -71
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSize
-      value: 24
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+    - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSizeBase
-      value: 24
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380445674837747, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_text
@@ -2829,12 +2854,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_fontSizeBase
-      value: 36
+      value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
@@ -2845,19 +2878,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 462.207
+      value: 1710.409
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 121.897
+      value: 156.5
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.896
+      value: 2.882
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921614, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 20.948
+      value: -19.75
       objectReference: {fileID: 0}
     - target: {fileID: 2321380445912023796, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_IsActive
@@ -3005,7 +3038,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.46, y: 1.92}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3055,7 +3088,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+  m_Sprite: {fileID: -724816358, guid: c679b28d3f154bf45bc2217092617de0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3073,16 +3106,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530146076}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.8, y: 1.88, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 17.67, y: 3.06, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1573907002}
   - {fileID: 1016659982}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1530146080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3110,6 +3143,8 @@ MonoBehaviour:
   - 'Boyo : Tetapi, Aku punya mimpi untuk menjadi Bagian dari PETA '
   - 'Boyo : Seperti ayahku yang telah gugur'
   - 'Mrs.Yumma : Oh kamu mau masuk PETA, Coba jawab pertanyaan ini'
+  - 'Mrs.Yumma : Setelah kamu menjawab pertanyaan ini'
+  - 'Mrs.Yumma : Temui saya di depan ya!'
   contButton: {fileID: 1889548170}
   quiz: {fileID: 1016659981}
   wordSpeed: 0.06
