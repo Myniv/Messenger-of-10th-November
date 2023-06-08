@@ -16,8 +16,13 @@ public class Character : MonoBehaviour
     [SerializeField] UnityEvent enterObject;
     [SerializeField] UnityEvent leaveObject;
 
+    AudioManager audioManager;
 
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     public virtual void RunAnimation(float Speed = 0.0f){
+        audioManager.PlaySFX(audioManager.footstep);
         animator.SetFloat("Speed",Mathf.Abs(Speed));
     }
     public virtual void Flip(bool m_FacingRight)

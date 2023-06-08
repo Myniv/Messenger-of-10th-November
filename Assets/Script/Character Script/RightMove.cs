@@ -9,7 +9,10 @@ public class RightMove : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     [SerializeField] Character character;
     bool isPressed = false;
     bool m_FacingRight = true;
-
+    AudioManager audioManager;
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     void Update()
     {

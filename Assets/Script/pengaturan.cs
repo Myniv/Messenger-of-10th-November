@@ -37,7 +37,8 @@ public class pengaturan : MonoBehaviour
     }
     public void SetMute () 
     {
-        if(toggleMute)AudioManager.instance.IsMute();
+        if(toggleMute)
+            AudioManager.instance.IsMute();
     }
      private void LoadVolume()
      {
