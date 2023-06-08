@@ -35,6 +35,6 @@ public class NPCItem : MonoBehaviour
 
     public void NextScene()
     {
-        SceneManager.LoadScene("Level 1.1.1");
+        SceneManager.LoadScene("Next Scene");
     }
 }

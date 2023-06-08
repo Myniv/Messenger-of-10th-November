@@ -12,6 +12,7 @@ public class AudioManager : MonoBehaviour
     [Header("----Audio Clip----")]
     //sfx dan bgm
     public AudioClip music;
+    public AudioClip footstep;
 
     public static AudioManager instance;
     private void Start() 

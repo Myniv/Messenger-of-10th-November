@@ -305,3 +305,4 @@ MonoBehaviour:
   Bgm: {fileID: 4609834576776928197}
   Sfx: {fileID: 4609834576296376921}
   music: {fileID: 8300000, guid: fdf5c196ba068364693183956d9dfa30, type: 3}
+  footstep: {fileID: 8300000, guid: fdc05ea2699023143ba7e93533cc5a0b, type: 3}
