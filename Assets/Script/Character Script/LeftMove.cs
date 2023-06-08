@@ -10,7 +10,10 @@ public class LeftMove : Character , IPointerDownHandler, IPointerUpHandler
     bool m_FacingRight=false;
 
     bool isPressed = false;
-
+    AudioManager audioManager;
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Update()
     {
         if (isPressed)
