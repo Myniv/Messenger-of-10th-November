@@ -230,6 +230,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &110024591 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2321380445912023802, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+  m_PrefabInstance: {fileID: 1472525063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136533456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 87750747}
     m_Modifications:
+    - target: {fileID: 2321380444390405992, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2321380444534333088, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1557,6 +1572,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1530146080}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_margin.x
+      value: 98.41962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321380445912023796, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
 --- !u!1 &1479561285
@@ -1775,11 +1798,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 750029030}
   dialogueText: {fileID: 1121988705}
+  dialogueImage: {fileID: 110024591}
   dialogue:
   - 
-  - 'Boyo : Apa aku jual saja ya?'
-  - 'Boyo : Ah tapikan kata ibu tidak boleh mengambil yang bukan hak kita.'
-  - 'Boyo : Tapi aku ambil aja deh, siapa tau nanti ada yang mencarinya.'
+  - Apa aku jual saja ya?
+  - Ah tapikan kata ibu tidak boleh mengambil yang bukan hak kita.
+  - Tapi aku ambil aja deh, siapa tau nanti ada yang mencarinya.
+  KarakterImage: {fileID: 21300000, guid: c5dcac317ad24594c884dcc369350778, type: 3}
+  dialogueName: {fileID: 2058330089}
+  KaraterName: Boyo
   contButton: {fileID: 1889548170}
   quiz: {fileID: 1016659981}
   wordSpeed: 0.06
@@ -1901,7 +1928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1632150812
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2831,6 +2858,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   character: {fileID: 1834991189}
+--- !u!114 &2058330089 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2321380444390405998, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+  m_PrefabInstance: {fileID: 1472525063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2123375166
 GameObject:
   m_ObjectHideFlags: 0

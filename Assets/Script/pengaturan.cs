@@ -9,7 +9,7 @@ public class pengaturan : MonoBehaviour
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Slider SFXSlider;
-    [SerializeField] private bool toggleMute;
+    [SerializeField] private Toggle toggleMute;
     private void Start() 
     {
         if (PlayerPrefs.HasKey("musicVolume"))
@@ -37,9 +37,13 @@ public class pengaturan : MonoBehaviour
     }
     public void SetMute () 
     {
-        if(toggleMute)
-            AudioManager.instance.IsMute();
+            AudioManager.instance.SetMute(toggleMute.isOn);
+            PlayerPrefs.SetInt("Mute_FX",  toggleMute.isOn ? 1 : 0);
     }
+    // public void _setMute (bool isOn) 
+    // {
+    //     toggleMute.SetIsOnWithoutNotify = PlayerPrefs.GetInt("Mute_FX") == 1 ? true : false;
+    // }
      private void LoadVolume()
      {
          volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");

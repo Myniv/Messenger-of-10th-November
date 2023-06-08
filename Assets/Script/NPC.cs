@@ -8,7 +8,11 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
-    public string[] dialogue;
+    [SerializeField] Image dialogueImage;
+    [SerializeField] string[] dialogue;
+    [SerializeField] Sprite KarakterImage;
+    [SerializeField] TMP_Text dialogueName;
+    [SerializeField] string KaraterName;
     private int index;
 
     [SerializeField] GameObject contButton;
@@ -27,6 +31,7 @@ public class NPC : MonoBehaviour
             else
             {
                 dialoguePanel.SetActive(true);
+                dialogueImage.sprite = KarakterImage;
                 StartCoroutine(Typing());
             }
         }
@@ -81,6 +86,8 @@ public class NPC : MonoBehaviour
             
             playerIsClose = true;
             dialoguePanel.SetActive(true);
+            dialogueImage.sprite = KarakterImage;
+            dialogueName.text = KaraterName;
         }
     }
 
