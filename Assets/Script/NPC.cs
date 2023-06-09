@@ -8,14 +8,22 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
-    public string[] dialogue;
+    [SerializeField] Image dialogueImage;
+    [SerializeField] string[] dialogue;
+    [SerializeField] Sprite KarakterImage;
+    [SerializeField] TMP_Text dialogueName;
+    [SerializeField] string KaraterName;
     private int index;
 
     [SerializeField] GameObject contButton;
     [SerializeField] GameObject quiz;
     [SerializeField] float wordSpeed;
     [SerializeField] bool playerIsClose;
+    AudioManager audioManager;
 
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
@@ -27,6 +35,7 @@ public class NPC : MonoBehaviour
             else
             {
                 dialoguePanel.SetActive(true);
+                dialogueImage.sprite = KarakterImage;
                 StartCoroutine(Typing());
             }
         }
@@ -48,8 +57,10 @@ public class NPC : MonoBehaviour
     {
         foreach (char letter in dialogue[index].ToCharArray())
         {
+            
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
+            audioManager.PlaySFX(audioManager.Typing);
         }
     }
 
@@ -81,6 +92,8 @@ public class NPC : MonoBehaviour
             
             playerIsClose = true;
             dialoguePanel.SetActive(true);
+            dialogueImage.sprite = KarakterImage;
+            dialogueName.text = KaraterName;
         }
     }
 

@@ -8,10 +8,13 @@ public class AudioManager : MonoBehaviour
     [Header("----Audio Source----")]
     [SerializeField] AudioSource Bgm;
     [SerializeField] AudioSource Sfx;
+    
 
     [Header("----Audio Clip----")]
     //sfx dan bgm
     public AudioClip music;
+    public AudioClip footstep;
+    public AudioClip Typing;
 
     public static AudioManager instance;
     private void Awake() 
@@ -25,20 +28,22 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-    private void Start() 
-    {
+
         Bgm.clip = music;
         Bgm.Play();
-
+        Bgm.volume = PlayerPrefs.GetFloat("musicVolume", 1);
+        Sfx.volume = PlayerPrefs.GetFloat("SFXVolume", 1);
+        Bgm.mute = PlayerPrefs.GetInt("Mute_FX") == 1 ? true : false;
+        Sfx.mute = PlayerPrefs.GetInt("Mute_FX") == 1 ? true : false;
     }
     public void PlaySFX (AudioClip clip) 
     {
         Sfx.PlayOneShot(clip);
     }
 
-    public void Mute(){
-        Bgm.mute = !Bgm.mute;
-        Sfx.mute = !Sfx.mute;
+    public void SetMute(bool Mute){
+        Bgm.mute = Mute;
+        Sfx.mute = Mute;
+        
     }
 }

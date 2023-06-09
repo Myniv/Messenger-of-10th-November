@@ -10,7 +10,6 @@ public class RightMove : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     bool isPressed = false;
     bool m_FacingRight = true;
 
-
     void Update()
     {
         if (isPressed)
