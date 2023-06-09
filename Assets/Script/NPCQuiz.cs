@@ -15,7 +15,11 @@ public class NPCQuiz : MonoBehaviour
     [SerializeField] GameObject quiz;
     [SerializeField] float wordSpeed;
     [SerializeField] bool playerIsClose;
+    AudioManager audioManager;
 
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
@@ -48,8 +52,10 @@ public class NPCQuiz : MonoBehaviour
     {
         foreach (char letter in dialogue[index].ToCharArray())
         {
+            
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
+            audioManager.PlaySFX(audioManager.Typing);
         }
     }
 

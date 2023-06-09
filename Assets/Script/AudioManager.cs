@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     //sfx dan bgm
     public AudioClip music;
     public AudioClip footstep;
+    public AudioClip Typing;
 
     public static AudioManager instance;
     private void Awake() 

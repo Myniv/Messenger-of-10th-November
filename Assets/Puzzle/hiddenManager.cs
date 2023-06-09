@@ -29,9 +29,9 @@ public class hiddenManager : MonoBehaviour
         for(int i = 0; i < randomIndexs.Length; i++) 
         {
             int a = randomIndexs[i];
-            int b = Random.Range(0, randomIndexs.Length);
-            randomIndexs[i] = randomIndexs[b];
-            randomIndexs[b] = a;
+            // int b = Random.Range(0, randomIndexs.Length);
+            // randomIndexs[i] = randomIndexs[b];
+            // randomIndexs[b] = a;
         }
     }
     void RandomItemTarget()
