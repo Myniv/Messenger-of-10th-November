@@ -1201,6 +1201,22 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9025713063352922791, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025713063352922791, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1253494051}
+    - target: {fileID: 9025713063352922791, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025713063352922791, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9025713063427431774, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1913,6 +1929,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1530146080}
+    - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
+      propertyPath: m_text
+      value: Wah bagus sekali, ini sepertinya mahal.
+      objectReference: {fileID: 0}
     - target: {fileID: 2321380445901921612, guid: 55f15d0afdc329c4b9ad42025ef04310, type: 3}
       propertyPath: m_margin.x
       value: 98.41962
