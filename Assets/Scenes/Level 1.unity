@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 689583408}
   - component: {fileID: 689583412}
   m_Layer: 5
-  m_Name: Right
+  m_Name: btnKanan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1844,7 +1844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1632150812
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1997,7 +1997,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632150811}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 2cc3fbf765ceea54a9d0a8c047f1b0ea, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 05afd5b86e1e3d842a0393e20898fcc3, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2638,7 +2638,7 @@ GameObject:
   - component: {fileID: 1969598548}
   - component: {fileID: 1969598551}
   m_Layer: 5
-  m_Name: Left
+  m_Name: btnKiri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
