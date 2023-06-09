@@ -9,16 +9,20 @@ public class QuizManager : MonoBehaviour
 {
     //Membuat Quiz
     [SerializeField] GameObject Quiz;
+    [SerializeField] GameObject finishedCanvas;
+    [SerializeField] TMP_Text finishedText;
+    [SerializeField] GameObject falsePopUp;
+    [SerializeField] UnityEvent finishQuiz;
+    bool winGame = false;
+    public bool WinGame { get => winGame; }
     public List<QuestionAndAnaswer> QnA;
     public GameObject[] options;
-    public int currentQuestion;
-    public int ValueSkillPoint;
+    public int correctAnswer;
     public TMP_Text QuestiontTxt;
-    private bool correct_TF = false;
+    private bool resetTimerBool = false;
+    int currentQuestion = 0;
+    Coroutine countCoroutine;
 
-    public UnityEvent popUpQuizDone;
-
-    int startQuestion = 0;
 
     private void Start()
     {
@@ -27,52 +31,85 @@ public class QuizManager : MonoBehaviour
     }
     public void correct()
     {
-
         resetTimer();
-        if (correct_TF == true)
+        if (resetTimerBool == true)
         {
             WaktuMundur = SetWaktu;
             generateQuestion();
+
         }
     }
     void SetAnswers()
     {
-        correct_TF = false;
+        resetTimerBool = false;
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answer[i];
-            correct_TF = true;
+            resetTimerBool = true;
             if (QnA[currentQuestion].CorrectAnswer == i)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
-                correct_TF = true;
+                resetTimerBool = true;
             }
         }
 
     }
     void generateQuestion()
-    {            
-        if (startQuestion>=QnA.Count)
+    {
+        if (currentQuestion >= QnA.Count)
         {
-            AfterQuiz();
+            // AfterQuiz();
+            StartCoroutine(Wait1Sec());
         }
         else
         {
-            // currentQuestion = Random.Range(0,QnA.Count);
-            QuestiontTxt.text = QnA[startQuestion].Question;
-            startQuestion++;
+            QuestiontTxt.text = QnA[currentQuestion].Question;
             SetAnswers();
+            currentQuestion++;
         }
 
     }
 
+    public void GameOver()
+    {
+        finishedText.text = "Ohh tidak, kamu gagal menyelesaikan quiz ini. Apakah ingin mengulanginya? atau membuka catatan terlebih dahulu?";
+        finishedCanvas.SetActive(true);
+    }
+
+    public void TryAgain()
+    {
+        correctAnswer = 0;
+        currentQuestion = 0;
+        generateQuestion();
+        resetTimer();
+        Debug.Log("Try Again");
+    }
+
+    public void PlayerWin()
+    {
+        finishedText.text = "Selamat! Kamu telah menyelesaikan quiz ini!";
+        finishedCanvas.SetActive(true);
+        winGame = true;
+        finishQuiz.Invoke();
+    }
+
     private void AfterQuiz()
     {
-        popUpQuizDone.Invoke();
-        Debug.Log("QuizDone");
-        Quiz.SetActive(false);
+        StartCoroutine(Wait1Sec());
+        if (correctAnswer >= 3)
+        {
+            PlayerWin();
+        }
+        else
+        {
+            GameOver();
+        }
 
+    }
+    private IEnumerator Wait1Sec()
+    {
+        yield return new WaitForSecondsRealtime(0.8f);
     }
 
     //Setting Waktu Mundur
@@ -85,15 +122,25 @@ public class QuizManager : MonoBehaviour
         int Detik = WaktuMundur % 60;
         TimerText.text = Detik.ToString("00");
     }
+    private IEnumerator PopUpFalseAnswer()
+    {
+        Debug.Log("TEST");
+        falsePopUp.SetActive(true);
+        yield return new WaitForSecondsRealtime(1);
+        falsePopUp.SetActive(false);
+    }
     void resetTimer()
     {
         if (WaktuMundur == -1)
         {
+            StartCoroutine(PopUpFalseAnswer());
             WaktuMundur = SetWaktu;
             generateQuestion();
         }
     }
     float sec;
+
+
     private void Update()
     {
         SetText();

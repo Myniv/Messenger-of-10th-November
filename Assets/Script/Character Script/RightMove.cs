@@ -10,12 +10,18 @@ public class RightMove : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     bool isPressed = false;
     bool m_FacingRight = true;
 
-
     void Update()
     {
         if (isPressed)
         {
-            character.transform.Translate(character.force * Time.deltaTime, 0, 0);
+            if (character.Corner == true)
+            {
+                character.transform.Translate(0 * Time.deltaTime, 0, 0);
+            }
+            else
+            {
+                character.transform.Translate(character.force * Time.deltaTime, 0, 0);
+            }
         }
     }
 

@@ -10,7 +10,6 @@ public class LeftMove : Character , IPointerDownHandler, IPointerUpHandler
     bool m_FacingRight=false;
 
     bool isPressed = false;
-
     void Update()
     {
         if (isPressed)

@@ -8,19 +8,32 @@ public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
-    private int totalSkillPoint;
+    [SerializeField] GameObject truePopUp;
+    [SerializeField] GameObject falsePopUp;
 
     public void Answer(){
         if(isCorrect){
             Debug.Log("Correct Answer");
-            // quizManager.QnA.RemoveAt(quizManager.currentQuestion);
-            quizManager.ValueSkillPoint+=10;
+            quizManager.correctAnswer++;
+            StartCoroutine(PopUpTrueOrAnswer());
             quizManager.correct();
             
         }else {
             Debug.Log("Wrong Answer");
-            // quizManager.QnA.RemoveAt(quizManager.currentQuestion);
+            StartCoroutine(PopUpTrueOrAnswer());
             quizManager.correct();
+        }
+    }
+
+    private IEnumerator PopUpTrueOrAnswer(){
+        if(isCorrect){
+            truePopUp.SetActive(true);
+            yield return new WaitForSecondsRealtime(time: 0.8f);
+            truePopUp.SetActive(false);
+        }else{
+            falsePopUp.SetActive(true);
+            yield return new WaitForSecondsRealtime(0.8f);
+            falsePopUp.SetActive(false);
         }
     }
 }

@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: f328e5f830682a94e820cff20c4bee85
   - enabled: 1
-    path: Assets/Scenes/Scene2.unity
+    path: Assets/Scenes/Original Quiz.unity
     guid: 2ee0ed0cd5dd70f4d906f78ebfab95ee
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
