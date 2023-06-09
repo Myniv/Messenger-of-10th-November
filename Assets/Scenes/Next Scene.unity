@@ -632,8 +632,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1060,7 +1060,6 @@ MonoBehaviour:
   panelChapter: {fileID: 108070222}
   dialogue:
   - 
-  - 'Boyo : Permisi bu, saya sudah menjawabnya. Silahkan di cek'
   - 'Mrs.Yumma : Jika kau mau, silahkan datang ke markas PETA'
   - 'Mrs.Yumma : dan tunjukkan surat ini'
   - 'Boyo : Hey, sebenarnya kamu ini siapa?'
@@ -1081,7 +1080,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04486376, y: 0}
+  m_Offset: {x: -0.4279992, y: 0.010532141}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1092,7 +1091,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9102734, y: 2}
+  m_Size: {x: 2.197647, y: 1.7261667}
   m_EdgeRadius: 0
 --- !u!212 &375945751
 SpriteRenderer:
@@ -1154,7 +1153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375945748}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 37.53, y: 3.19, z: 0}
+  m_LocalPosition: {x: 34.18, y: 3.19, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1223,8 +1222,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Chapter 1 selesai
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3111,9 +3110,9 @@ MonoBehaviour:
   - 'Boyo : Sebenarnya aku tidak berharap imbalan apapun '
   - 'Boyo : Tetapi, Aku punya mimpi untuk menjadi Bagian dari PETA '
   - 'Boyo : Seperti ayahku yang telah gugur'
-  - 'Mrs.Yumma : Oh kamu mau masuk PETA, Coba jawab pertanyaan ini'
-  - 'Mrs.Yumma : Setelah kamu menjawab pertanyaan ini'
-  - 'Mrs.Yumma : Temui saya di depan ya!'
+  - 'Mrs.Yumma : Oh kamu mau masuk PETA, Coba jawab soal yang saya berikan'
+  - 'Mrs.Yumma : Jika sudah berhasil, temui saya lagi di depan!'
+  - 'Boyo : Baik bu'
   contButton: {fileID: 1889548170}
   quiz: {fileID: 1016659981}
   wordSpeed: 0.06
@@ -4287,8 +4286,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next Chapter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
