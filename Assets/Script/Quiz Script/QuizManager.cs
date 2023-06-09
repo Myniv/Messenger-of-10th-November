@@ -12,6 +12,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] GameObject finishedCanvas;
     [SerializeField] TMP_Text finishedText;
     [SerializeField] GameObject falsePopUp;
+    [SerializeField] UnityEvent finishQuiz;
     bool winGame = false;
     public bool WinGame { get => winGame; }
     public List<QuestionAndAnaswer> QnA;
@@ -30,7 +31,6 @@ public class QuizManager : MonoBehaviour
     }
     public void correct()
     {
-
         resetTimer();
         if (resetTimerBool == true)
         {
@@ -59,7 +59,8 @@ public class QuizManager : MonoBehaviour
     {
         if (currentQuestion >= QnA.Count)
         {
-            AfterQuiz();
+            // AfterQuiz();
+            StartCoroutine(Wait1Sec());
         }
         else
         {
@@ -90,6 +91,7 @@ public class QuizManager : MonoBehaviour
         finishedText.text = "Selamat! Kamu telah menyelesaikan quiz ini!";
         finishedCanvas.SetActive(true);
         winGame = true;
+        finishQuiz.Invoke();
     }
 
     private void AfterQuiz()
@@ -103,6 +105,11 @@ public class QuizManager : MonoBehaviour
             GameOver();
         }
 
+    }
+    private IEnumerator Wait1Sec()
+    {
+        yield return new WaitForSecondsRealtime(0.8f);
+        AfterQuiz();
     }
 
     //Setting Waktu Mundur
