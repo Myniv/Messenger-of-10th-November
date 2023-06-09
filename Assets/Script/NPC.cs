@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
@@ -19,6 +20,7 @@ public class NPC : MonoBehaviour
     [SerializeField] GameObject quiz;
     [SerializeField] float wordSpeed;
     [SerializeField] bool playerIsClose;
+    [SerializeField] UnityEvent notifAchievement;
     AudioManager audioManager;
 
     private void Awake() {
@@ -105,6 +107,7 @@ public class NPC : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(false);
             
             playerIsClose = false;
+            notifAchievement.Invoke();
             dialoguePanel.SetActive(value: false);
             zeroText();
         }

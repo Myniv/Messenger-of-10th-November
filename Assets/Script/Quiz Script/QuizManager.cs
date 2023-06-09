@@ -96,7 +96,6 @@ public class QuizManager : MonoBehaviour
 
     private void AfterQuiz()
     {
-        StartCoroutine(Wait1Sec());
         if (correctAnswer >= 3)
         {
             PlayerWin();
@@ -110,6 +109,7 @@ public class QuizManager : MonoBehaviour
     private IEnumerator Wait1Sec()
     {
         yield return new WaitForSecondsRealtime(0.8f);
+        AfterQuiz();
     }
 
     //Setting Waktu Mundur
