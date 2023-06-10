@@ -10,7 +10,7 @@ public class AnswerScript : MonoBehaviour
     public QuizManager quizManager;
     [SerializeField] GameObject truePopUp;
     [SerializeField] GameObject falsePopUp;
-
+    
     public void Answer(){
         if(isCorrect){
             Debug.Log("Correct Answer");
