@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 5b24cf0dd111ba648a5db4ebba2f27a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pohon
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 72
+        width: 883
+        height: 911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d756af256b63254ba0e8db1422ffc09
+      internalID: -1695114531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sapi
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 597
+        width: 332
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44995cf3d776bc4cac8080a4f830414
+      internalID: -1776258894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ayam
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 611
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f0f522df4f4bf4fbe02689c19a4084
+      internalID: -1924559390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Semak
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 161
+        width: 332
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc8deb0ead08f749b7aca6defcbedac
+      internalID: -1104099706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batu
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 146
+        width: 348
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837c424bae38e5443b898453344c7602
+      internalID: -190914778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ayam: -1924559390
+      Batu: -190914778
+      Pohon: -1695114531
+      Sapi: -1776258894
+      Semak: -1104099706
+      material_0: 1229330320
+      material_1: 449217519
+      material_10: -1945110059
+      material_11: 2048981326
+      material_12: -1376525932
+      material_13: -1578842573
+      material_14: 283859821
+      material_15: -1660303083
+      material_16: 601255363
+      material_17: 677734212
+      material_18: -768519439
+      material_19: 400568772
+      material_20: 1837682204
+      material_21: 1454251648
+      material_22: -1387561103
+      material_23: -1858984689
+      material_24: -9017459
+      material_25: -1442825596
+      material_26: 595858504
+      material_27: -1986202082
+      material_28: 2059521036
+      material_29: 1652314285
+      material_3: -873064778
+      material_30: -1947621146
+      material_31: 1512060470
+      material_32: -391299945
+      material_33: 1974473757
+      material_34: 782413020
+      material_35: 1956183530
+      material_36: -1803172321
+      material_37: 1954639169
+      material_38: -1343223703
+      material_39: 1202641897
+      material_4: 1501330569
+      material_40: -2108694932
+      material_41: -1241274051
+      material_42: 489286937
+      material_43: 1128204246
+      material_44: 1207872469
+      material_45: 521567228
+      material_46: 1537998833
+      material_47: -2138857759
+      material_48: 753266427
+      material_49: -1474954269
+      material_5: -210038208
+      material_52: 1341020574
+      material_53: 513403533
+      material_54: 141954274
+      material_55: -1855538500
+      material_56: -825476095
+      material_57: -1674336486
+      material_58: 1005872286
+      material_59: -1249414505
+      material_6: 1340804824
+      material_60: 211035427
+      material_61: 963912663
+      material_62: 1090692933
+      material_63: -1012337828
+      material_64: 758760296
+      material_65: 808814790
+      material_66: 1759566442
+      material_67: -1023821853
+      material_68: 242625004
+      material_69: 321908918
+      material_7: -702627138
+      material_70: 1710425743
+      material_71: 1112559710
+      material_72: -2120981142
+      material_73: -254456033
+      material_74: -566134002
+      material_75: 217929496
+      material_76: -1645344478
+      material_77: -787752645
+      material_78: 215777638
+      material_79: -786322115
+      material_8: 1219579534
+      material_80: 1572854394
+      material_81: -163346751
+      material_82: 231372197
+      material_83: -735605450
+      material_84: -1300311731
+      material_85: 624165041
+      material_86: -612850430
+      material_87: 1122138486
+      material_88: -435968729
+      material_89: -795523572
+      material_9: 124042454
+      material_90: 1703382364
+      material_91: -1125412308
+      material_92: 1506449758
+      material_93: -1285702274
+      material_94: 751924047
+      material_96: 611548244
+      material_97: 1393615772
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
