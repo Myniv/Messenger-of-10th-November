@@ -16,6 +16,10 @@ public class hiddenManager : MonoBehaviour
     public int countHealth;
     public GameObject health;
     public TMP_Text textGagal;
+    AudioManager audioManager;
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     private void Start() 
     {
         RandomItemPos();
@@ -62,12 +66,14 @@ public class hiddenManager : MonoBehaviour
 
                 countItemFind++;
                 Debug.Log("benar " + countItemFind);
+                audioManager.PlaySFX(audioManager.CorrectAnswer);
                 if (countItemFind >= itemTarget.Length)
                 {
                     panelFinish.SetActive(true);
                 }
 
                 EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
+                
                 return;
             }
             else
@@ -79,6 +85,7 @@ public class hiddenManager : MonoBehaviour
 
                         health.transform.GetChild(countHealth - 1).gameObject.SetActive(false);
                         countHealth -= 1;
+                        audioManager.PlaySFX(audioManager.WrongAnswer);
                     }
                     else
                     {
