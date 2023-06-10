@@ -17,6 +17,8 @@ public class NPCQuiz : MonoBehaviour
     [SerializeField] bool playerIsClose;
     AudioManager audioManager;
 
+    bool dialogOn=false;
+
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
@@ -80,7 +82,7 @@ public class NPCQuiz : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&&dialogOn==false)
         {
             playerIsClose = true;
             dialoguePanel.SetActive(true);
@@ -94,6 +96,7 @@ public class NPCQuiz : MonoBehaviour
             playerIsClose = false;
             dialoguePanel.SetActive(value: false);
             zeroText();
+            dialogOn=true;
         }
     }
 }

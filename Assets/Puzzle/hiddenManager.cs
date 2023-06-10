@@ -100,6 +100,18 @@ public class hiddenManager : MonoBehaviour
 
     public void Ulangi () 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        countHealth=3;
+
+        for(int i = 0; i < itemTarget.Length; i++) 
+        {
+                itemTarget[i].GetComponent<Image>().color = Color.black;
+        }
+
+        RandomItemPos();
+
+        // RandomIndex();
+
+        // RandomItemTarget();
     }
 }
