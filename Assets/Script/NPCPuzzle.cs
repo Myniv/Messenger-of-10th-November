@@ -24,7 +24,7 @@ public class NPCPuzzle : MonoBehaviour
     [SerializeField] UnityEvent notifAchievement;
     AudioManager audioManager;
 
-    bool dialogOn=false;
+    bool dialogOff=false;
 
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -90,7 +90,7 @@ public class NPCPuzzle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.CompareTag("Player")&&dialogOn==false)
+        if (other.CompareTag("Player")&&dialogOff==false)
         {
             //To Activate notif in the npc
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
@@ -113,7 +113,7 @@ public class NPCPuzzle : MonoBehaviour
             notifAchievement.Invoke();
             dialoguePanel.SetActive(value: false);
             zeroText();
-            dialogOn=true;
+            dialogOff=true;
         }
     }
 }

@@ -115,7 +115,7 @@ public class AchievementManager : MonoBehaviour
 
     }
 
-    private void CheckPlayerPrefsAchievment()
+    public void CheckPlayerPrefsAchievment()
     {
         for (int i = 1; i < achievementButtons.Count; i++)
         {
