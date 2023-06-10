@@ -24,7 +24,7 @@ public class AchievementManager : MonoBehaviour
     void Start()
     {
         activeButton = GameObject.Find("GeneralBtn").GetComponent<AchievementButton>();
-        achievementButtons[0].interactable=true;
+        achievementButtons[0].interactable = true;
 
         foreach (var arch in achievmentData)
         {
@@ -49,6 +49,8 @@ public class AchievementManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             AchievmentMenu.SetActive(!AchievmentMenu.activeSelf);
+            CheckPlayerPrefsAchievment();
+
         }
     }
 
@@ -76,7 +78,7 @@ public class AchievementManager : MonoBehaviour
 
     public void CreateAchievment(string parent, string title, string description, int spriteIndex)
     {
-        // GameObject achievment = (GameObject)Instantiate(visualAchievment);
+        GameObject achievment = (GameObject)Instantiate(visualAchievment);
 
         Achievment newAchievment = new Achievment(name, description, spriteIndex);
 
@@ -92,7 +94,7 @@ public class AchievementManager : MonoBehaviour
         achievment.transform.localScale = new Vector3(1, 1, 1);
         achievment.transform.GetChild(0).GetComponent<TMP_Text>().text = title; //Title
         achievment.transform.GetChild(1).GetComponent<TMP_Text>().text = achievments[title].Description; //description
-        achievment.transform.GetChild(3).GetComponent<Image>().sprite = sprites[achievments[title].SpriteIndex]; //sprite
+        achievment.transform.GetChild(2).GetComponent<Image>().sprite = sprites[achievments[title].SpriteIndex]; //sprite
     }
 
 

@@ -196,6 +196,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f12256d332acae847864b0181192819b, type: 3}
+--- !u!114 &69407028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6632423192160380575, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+  m_PrefabInstance: {fileID: 1617097238}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87750743
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,7 +763,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Test1
+          m_StringArgument: Kucing yang lucu!
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1617097239}
@@ -762,7 +773,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2710,6 +2721,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3149039658864854889, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149039658864854889, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149039658864854889, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149039658864854889, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6632423191111985874, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_Name
       value: AllAchievmentPrefab
@@ -2886,6 +2913,34 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: sprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: e5926a39435e7de438afa67f6d2f57b4, type: 3}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 17fa84703485d314b8d6b5216987d4b1, type: 3}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: achievementButtons.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: achievementButtons.Array.data[4]
+      value: 
+      objectReference: {fileID: 69407028}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: achievmentData.Array.data[0].title
+      value: Kucing yang lucu!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: achievmentData.Array.data[0].description
+      value: Kamu telah membuka achievment "Perkembangbiakan Hewan"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632423192612167175, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: achievmentData.Array.data[0].spriteIndex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6632423192781379662, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2904,6 +2959,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192876343048, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428226488847980998, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428226488847980998, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428226488847980998, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428226488847980998, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620754009173992722, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620754009173992722, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620754009173992722, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620754009173992722, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3339,7 +3426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.079446, y: 5.0438504, z: -10}
+  m_LocalPosition: {x: -13.082314, y: 5.0438504, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4100,7 +4187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.415277, y: -0.96692526, z: 0}
+  m_LocalPosition: {x: -1.4138432, y: -0.96692526, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
