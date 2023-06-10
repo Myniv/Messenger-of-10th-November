@@ -33,8 +33,8 @@ public class NPCItem : MonoBehaviour
         nextPanel.SetActive(false);
     }
 
-    public void NextScene(string nameScene)
+    public void NextScene()
     {
-        SceneManager.LoadScene(nameScene);
+        SceneManager.LoadScene("Level 1.2");
     }
 }

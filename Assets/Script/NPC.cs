@@ -9,15 +9,15 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
-    [SerializeField] Image dialogueImage;
+    // [SerializeField] Image dialogueImage;
     [SerializeField] string[] dialogue;
-    [SerializeField] Sprite KarakterImage;
-    [SerializeField] TMP_Text dialogueName;
-    [SerializeField] string KaraterName;
+    // [SerializeField] Sprite KarakterImage;
+    // [SerializeField] TMP_Text dialogueName;
+    // [SerializeField] string KaraterName;
     private int index;
 
     [SerializeField] GameObject contButton;
-    [SerializeField] GameObject quiz;
+    // [SerializeField] GameObject quiz;
     [SerializeField] float wordSpeed;
     [SerializeField] bool playerIsClose;
     [SerializeField] UnityEvent notifAchievement;
@@ -37,7 +37,7 @@ public class NPC : MonoBehaviour
             else
             {
                 dialoguePanel.SetActive(true);
-                dialogueImage.sprite = KarakterImage;
+                // dialogueImage.sprite = KarakterImage;
                 StartCoroutine(Typing());
             }
         }
@@ -79,7 +79,7 @@ public class NPC : MonoBehaviour
 
         else
         {
-            quiz.SetActive(false);
+            // quiz.SetActive(false);
             Debug.Log("test");
             zeroText();
         }
@@ -94,8 +94,8 @@ public class NPC : MonoBehaviour
             
             playerIsClose = true;
             dialoguePanel.SetActive(true);
-            dialogueImage.sprite = KarakterImage;
-            dialogueName.text = KaraterName;
+            // dialogueImage.sprite = KarakterImage;
+            // dialogueName.text = KaraterName;
         }
     }
 
