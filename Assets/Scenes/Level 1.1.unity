@@ -2409,7 +2409,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1066348655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13c66ee268c1a448bcf8ec09d3a144d, type: 3}
+  m_Script: {fileID: 11500000, guid: 073302f67261c5242a35ca017dccaedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nextPanel: {fileID: 379107476}
@@ -4411,6 +4411,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1066348659}
     - target: {fileID: 4158121104145371565, guid: cf0a82e7390e3794781d25bd4eef41d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158121104145371565, guid: cf0a82e7390e3794781d25bd4eef41d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NextScenePanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158121104145371565, guid: cf0a82e7390e3794781d25bd4eef41d3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Level 1.2
       objectReference: {fileID: 0}
@@ -4425,7 +4433,7 @@ PrefabInstance:
     - target: {fileID: 4158121105480523343, guid: cf0a82e7390e3794781d25bd4eef41d3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1066348659}
+      objectReference: {fileID: 0}
     - target: {fileID: 4158121105622704866, guid: cf0a82e7390e3794781d25bd4eef41d3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
