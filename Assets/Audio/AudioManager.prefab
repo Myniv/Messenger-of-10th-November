@@ -43,7 +43,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 876504449553913976, guid: abebb1c67f9d6d041ab199e53d2d529c, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -307,3 +307,5 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: fdf5c196ba068364693183956d9dfa30, type: 3}
   footstep: {fileID: 8300000, guid: fdc05ea2699023143ba7e93533cc5a0b, type: 3}
   Typing: {fileID: 8300000, guid: 247d08c8a64578945a448360b2e3c191, type: 3}
+  CorrectAnswer: {fileID: 8300000, guid: 0c5829fee9dda5448bcb6bf3e135b1b6, type: 3}
+  WrongAnswer: {fileID: 8300000, guid: 85964d34ae473354694962603d83f5cf, type: 3}
