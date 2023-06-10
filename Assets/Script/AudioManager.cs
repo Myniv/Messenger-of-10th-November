@@ -15,6 +15,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip music;
     public AudioClip footstep;
     public AudioClip Typing;
+    public AudioClip CorrectAnswer;
+    public AudioClip WrongAnswer;
 
     public static AudioManager instance;
     private void Awake() 
