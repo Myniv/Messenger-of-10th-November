@@ -957,7 +957,6 @@ MonoBehaviour:
   dialogue:
   - 
   - 'Ajudan  : Jika kau mau, silahkan datang ke markas PETA'
-  - 'Ajudan : dan tunjukkan surat ini'
   - 'Boyo : Hey, sebenarnya kamu ini siapa?'
   contButton: {fileID: 1382368529}
   quiz: {fileID: 1332053243}

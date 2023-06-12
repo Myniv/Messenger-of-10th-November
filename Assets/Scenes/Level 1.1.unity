@@ -912,9 +912,9 @@ MonoBehaviour:
   dialogueText: {fileID: 507260788}
   dialogue:
   - 
-  - 'Boyo : Apa aku jual saja ya?'
-  - 'Boyo : Ahh tapikan kata ibu tidak boleh mengambil hak yang bukan punya kita'
-  - 'Boyo : Tapi aku bawa saja deh, siapa tau nanti ada yang mencarinya'
+  - Apa aku jual saja ya?
+  - Ahh tapikan kata ibu tidak boleh mengambil hak yang bukan punya kita
+  - Tapi aku bawa saja deh, siapa tau nanti ada yang mencarinya
   contButton: {fileID: 1656415548}
   wordSpeed: 0.06
   playerIsClose: 0
