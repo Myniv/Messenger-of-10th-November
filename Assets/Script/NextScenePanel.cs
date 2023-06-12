@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class NPCItem : MonoBehaviour
+public class NextScenePanel : MonoBehaviour
 {
     [SerializeField] GameObject nextPanel;
     [SerializeField] TMP_Text confirmText;
@@ -35,6 +35,6 @@ public class NPCItem : MonoBehaviour
 
     public void NextScene()
     {
-        SceneManager.LoadScene("Level 1.1");
+        SceneManager.LoadScene("Level 1.2");
     }
 }
