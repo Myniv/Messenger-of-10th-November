@@ -209,7 +209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
       propertyPath: QnA.Array.data[0].CorrectAnswer
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: QnA.Array.data[1].CorrectAnswer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
       propertyPath: QnA.Array.data[2].CorrectAnswer

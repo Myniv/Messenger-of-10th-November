@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
+    [SerializeField] GameObject button;
     [SerializeField] TMP_Text dialogueText;
     // [SerializeField] Image dialogueImage;
     [SerializeField] string[] dialogue;
@@ -82,20 +83,21 @@ public class NPC : MonoBehaviour
         else
         {
             // quiz.SetActive(false);
-            Debug.Log("test");
             zeroText();
+            notifAchievement.Invoke();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.CompareTag("Player")&&dialogOn==false)
-        {
             //To Activate notif in the npc
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
             
+        if (other.CompareTag("Player")||dialogOn==false)
+        {
+            
             playerIsClose = true;
-            dialoguePanel.SetActive(true);
+            button.SetActive(true);
             // dialogueImage.sprite = KarakterImage;
             // dialogueName.text = KaraterName;
         }
@@ -109,8 +111,8 @@ public class NPC : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(false);
             
             playerIsClose = false;
-            notifAchievement.Invoke();
             dialoguePanel.SetActive(value: false);
+            button.SetActive(false);
             zeroText();
             dialogOn=true;
         }
