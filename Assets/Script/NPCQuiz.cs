@@ -10,6 +10,7 @@ public class NPCQuiz : MonoBehaviour
     [SerializeField] TMP_Text dialogueText;
     public string[] dialogue;
     private int index;
+    [SerializeField] GameObject button;
 
     [SerializeField] GameObject contButton;
     [SerializeField] GameObject quiz;
@@ -81,10 +82,11 @@ public class NPCQuiz : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.CompareTag("Player")&&dialogOn==false)
+        if (other.CompareTag("Player")||dialogOn==false)
         {
             playerIsClose = true;
-            dialoguePanel.SetActive(true);
+            // dialoguePanel.SetActive(true);
+            button.SetActive(true);
         }
     }
 
@@ -93,6 +95,7 @@ public class NPCQuiz : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerIsClose = false;
+            button.SetActive(false);
             dialoguePanel.SetActive(value: false);
             zeroText();
             dialogOn=true;
