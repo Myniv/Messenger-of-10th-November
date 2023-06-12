@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using TMPro;
+using DG.Tweening;
 
 public class hiddenManager : MonoBehaviour
 {
@@ -19,6 +20,10 @@ public class hiddenManager : MonoBehaviour
     AudioManager audioManager;
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+    void Update() {
+        if (DOTween.IsTweening(transform))
+            return;
     }
     private void Start() 
     {
@@ -55,6 +60,7 @@ public class hiddenManager : MonoBehaviour
 
             item.transform.GetChild(i).gameObject.SetActive(true);
         }
+        StartCoroutine("ItemsAnimation");
     }
     public void ButtonItem() 
     {
@@ -72,7 +78,7 @@ public class hiddenManager : MonoBehaviour
                     panelFinish.SetActive(true);
                 }
 
-                EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
+                transform.DORotate(new Vector2(0.5f, 1),0.5f).onComplete = HideItem;
                 
                 return;
             }
@@ -97,7 +103,10 @@ public class hiddenManager : MonoBehaviour
             
         }
     }
-
+    public void HideItem () {
+        
+        EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
+    }
     public void Ulangi () 
     {
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
