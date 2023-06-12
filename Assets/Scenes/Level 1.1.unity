@@ -915,7 +915,7 @@ MonoBehaviour:
   - Apa aku jual saja ya?
   - Ahh tapikan kata ibu tidak boleh mengambil hak yang bukan punya kita
   - Tapi aku bawa saja deh, siapa tau nanti ada yang mencarinya
-  contButton: {fileID: 1656415548}
+  contButton: {fileID: 552052179}
   wordSpeed: 0.06
   playerIsClose: 0
   notifAchievement:
@@ -1556,6 +1556,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &552052179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8677014688809861067, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+  m_PrefabInstance: {fileID: 507260786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &588402680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4156526613708442314, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
