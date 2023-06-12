@@ -50,8 +50,6 @@ public class Character : MonoBehaviour
     } 
 
     private void OnTriggerExit2D(Collider2D other) {
-        button.enabled=false;
-
         if(other.CompareTag("NPC")){
             leaveNPC.Invoke();
         }
