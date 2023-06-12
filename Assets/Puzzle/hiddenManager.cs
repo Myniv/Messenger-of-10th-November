@@ -78,7 +78,7 @@ public class hiddenManager : MonoBehaviour
                     panelFinish.SetActive(true);
                 }
 
-                transform.DORotate(new Vector2(0.5f, 1),0.5f).onComplete = HideItem;
+                this.transform.DORotate(new Vector3(0, 180, 0),1.5f).onComplete = HideItem;
                 
                 return;
             }
