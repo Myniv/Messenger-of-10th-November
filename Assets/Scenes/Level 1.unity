@@ -2656,6 +2656,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 87750747}
     m_Modifications:
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
       value: Hati hati dijalan ya..
@@ -2762,7 +2778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091011, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688116999950, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
@@ -2795,6 +2811,18 @@ PrefabInstance:
     - target: {fileID: 8677014688809861064, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014688809861071, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014688809861071, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 780
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014688809861071, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
@@ -4131,6 +4159,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 87750747}
     m_Modifications:
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014686851311251, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
       value: Wah ada kucing lucu!
@@ -4223,6 +4267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 8677014688005091011, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8677014688809861064, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4246,6 +4294,18 @@ PrefabInstance:
     - target: {fileID: 8677014688809861064, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014688809861071, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014688809861071, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 778
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677014688809861071, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -56
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
