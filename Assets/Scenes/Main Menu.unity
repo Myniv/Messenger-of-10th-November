@@ -3907,6 +3907,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9025713062161578491, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: OptionMenu
+      value: 
+      objectReference: {fileID: 332216703}
+    - target: {fileID: 9025713062161578491, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
       propertyPath: toggleMute
       value: 
       objectReference: {fileID: 1078418304}
@@ -4077,6 +4081,14 @@ PrefabInstance:
     - target: {fileID: 9025713062440057202, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025713062440057203, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: m_IsOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025713062440057203, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9025713062446159609, guid: cdc918de9e57ef24bb1071e612637649, type: 3}
       propertyPath: m_AnchorMax.x
