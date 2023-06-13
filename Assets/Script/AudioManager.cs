@@ -8,7 +8,6 @@ public class AudioManager : MonoBehaviour
     [Header("----Audio Source----")]
     [SerializeField] AudioSource Bgm;
     [SerializeField] AudioSource Sfx;
-    
 
     [Header("----Audio Clip----")]
     //sfx dan bgm
@@ -45,7 +44,6 @@ public class AudioManager : MonoBehaviour
 
     public void SetMute(bool Mute){
         Bgm.mute = Mute;
-        Sfx.mute = Mute;
-        
+        Sfx.mute = Mute;   
     }
 }
