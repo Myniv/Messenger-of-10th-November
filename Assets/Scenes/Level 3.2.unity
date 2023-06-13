@@ -1590,9 +1590,10 @@ MonoBehaviour:
   dialogueText: {fileID: 1661641560}
   dialogue:
   - 
-  - Ini seperti neraka
-  - Ohiya ibu dimana ya?
-  - Aku harus mencarinya
+  - 'Ibu Boyo : Buat apa nak memangnya?'
+  - 'Boyo : Aku mendapatkan amanah dari seseorang untuk mengantarkan surat ini ke
+    markas PETA bu'
+  - 'Ibu Boyo : Oh yasudah nak, hati-hati dijalan ya'
   contButton: {fileID: 964668290}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -2720,51 +2721,51 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1443528128705621065, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1443528128705621065, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1443528128705621065, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1443528128705621065, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -645
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1869399797114710406, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1869399797114710406, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1869399797114710406, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1869399797114710406, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -530
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1961739884538020879, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1961739884538020879, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1961739884538020879, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1961739884538020879, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2676220299151798283, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_Sprite
@@ -2824,7 +2825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191111985874, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191111985875, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_RootOrder
@@ -2904,7 +2905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191264164923, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 945
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191388510189, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_SortingOrder
@@ -2940,27 +2941,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191839841238, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191839841238, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191839841238, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191839841238, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -185
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191953382161, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191953382161, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191953382161, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
@@ -2976,35 +2977,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192146161806, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192146161806, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192146161806, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192146161806, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -300
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192160380572, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192160380572, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192160380572, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192160380572, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -415
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192415821937, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_IsActive
@@ -3044,19 +3045,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192781379662, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192781379662, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192781379662, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192781379662, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -70
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632423192876343048, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3112,19 +3113,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8644570411907164724, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8644570411907164724, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8644570411907164724, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8644570411907164724, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -760
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
@@ -3173,27 +3174,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
-      value: Apa ini, kenapa bisa begini...
+      value: 'Boyo :  Bu... Boyo pamit berangkat dulu ya... untuk mengantarkan surat
+        ke markas PETA'
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066734, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1261.716
-      objectReference: {fileID: 0}
-    - target: {fileID: 8677014687762066734, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 77.972
+      value: 1385
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066734, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 61.448
+      value: -54
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066734, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -38.986015
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687771914900, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687771914901, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3206,7 +3204,7 @@ PrefabInstance:
     - target: {fileID: 8677014687771914906, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c5dcac317ad24594c884dcc369350778, type: 3}
+      objectReference: {fileID: -1604002330, guid: 7d5eb130c93b51e449fb08180743d70d, type: 3}
     - target: {fileID: 8677014688005091008, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3293,7 +3291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091011, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_Name
-      value: Dialogue Panel Boyo cari ibu
+      value: Dialogue Panel Ibu
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091011, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_IsActive
@@ -3301,11 +3299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688116999944, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688116999950, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
-      value: Boyo
+      value: Ibu Boyo
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688116999950, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_enableWordWrapping
@@ -3559,7 +3557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.351162, y: 4.0712805, z: -10}
+  m_LocalPosition: {x: 16.353624, y: 4.07742, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3852,7 +3850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834991174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.63, y: 3.11, z: 0}
+  m_LocalPosition: {x: 23.7, y: 3.11, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4048,7 +4046,7 @@ GameObject:
   - component: {fileID: 1908614035}
   - component: {fileID: 1908614034}
   m_Layer: 5
-  m_Name: Button_NPC_boyo cari ibu
+  m_Name: Button_NPC_Ibu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4515,7 +4513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6394186, y: -0.000641346, z: 0}
+  m_LocalPosition: {x: 3.6731882, y: -0.0037112236, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4840,10 +4838,6 @@ PrefabInstance:
     - target: {fileID: 9024353175860665865, guid: 4fdbb6bfa1865c140a76eccf31f6c7e1, type: 3}
       propertyPath: m_Name
       value: OpsiPanelinGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 9024353175860665865, guid: 4fdbb6bfa1865c140a76eccf31f6c7e1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9024353175860666102, guid: 4fdbb6bfa1865c140a76eccf31f6c7e1, type: 3}
       propertyPath: m_Pivot.x
