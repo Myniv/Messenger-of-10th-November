@@ -60,7 +60,6 @@ public class hiddenManager : MonoBehaviour
 
             item.transform.GetChild(i).gameObject.SetActive(true);
         }
-        StartCoroutine("ItemsAnimation");
     }
     public void ButtonItem() 
     {
@@ -77,8 +76,7 @@ public class hiddenManager : MonoBehaviour
                 {
                     panelFinish.SetActive(true);
                 }
-
-                this.transform.DORotate(new Vector3(0, 180, 0),1.5f).onComplete = HideItem;
+                EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
                 
                 return;
             }
@@ -102,10 +100,6 @@ public class hiddenManager : MonoBehaviour
             }
             
         }
-    }
-    public void HideItem () {
-        
-        EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
     }
     public void Ulangi () 
     {
