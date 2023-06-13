@@ -9,6 +9,7 @@ public class NPCPuzzle : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] GameObject puzzle;
+    [SerializeField] GameObject button;    
     [SerializeField] TMP_Text dialogueText;
     // [SerializeField] Image dialogueImage;
     [SerializeField] string[] dialogue;
@@ -90,13 +91,13 @@ public class NPCPuzzle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.CompareTag("Player")&&dialogOff==false)
+        if (other.CompareTag("Player")||dialogOff==false)
         {
             //To Activate notif in the npc
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
             
             playerIsClose = true;
-            dialoguePanel.SetActive(true);
+            button.SetActive(true);
             // dialogueImage.sprite = KarakterImage;
             // dialogueName.text = KaraterName;
         }
@@ -108,7 +109,8 @@ public class NPCPuzzle : MonoBehaviour
         {
             //To Deactivate notif in the npc
             gameObject.transform.GetChild(0).gameObject.SetActive(false);
-            
+
+            button.SetActive(false);
             playerIsClose = false;
             notifAchievement.Invoke();
             dialoguePanel.SetActive(value: false);
