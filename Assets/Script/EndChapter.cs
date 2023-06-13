@@ -5,11 +5,12 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class NPC : MonoBehaviour
+public class EndChapter : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] GameObject button;
     [SerializeField] TMP_Text dialogueText;
+    [SerializeField] GameObject panelChapter;
     // [SerializeField] Image dialogueImage;
     [SerializeField] string[] dialogue;
     // [SerializeField] Sprite KarakterImage;
@@ -115,6 +116,7 @@ public class NPC : MonoBehaviour
             button.SetActive(false);
             zeroText();
             dialogOn=true;
+            panelChapter.SetActive(true);
         }
     }
 }
