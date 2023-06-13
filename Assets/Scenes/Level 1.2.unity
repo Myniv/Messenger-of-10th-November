@@ -958,6 +958,7 @@ MonoBehaviour:
   dialogue:
   - 
   - 'Ajudan  : Jika kau mau, silahkan datang ke markas PETA'
+  - 'Ajudan : Dan tunjukkan surat ini'
   - 'Boyo : Hey, sebenarnya kamu ini siapa?'
   button: {fileID: 1477228269}
   contButton: {fileID: 1382368529}
@@ -2648,7 +2649,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1244730298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1152510579}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: MoveScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1244730298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3563,7 +3576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.366593, y: 6.3300705, z: -10}
+  m_LocalPosition: {x: -13.383296, y: 6.3300505, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3645,11 +3658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a40e0c6171c7de409507daa1d63e231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogButton: {fileID: 0}
-  quizButton: {fileID: 714541308}
-  <DialogData>k__BackingField:
-    name: 
-    texts: []
 --- !u!4 &1780342642
 Transform:
   m_ObjectHideFlags: 0
@@ -3901,15 +3909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80169c7acf223e049be5de8d13145f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    name: Boyo
-    texts:
-    - Apa Kalian sedang mencari sesuatu?
-    - Kebetulan aku menemukan sebuah arloji, waktu berkeliling
-    - Sebenarnya aku tidak berharap imbalan apapun
-    - Tetapi, Aku punya mimpi untuk menjadi Bagian dari PETA
-    - Seperti ayahku yang telah gugur
-  rb: {fileID: 1834991187}
 --- !u!1 &1836605155
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,7 +4935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.716703, y: -1.4700361, z: 0}
+  m_LocalPosition: {x: -4.7083516, y: -1.4700261, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
