@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class NPC2 : MonoBehaviour
@@ -18,6 +19,7 @@ public class NPC2 : MonoBehaviour
     [SerializeField] float wordSpeed;
     [SerializeField] bool playerIsClose;
     AudioManager audioManager;
+    [SerializeField] UnityEvent finishDialog;
 
     bool dialogOn=false;
 
@@ -79,6 +81,7 @@ public class NPC2 : MonoBehaviour
             quiz.SetActive(false);
             Debug.Log("test");
             zeroText();
+            finishDialog.Invoke();
         }
     }
 
@@ -100,7 +103,6 @@ public class NPC2 : MonoBehaviour
             button.SetActive(false);
             zeroText();
             dialogOn=true;
-            panelChapter.SetActive(true);
         }
     }
 }

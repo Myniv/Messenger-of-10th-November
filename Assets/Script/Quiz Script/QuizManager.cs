@@ -22,6 +22,7 @@ public class QuizManager : MonoBehaviour
     private bool resetTimerBool = false;
     int currentQuestion = 0;
     Coroutine countCoroutine;
+    [SerializeField] int minCorrect=3;
 
 
     private void Start()
@@ -96,7 +97,7 @@ public class QuizManager : MonoBehaviour
 
     private void AfterQuiz()
     {
-        if (correctAnswer >= 3)
+        if (correctAnswer >= minCorrect)
         {
             PlayerWin();
         }
