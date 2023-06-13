@@ -2642,7 +2642,8 @@ MonoBehaviour:
   myMixer: {fileID: 24100000, guid: abebb1c67f9d6d041ab199e53d2d529c, type: 2}
   volumeSlider: {fileID: 9025713063305741474}
   SFXSlider: {fileID: 9025713061353331452}
-  toggleMute: {fileID: 0}
+  toggleMute: {fileID: 9025713062440057203}
+  OptionMenu: {fileID: 9025713062161578247}
 --- !u!1 &9025713062260737301
 GameObject:
   m_ObjectHideFlags: 0
