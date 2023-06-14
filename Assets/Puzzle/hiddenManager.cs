@@ -17,6 +17,7 @@ public class hiddenManager : MonoBehaviour
     public int countHealth;
     public GameObject health;
     public TMP_Text textGagal;
+    private List<GameObject> selectedGameObjects = new List<GameObject>();
     AudioManager audioManager;
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -76,8 +77,9 @@ public class hiddenManager : MonoBehaviour
                 {
                     panelFinish.SetActive(true);
                 }
-                EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
-                
+                var selectedGameObject = EventSystem.current.currentSelectedGameObject.gameObject;
+                selectedGameObject.SetActive(false);
+                selectedGameObjects.Add(selectedGameObject);
                 return;
             }
             else
@@ -105,6 +107,16 @@ public class hiddenManager : MonoBehaviour
     {
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         countHealth=3;
+        countItemFind = 0;
+        for(int i = 0; i < countHealth; i++) 
+        {
+            health.transform.GetChild(i).gameObject.SetActive(true);
+        }
+        for(int i = 0; i < selectedGameObjects.Count; i++) {
+            selectedGameObjects[i].SetActive(true);
+
+        }
+        selectedGameObjects.Clear();
 
         for(int i = 0; i < itemTarget.Length; i++) 
         {

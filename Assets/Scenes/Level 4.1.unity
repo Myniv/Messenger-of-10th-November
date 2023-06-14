@@ -7016,9 +7016,13 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 5578390627571682861, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a5a1781b4776c39428f7b2685fbdf606, type: 3}
     - target: {fileID: 5993808047933840325, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5993808047933840325, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_LocalScale.x
@@ -7072,6 +7076,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8024464456550218708, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_text
+      value: 'Bantu Boyo menemukan sampah organik:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377923244638409280, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 178.667
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377923244638409280, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 692.3334
+      objectReference: {fileID: 0}
     - target: {fileID: 8377923245072803661, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -7114,7 +7130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8377923245295855261, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 143.33334
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 8377923245295855261, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -7123,6 +7139,14 @@ PrefabInstance:
     - target: {fileID: 8377923245454504547, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_SortingOrder
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377923245819384041, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -153
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377923245819384041, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -235
       objectReference: {fileID: 0}
     - target: {fileID: 8377923245958077874, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7140,6 +7164,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -40
       objectReference: {fileID: 0}
+    - target: {fileID: 8377923246082952391, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -521
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377923246082952391, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -355
+      objectReference: {fileID: 0}
     - target: {fileID: 8377923246175141091, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -7150,7 +7182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8377923246175141091, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 246.66667
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 8377923246175141091, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
       propertyPath: m_AnchoredPosition.y

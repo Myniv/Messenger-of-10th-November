@@ -39,7 +39,11 @@ public class AudioManager : MonoBehaviour
     }
     public void PlaySFX (AudioClip clip) 
     {
-        Sfx.PlayOneShot(clip);
+        if (Sfx.isPlaying == false)
+        {
+            Sfx.clip = clip;
+            Sfx.Play();
+        }
     }
 
     public void SetMute(bool Mute){
