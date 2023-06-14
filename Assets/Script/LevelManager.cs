@@ -11,7 +11,6 @@ public class LevelManager : MonoBehaviour
     public void AddMiniGamesFinish () 
     {
         minigamescount++;
-        Debug.Log(minigamescount);
     }
     public void IsMiniGamesFinish () 
     {
