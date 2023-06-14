@@ -5,15 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] int minigamescount;
-    int miniGameFinish;
-    public static LevelManager levelManager;
+    int minigamescount;
+    [SerializeField] int miniGameFinish;
+    [SerializeField] GameObject panelNextScene;
     public void AddMiniGamesFinish () 
     {
         minigamescount++;
+        Debug.Log(minigamescount);
     }
-    public bool IsMiniGamesFinish () 
+    public void IsMiniGamesFinish () 
     {
-        return miniGameFinish >= minigamescount;
+        if(minigamescount==miniGameFinish){
+            panelNextScene.SetActive(true);
+        }
     }
 }

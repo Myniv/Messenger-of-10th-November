@@ -447,6 +447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPanel: {fileID: 379107476}
   confirmText: {fileID: 845935244}
+  levelManager: {fileID: 0}
 --- !u!61 &136533458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2343,6 +2344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPanel: {fileID: 379107476}
   confirmText: {fileID: 845935244}
+  levelManager: {fileID: 1152510579}
 --- !u!1 &1152510578
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b0f9735ecb9d845955443503a1c553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  miniGameFinish: 2
+  panelNextScene: {fileID: 379107476}
 --- !u!4 &1152510580
 Transform:
   m_ObjectHideFlags: 0
@@ -3882,7 +3885,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.9070835, y: 5.2054806, z: -10}
+  m_LocalPosition: {x: -15.907108, y: 5.2054806, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4615,6 +4618,34 @@ PrefabInstance:
       propertyPath: QnA.Array.data[4].Answer.Array.data[3]
       value: Klorofil menyerap cahaya matahari
       objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1152510579}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddMiniGamesFinish
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+      propertyPath: finishQuiz.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5858761053943016998, guid: f12256d332acae847864b0181192819b, type: 3}
       propertyPath: m_SortingOrder
       value: 20
@@ -5159,6 +5190,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1152510579}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: AddMiniGamesFinish
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &2042914257
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5250,7 +5293,6 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 21350462}
-  - {fileID: 2139264785}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5515,7 +5557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.001458168, y: -0.107739925, z: 0}
+  m_LocalPosition: {x: -0.0014457703, y: -0.107739925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5538,84 +5580,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1022737976}
   m_Damping: 0.5
   m_MaxWindowSize: -1
---- !u!1001 &2139264784
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2042914259}
-    m_Modifications:
-    - target: {fileID: 418835968105228714, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_Name
-      value: Quiz
-      objectReference: {fileID: 0}
-    - target: {fileID: 418835968105228714, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 262.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 177.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f12256d332acae847864b0181192819b, type: 3}
---- !u!4 &2139264785 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
-  m_PrefabInstance: {fileID: 2139264784}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1012792547104147926
 PrefabInstance:
   m_ObjectHideFlags: 0
