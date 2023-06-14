@@ -10,6 +10,7 @@ public class pengaturan : MonoBehaviour
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Slider SFXSlider;
     [SerializeField] private Toggle toggleMute;
+    public GameObject OptionMenu;
     private void Start() 
     {
         if (PlayerPrefs.HasKey("musicVolume"))
@@ -22,6 +23,7 @@ public class pengaturan : MonoBehaviour
             SetSFXVolume();
             SetMute();
         }
+        OptionMenu.SetActive(false);
     }
     public void SetBgmVolume () 
     {
