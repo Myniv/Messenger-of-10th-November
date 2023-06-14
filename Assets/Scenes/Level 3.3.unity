@@ -534,6 +534,7 @@ RectTransform:
   - {fileID: 8300934638769641248}
   - {fileID: 508616308}
   - {fileID: 846484173}
+  - {fileID: 843679415}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1241,9 +1242,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505982363}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 802bbef8ceba4a44da8f429d52206ea0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 28e1e2dd078ba3748b0056d89b4579a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1937,6 +1938,112 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f12256d332acae847864b0181192819b, type: 3}
+--- !u!1001 &843679414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 87750747}
+    m_Modifications:
+    - target: {fileID: 7809770805885275018, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_text
+      value: Markas PETA
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166608, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_Name
+      value: NamaTempat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 635.924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 149.853
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 416.0733
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+--- !u!224 &843679415 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7809770807002166639, guid: d2df502bdc7190149bc73932cfc41ea9, type: 3}
+  m_PrefabInstance: {fileID: 843679414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &846484172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8744540554086968702, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
@@ -2026,6 +2133,7 @@ GameObject:
   - component: {fileID: 954497711}
   - component: {fileID: 954497710}
   - component: {fileID: 954497709}
+  - component: {fileID: 954497712}
   m_Layer: 0
   m_Name: NPC Bapak bapak
   m_TagString: NPC
@@ -2128,6 +2236,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &954497712
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954497706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4659b384ad5bcc43bddde2f147cd5e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &964668290 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8677014688809861067, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
@@ -2259,6 +2388,7 @@ GameObject:
   - component: {fileID: 1030426770}
   - component: {fileID: 1030426769}
   - component: {fileID: 1030426772}
+  - component: {fileID: 1030426773}
   m_Layer: 0
   m_Name: NPC Satpam
   m_TagString: NPC
@@ -2398,6 +2528,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!95 &1030426773
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030426766}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: abd9dcb9d7f34f94b8c8b75929bfb03c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1065392528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4481,6 +4632,7 @@ GameObject:
   - component: {fileID: 1720391118}
   - component: {fileID: 1720391117}
   - component: {fileID: 1720391116}
+  - component: {fileID: 1720391120}
   m_Layer: 0
   m_Name: NPC Yumma
   m_TagString: NPC
@@ -4636,8 +4788,29 @@ Transform:
   - {fileID: 1280231672}
   - {fileID: 2144700552}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1720391120
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720391115}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: db7644ac7e6eb78469b80096e321e157, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1745860529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5669,7 +5842,7 @@ Transform:
   - {fileID: 21350462}
   - {fileID: 2139264785}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2120914034
 GameObject:
