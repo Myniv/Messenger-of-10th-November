@@ -783,6 +783,7 @@ GameObject:
   - component: {fileID: 505982366}
   - component: {fileID: 505982365}
   - component: {fileID: 505982368}
+  - component: {fileID: 505982369}
   m_Layer: 0
   m_Name: NPC CeweRemaja
   m_TagString: NPC
@@ -893,9 +894,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505982363}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 802bbef8ceba4a44da8f429d52206ea0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 28e1e2dd078ba3748b0056d89b4579a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -906,6 +907,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!111 &505982369
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505982363}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6728670a04e4f804089a3e1398bfcb79, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &508616307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,6 +1619,7 @@ GameObject:
   - component: {fileID: 954497710}
   - component: {fileID: 954497709}
   - component: {fileID: 954497712}
+  - component: {fileID: 954497713}
   m_Layer: 0
   m_Name: NPC Bapak bapak PNS_QUIZ
   m_TagString: NPC
@@ -1727,6 +1744,27 @@ MonoBehaviour:
   quiz: {fileID: 3177359}
   wordSpeed: 0.06
   playerIsClose: 0
+--- !u!95 &954497713
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954497706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4659b384ad5bcc43bddde2f147cd5e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1022737973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,9 +1906,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030426766}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 802bbef8ceba4a44da8f429d52206ea0, type: 2}
+  m_Controller: {fileID: 9100000, guid: abd9dcb9d7f34f94b8c8b75929bfb03c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
