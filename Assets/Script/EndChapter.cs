@@ -116,7 +116,6 @@ public class EndChapter : MonoBehaviour
             button.SetActive(false);
             zeroText();
             dialogOn=true;
-            panelChapter.SetActive(true);
         }
     }
 }
