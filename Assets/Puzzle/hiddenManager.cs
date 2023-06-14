@@ -18,14 +18,16 @@ public class hiddenManager : MonoBehaviour
     public GameObject health;
     public TMP_Text textGagal;
     AudioManager audioManager;
-    private void Awake() {
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
-    void Update() {
+    void Update()
+    {
         if (DOTween.IsTweening(transform))
             return;
     }
-    private void Start() 
+    private void Start()
     {
         RandomItemPos();
 
@@ -35,7 +37,7 @@ public class hiddenManager : MonoBehaviour
     }
     void RandomIndex()
     {
-        for(int i = 0; i < randomIndexs.Length; i++) 
+        for (int i = 0; i < randomIndexs.Length; i++)
         {
             int a = randomIndexs[i];
             // int b = Random.Range(0, randomIndexs.Length);
@@ -45,27 +47,27 @@ public class hiddenManager : MonoBehaviour
     }
     void RandomItemTarget()
     {
-        for(int i = 0; i < itemTarget.Length; i++) 
+        for (int i = 0; i < itemTarget.Length; i++)
         {
             itemTarget[i].GetComponent<Image>().sprite = item.transform.GetChild(randomIndexs[i]).GetComponent<Image>().sprite;
         }
     }
-    public void RandomItemPos() 
+    public void RandomItemPos()
     {
-        int randomSave = Random.Range(0,ControlPos.Instance.saveItemsPos.Count);
+        int randomSave = Random.Range(0, ControlPos.Instance.saveItemsPos.Count);
 
-        for(int i = 0; i < item.transform.childCount; i++) 
+        for (int i = 0; i < item.transform.childCount; i++)
         {
             item.transform.GetChild(i).transform.localPosition = ControlPos.Instance.saveItemsPos[randomSave].itemPos[i];
 
             item.transform.GetChild(i).gameObject.SetActive(true);
         }
     }
-    public void ButtonItem() 
+    public void ButtonItem()
     {
-        for(int i = 0; i < itemTarget.Length; i++) 
-        {    
-            if(EventSystem.current.currentSelectedGameObject.GetComponent<Image>().sprite == itemTarget[i].GetComponent<Image>().sprite)
+        for (int i = 0; i < itemTarget.Length; i++)
+        {
+            if (EventSystem.current.currentSelectedGameObject.GetComponent<Image>().sprite == itemTarget[i].GetComponent<Image>().sprite)
             {
                 itemTarget[i].GetComponent<Image>().color = Color.white;
 
@@ -77,39 +79,49 @@ public class hiddenManager : MonoBehaviour
                     panelFinish.SetActive(true);
                 }
                 EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
-                
+
                 return;
             }
             else
             {
-                if(i == itemTarget.Length - 1)
+                if (i == itemTarget.Length - 1)
                 {
                     Debug.Log("salah");
-                    if(countHealth > 0) {
+                    if (countHealth > 1)
+                    {
 
-                        health.transform.GetChild(countHealth - 1).gameObject.SetActive(false);
+                        // health.transform.GetChild(countHealth - 1).gameObject.SetActive(false);
+                        health.transform.GetChild(countHealth - 1).gameObject.GetComponent<Image>().color = Color.black;
                         countHealth -= 1;
                         audioManager.PlaySFX(audioManager.WrongAnswer);
                     }
-                    else
+                    else if(countHealth<=1)
                     {
+                        health.transform.GetChild(countHealth - 1).gameObject.GetComponent<Image>().color = Color.black;
                         panelFinish.SetActive(true);
                         textGagal.text = "Misi Gagal";
                     }
                 }
             }
-            
+
         }
     }
-    public void Ulangi () 
+    public void Ulangi()
     {
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        countHealth=3;
+        countHealth = 3;
 
-        for(int i = 0; i < itemTarget.Length; i++) 
+        for (int i = 0; i < itemTarget.Length; i++)
         {
-                itemTarget[i].GetComponent<Image>().color = Color.black;
+            itemTarget[i].GetComponent<Image>().color = Color.black;
         }
+
+        for (int i = 0; i < 3; i++)
+        {
+            health.transform.GetChild(i).gameObject.GetComponent<Image>().color = Color.white;
+
+        }
+        countItemFind=0;
 
         RandomItemPos();
 
