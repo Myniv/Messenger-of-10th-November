@@ -5,20 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] string sceneName;
-    
-    public void Menu()
+    [SerializeField] int minigamescount;
+    int miniGameFinish;
+    public static LevelManager levelManager;
+    public void AddMiniGamesFinish () 
     {
-        SceneManager.LoadScene("Main Menu");
+        minigamescount++;
     }
-    public void TombolKeluar()
+    public bool IsMiniGamesFinish () 
     {
-        Application.Quit();
-        Debug.Log("tombol sudah ditekan");
-    }
-
-    public void MoveScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
+        return miniGameFinish >= minigamescount;
     }
 }
