@@ -278,7 +278,7 @@ RectTransform:
   m_GameObject: {fileID: 778296943176653046}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5621888, y: 0.5621888, z: 0.5621888}
+  m_LocalScale: {x: 0.56218874, y: 0.56218874, z: 0.56218874}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5080015403697724898}
@@ -371,18 +371,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Main Menu
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 5080015403697724701}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1315,6 +1303,7 @@ MonoBehaviour:
   volumeSlider: {fileID: 5080015404699820216}
   SFXSlider: {fileID: 5080015402890018534}
   toggleMute: {fileID: 5080015403967815017}
+  OptionMenu: {fileID: 0}
 --- !u!1 &5080015403798995215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1449,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 778296943176653046}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1642,7 +1631,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 778296943176653046}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

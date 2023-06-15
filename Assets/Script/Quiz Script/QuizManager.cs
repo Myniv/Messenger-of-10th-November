@@ -8,22 +8,23 @@ using UnityEngine.Events;
 public class QuizManager : MonoBehaviour
 {
     //Membuat Quiz
-    [SerializeField] GameObject Quiz;
     [SerializeField] GameObject finishedCanvas;
     [SerializeField] TMP_Text finishedText;
     [SerializeField] GameObject falsePopUp;
     [SerializeField] UnityEvent finishQuiz;
     bool winGame = false;
     public bool WinGame { get => winGame; }
+
     public List<QuestionAndAnaswer> QnA;
     public GameObject[] options;
     public int correctAnswer;
     public TMP_Text QuestiontTxt;
     private bool resetTimerBool = false;
     int currentQuestion = 0;
-    Coroutine countCoroutine;
     [SerializeField] int minCorrect=3;
+    private bool isQuizWin=false;
 
+    public bool IsQuizWin { get => isQuizWin;}
 
     private void Start()
     {
@@ -93,6 +94,7 @@ public class QuizManager : MonoBehaviour
         finishedCanvas.SetActive(true);
         winGame = true;
         finishQuiz.Invoke();
+        isQuizWin=true;
     }
 
     private void AfterQuiz()

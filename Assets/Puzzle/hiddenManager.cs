@@ -20,6 +20,9 @@ public class hiddenManager : MonoBehaviour
     private List<GameObject> selectedGameObjects = new List<GameObject>();
     AudioManager audioManager;
     [SerializeField] LevelManager levelManager;
+    private bool isPuzzleWin=false;
+    public bool IsPuzzleWin { get => isPuzzleWin;}
+
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
@@ -78,6 +81,7 @@ public class hiddenManager : MonoBehaviour
                 {
                     levelManager.AddMiniGamesFinish();
                     panelFinish.SetActive(true);
+                    isPuzzleWin=true;
                 }
                 var selectedGameObject = EventSystem.current.currentSelectedGameObject.gameObject;
                 selectedGameObject.SetActive(false);
