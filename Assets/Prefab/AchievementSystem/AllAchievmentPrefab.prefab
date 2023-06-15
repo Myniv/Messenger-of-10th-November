@@ -103,7 +103,7 @@ RectTransform:
   m_GameObject: {fileID: 23850119091624720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.58, y: 0.58, z: 0.58}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2030298265591465760}
@@ -111,7 +111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 388.6, y: -210.4}
+  m_AnchoredPosition: {x: 388.6, y: -185}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3349192855662633452
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 4155027703330021911}
   - component: {fileID: 5085349764906704010}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: podium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -302,7 +302,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 867.597}
+  m_SizeDelta: {x: 800, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2261373180375968884
 CanvasRenderer:
@@ -332,7 +332,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Perkembangbiakan dengan cara vivipar dilakukan dengan cara melahirkan
+  m_text: 'TAHUKAH KAMU!
+
+
+    Kucing yang ditemukan Boyo merupakan salah satu jenis
+    hewan yang berkembangbiak secara generative. Apasih perkembangbiakan secara generative
+    itu?
+
+
+    Perkembangbiakan dengan cara vivipar dilakukan dengan cara melahirkan
     atau beranak. kebanyakan hewan yang berkembang biak dengan cara vivipar disebut
     sebagai hewan mamalia (menyusui). Oleh karena itu setelah janin hewan lahir maka
     ia akan mendapatkan nutrisi dari induknya.
@@ -380,24 +388,24 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 16
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 5
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -640,7 +648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Matematika
+  m_text: Operasi Hitung Bilangan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -821,7 +829,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 1321.4}
+  m_SizeDelta: {x: 800, y: 2150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1409981409932541870
 CanvasRenderer:
@@ -851,18 +859,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pancasila adalah ideologi dan falsafah negara Indonesia yang menjadi dasar
-    bagi penyelenggaraan negara, kehidupan berbangsa, bernegara, serta bermasyarakat.\r\n\r\na)\tSila
-    Pertama: Ketuhanan Yang Maha Esa\r\nSila ini mengajarkan pentingnya hubungan
-    manusia dengan Tuhan dan kehidupan beragama yang harmonis.\r\n\r\nb)\tSila Kedua:
-    Kemanusiaan yang Adil dan Beradab\r\nSila ini mendorong sikap adil, saling menghormati,
-    dan beradab dalam hubungan antarmanusia.\r\n\r\nc)\tSila Ketiga: Persatuan Indonesia\r\nSila
-    ini mengajarkan pentingnya kerjasama, gotong royong, dan menjaga persatuan dalam
-    keberagaman budaya, suku, dan agama.\r\n\r\nd)\tSila Keempat: Kerakyatan yang
-    Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan\r\nSila ini
-    mengajarkan pentingnya partisipasi aktif rakyat dalam pembuatan kebijakan negara
-    melalui perwakilan dan musyawarah.\r\n\r\ne)\tSila Kelima: Keadilan Sosial bagi
-    Seluruh Rakyat Indonesia\r\nSila ini mendorong distribusi kekayaan, kesempatan,
+  m_text: "TAHUKAH KAMU!\n\nBoyo tidak sengaja menemukan Arloji Antik ini meras bingung
+    apakah harus mengembalikan kepada pemiliknya atau menyimpannya sendiri. Tapi
+    dia ingat akan pesan Ibunya bahwa barang yang bukan miliknya perlu dikembalikan
+    kepada pemiliknya. Oleh karena itu, Boyo memutuskan untuk mengembalikan Arloji
+    Antik ini. Sikap Boyo ini ternyata tercermin dalam salah satu nilai yang ada
+    dalam Pancasila loh!\n\nPancasila adalah ideologi dan falsafah negara Indonesia
+    yang menjadi dasar bagi penyelenggaraan negara, kehidupan berbangsa, bernegara,
+    serta bermasyarakat.\r\n\r\na)\tSila Pertama: Ketuhanan Yang Maha Esa\r\nSila
+    ini mengajarkan pentingnya hubungan manusia dengan Tuhan dan kehidupan beragama
+    yang harmonis.\r\n\r\nb)\tSila Kedua: Kemanusiaan yang Adil dan Beradab\r\nSila
+    ini mendorong sikap adil, saling menghormati, dan beradab dalam hubungan antarmanusia.\r\n\r\nc)\tSila
+    Ketiga: Persatuan Indonesia\r\nSila ini mengajarkan pentingnya kerjasama, gotong
+    royong, dan menjaga persatuan dalam keberagaman budaya, suku, dan agama.\r\n\r\nd)\tSila
+    Keempat: Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan\r\nSila
+    ini mengajarkan pentingnya partisipasi aktif rakyat dalam pembuatan kebijakan
+    negara melalui perwakilan dan musyawarah.\r\n\r\ne)\tSila Kelima: Keadilan Sosial
+    bagi Seluruh Rakyat Indonesia\r\nSila ini mendorong distribusi kekayaan, kesempatan,
     dan kesejahteraan yang merata bagi seluruh masyarakat.\r\n\r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -890,24 +903,24 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 5
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -1006,7 +1019,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 1058.002}
+  m_SizeDelta: {x: 800, y: 1800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5197352059773277463
 CanvasRenderer:
@@ -1036,25 +1049,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fotosintesis dalam pohon terjadi di daun, yang merupakan tempat utama
-    di mana proses ini berlangsung. Daun memiliki struktur khusus yang disebut kloroplas,
-    di mana pigmen hijau yang disebut klorofil terdapat dalam jumlah besar. Klorofil
-    bertanggung jawab untuk menyerap energi matahari yang digunakan dalam fotosintesis.
-
-
-    Selama
-    fotosintesis, pohon menggunakan energi matahari, karbon dioksida (CO2), dan air
-    (H2O) untuk menghasilkan glukosa (C6H12O6) dan oksigen (O2). Karbon dioksida
-    diambil melalui stomata, yang merupakan pori-pori kecil yang terdapat pada permukaan
-    daun. Air diambil melalui akar pohon dan diangkut melalui sistem vaskular pohon
-    ke daun.
-
-
-    Secara keseluruhan, fotosintesis dalam pohon merupakan proses
-    vital yang memungkinkan pohon menggunakan energi matahari, karbon dioksida, dan
-    air untuk menghasilkan glukosa dan oksigen. Proses ini mendukung kehidupan pohon
-    itu sendiri, menyediakan makanan dan energi bagi organisme lain, serta berperan
-    dalam menjaga keseimbangan ekosistem dan siklus alam.'
+  m_text: "TAHUKAH KAMU!\n\nBoyo baru sadar bahwa pohon yang sudah dia tanam sejak
+    kecil sudah tumbuh besar dan setinggi ini. Boyo pun bertanya-tanya, bagaimana
+    bisa ya tumbuhan ini tumbuh menjadi besar? Ternyata proses pertumbuhan pohon
+    bisa ini terjadi karena adanya fotosintesis.\n\nFotosintesis merupakan perubahan
+    energi cahaya menjadi energi kimia dalam bentuk glukosa. Pada proses fotosintesis
+    terjadi karena adanya reaksi kimia antara senyawa air (H2O) dan karbon dioksida
+    (C2O) dibantu oleh cahaya matahari yang diserap oleh klorofil menghasilkan oksigen
+    (O2) dan senyawa glukosa (C6H12O6).\n\nGlukosa adalah karbohidrat yang diperlukan
+    tumbuhan dan organisme lain. Oksigen yang dihasilkan dari proses fotosintesis
+    sangat dibutuhkan oleh manusia dan hewan.\n\nBerikut ini adalah persamaan reaksi
+    fotosintesis yang menghasilkan glukosa:\n\n6H2O + 6CO2 + cahaya \u2192 C6H12O6
+    (glukosa) + 6O2\n\nTumbuhan menangkap cahaya menggunakan pigmen yang disebut
+    klorofil. Pigmen inilah yang memberi warna hijau pada tumbuhan. Klorofil terdapat
+    dalam organel yang disebut kloroplas. Klorofil menyerap cahaya yang akan digunakan
+    dalam fotosintesis. Meskipun seluruh bagian tubuh tumbuhan yang berwarna hijau
+    mengandung kloroplas, namun sebagian besar energi dihasilkan di daun. \n\nDi
+    dalam daun terdapat lapisan sel yang disebut mesofil yang mengandung setengah
+    juta kloroplas setiap milimeter perseginya. Cahaya akan melewati lapisan epidermis
+    tanpa warna dan yang transparan, menuju mesofil, tempat terjadinya sebagian besar
+    proses fotosintesis. Permukaan daun biasanya dilapisi oleh kutikula dari lilin
+    yang bersifat anti air untuk mencegah terjadinya penyerapan sinar Matahari ataupun
+    penguapan air yang berlebihan.\n\nUntuk mempelajari materi lebih lanjut, kamu
+    bisa klik tombol dibawah ini."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -1088,17 +1105,17 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 5
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -1123,6 +1140,153 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1876260193190753613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7299820364780884806}
+  - component: {fileID: 4806938800997537049}
+  - component: {fileID: 2163344107023284709}
+  - component: {fileID: 990281394714102749}
+  - component: {fileID: 8661345191387125970}
+  m_Layer: 5
+  m_Name: link
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7299820364780884806
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876260193190753613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6859913517736178919}
+  m_Father: {fileID: 6632423192876343048}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 110}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4806938800997537049
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876260193190753613}
+  m_CullTransparentMesh: 1
+--- !u!114 &2163344107023284709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876260193190753613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ab56a76f27fa1464d86c587b647ec9c6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &990281394714102749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876260193190753613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2163344107023284709}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8661345191387125970}
+        m_TargetAssemblyTypeName: LinkMateri, Assembly-CSharp
+        m_MethodName: OpenURL
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://ditsmp.kemdikbud.go.id/memahami-lebih-jauh-fotosintesis-proses-pembuatan-makanan-pada-tumbuhan/
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8661345191387125970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876260193190753613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7181a0a14908c4fa6c8485f88efbd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1936700824135072207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1323,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 95.5}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5683580686710977047
 CanvasRenderer:
@@ -1189,7 +1353,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Matematika
+  m_text: 'OPERASI HITUNG
+
+    BILANGAN BULAT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -1363,7 +1529,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1428,7 +1594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 3287637483207938340}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 1702736667935953103}
 --- !u!1 &2763216007946289294
 GameObject:
@@ -1637,12 +1803,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -1774,6 +1940,141 @@ MonoBehaviour:
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3808515385788778111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6859913517736178919}
+  - component: {fileID: 6786623052744779569}
+  - component: {fileID: 6797486628300990131}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6859913517736178919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808515385788778111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7299820364780884806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: 0, y: -10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6786623052744779569
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808515385788778111}
+  m_CullTransparentMesh: 1
+--- !u!114 &6797486628300990131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808515385788778111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: SUMBER MATERI
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278328886
+  m_fontColor: {r: 0.21176472, g: 0.11764707, b: 0.007843138, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1987,7 +2288,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 95.5}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &352916916710985387
 CanvasRenderer:
@@ -2017,7 +2318,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3 jenis berkembang biak secara generative
+  m_text: PERKEMBANGBIAKAN HEWAN SECARA GENERATIVE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -2086,6 +2387,141 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &4270621561374299499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6205432172802306550}
+  - component: {fileID: 7541644085749981349}
+  - component: {fileID: 1713683797869125531}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6205432172802306550
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270621561374299499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7902879906331083668}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: 0, y: -10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7541644085749981349
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270621561374299499}
+  m_CullTransparentMesh: 1
+--- !u!114 &1713683797869125531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270621561374299499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: SUMBER MATERI
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278328886
+  m_fontColor: {r: 0.21176472, g: 0.11764707, b: 0.007843138, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &4336586922210183456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,7 +2558,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 1058.002}
+  m_SizeDelta: {x: 800, y: 1500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2630949748913923874
 CanvasRenderer:
@@ -2152,22 +2588,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sampah Organik dan Non-organik adalah dua kategori sampah berdasarkan
-    sifat dan komposisi bahan-bahannya. Berikut adalah penjelasan lebih rinci tentang
-    sampah organik dan nonorganik:\n\n1. Sampah Organik : \n\nDefinisi: Sampah organik
-    adalah jenis sampah yang terdiri dari bahan-bahan yang berasal dari makhluk hidup
-    atau sisa-sisa organisme yang mudah terurai secara alami.\nContoh: Sisa makanan,
-    sisa sayuran, kulit buah, dedaunan, serasah, rumput, dan bahan makanan organik
-    lainnya\nSifat: Sampah organik memiliki sifat mudah membusuk dan dapat diurai
-    oleh mikroorganisme seperti bakteri, jamur, dan cacing tanah.\n\nSampah Nonorganik:\n\nDefinisi:
-    Sampah nonorganik adalah jenis sampah yang terdiri dari bahan-bahan yang sulit
-    terurai atau bahkan tidak terurai secara alami.\nContoh: Plastik, kertas, logam,
-    kaca, sterefoam, karet, bahan kimia, dan bahan sintetis lainnya.\nSifat: Sampah
+  m_text: "TAHUKAH KAMU!\n\nTernyata koran yang diberikan kepada Boyo memiliki informasi
+    yang sangat penting, yaitu bagaimana cara memilah sampah sesuai dengan jenisnya,
+    yaitu sampah organik dan sampah non-organik. Jadi, apa itu sampah organik dan
+    non-organik?\n\nSampah Organik dan Non-organik adalah dua kategori sampah berdasarkan
+    sifat dan komposisi bahan-bahannya. \n\n1. Sampah Organik : jenis sampah yang
+    terdiri dari bahan-bahan yang berasal dari makhluk hidup atau sisa-sisa organisme
+    yang mudah terurai secara alami. Sampah organik memiliki sifat mudah membusuk
+    dan dapat diurai oleh mikroorganisme seperti bakteri, jamur, dan cacing tanah.\nContoh
+    : Sisa makanan, sisa sayuran, kulit buah, dedaunan, serasah, rumput, dan bahan
+    makanan organik lainnya.\n\n2. Sampah Non-organik : jenis sampah yang terdiri
+    dari bahan-bahan yang sulit terurai atau bahkan tidak terurai secara alami. Sampah
     nonorganik memiliki sifat tahan lama, tidak mudah terurai, dan tidak diurai oleh
-    mikroorganisme.\n\nPemilahan dan pengelolaan sampah organik dan nonorganik sangat
-    penting dalam upaya pengelolaan sampah yang berkelanjutan dan ramah lingkungan.
-    Dengan memilah sampah dari sumbernya dan mengelolanya dengan benar, kita dapat
-    meminimalkan dampak negatif sampah terhadap lingkungan."
+    mikroorganisme.\nContoh: Plastik, kertas, logam, kaca, sterefoam, karet, bahan
+    kimia, dan bahan sintetis lainnya.\n\nPemilahan dan pengelolaan sampah organik
+    dan nonorganik sangat penting dalam upaya pengelolaan sampah yang berkelanjutan
+    dan ramah lingkungan. Dengan memilah sampah dari sumbernya dan mengelolanya dengan
+    benar, kita dapat meminimalkan dampak negatif sampah terhadap lingkungan."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -2201,17 +2638,17 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 5
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -2230,7 +2667,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -119.7829, z: 0, w: -542.159}
+  m_margin: {x: 0, y: -1.7512845, z: 0, w: 6.136595}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2272,7 +2709,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 1058.002}
+  m_SizeDelta: {x: 800, y: 1750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1494362586776044603
 CanvasRenderer:
@@ -2302,65 +2739,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '>>Pengertian Interaksi Sosial:
-
-    Interaksi sosial adalah hubungan antara
-    individu atau kelompok yang melibatkan pertukaran informasi, pendapat, dan perilaku.
-
-    Interaksi
-    sosial dapat terjadi dalam berbagai skala, seperti antarindividu, antarkelompok,
-    dan antarmasyarakat.
-
-
-    >> Jenis-jenis Interaksi Sosial:
-
-    Interaksi sosial
-    langsung: Interaksi yang terjadi secara langsung antara individu atau kelompok,
-    seperti percakapan, diskusi, dan kolaborasi.
-
-    Interaksi sosial tidak langsung:
-    Interaksi yang terjadi melalui media atau teknologi komunikasi, seperti surat,
-    telepon, dan media sosial.
-
-
-    >> Faktor-faktor yang Mempengaruhi Interaksi
-    Sosial:
-
-    Nilai dan norma sosial: Nilai dan norma yang berlaku dalam masyarakat
-    memengaruhi cara individu berinteraksi dan membangun hubungan sosial.
-
-    Perbedaan
-    budaya: Perbedaan budaya antarindividu atau kelompok dapat memengaruhi cara berinteraksi
-    dan memahami satu sama lain.
-
-    Peran sosial: Peran yang dimainkan oleh individu
-    dalam masyarakat juga memengaruhi interaksi sosial.
-
-
-    >>Pentingnya Nilai
-    dan Norma dalam Masyarakat:
-
-    Nilai adalah prinsip atau keyakinan yang dianggap
-    penting dalam masyarakat, sementara norma adalah aturan atau tata cara yang mengatur
-    tingkah laku dalam masyarakat.
-
-    Nilai dan norma membantu menjaga harmoni
-    dan stabilitas sosial, serta mempromosikan perilaku yang sesuai dengan kepentingan
-    bersama.
-
-    Contoh nilai dan norma yang umum di masyarakat, seperti tolong-menolong,
-    menghormati orang tua, dan menghargai perbedaan.
-
-
-    >> Tantangan dalam Interaksi
-    Sosial:
-
-    Konflik sosial: Konflik dapat timbul akibat perbedaan pandangan,
-    kepentingan, atau sumber daya, dan mempengaruhi interaksi sosial di dalam masyarakat.
-
-    Diskriminasi:
-    Perlakuan tidak adil atau diskriminasi terhadap individu atau kelompok tertentu
-    dapat mengganggu harmoni sosial.'
+  m_text: "TAHUKAH KAMU!\n\nBoyo menemukan sebuah kalkulator ketika sedang berjalan
+    disekitar Kota. Kalkulator ini sangat berguna untuk melakukan sebuah perhitungan
+    dengan berbagai operasi hitung bilangan yang tersedia. Nah, apasih operasi hitung
+    bilangan itu?\n\nDalam matematika, operasi hitung didefinisikan sebagai perlakuan
+    terhadap sebuah bilangan yang secara sederhana dapat diketahui diantaranya:\n\n1.
+    Penjumlahan ( + )\n\rJenis bilangan bulat yang sama dijumlahkan maka akan menghasilkan
+    jenis bilangan yang sama. Artinya, jika penjumlahan dilakukan dengan bilangan
+    bulat positif, maka hasilnya adalah bilangan bulat positif. Hal yang sama berlaku
+    pada bilangan negatif. Namun, apabila penjumlahan terjadi pada bilangan positif
+    dan negatif. Maka jenisnya ditentukan dengan jenis bilangan bulat dengan nilai
+    paling besar.\r\n\n2. Pengurangan ( - )\nDalam operasi pengurangan pada bilangan
+    bulat, jika simbol minus \"-\" pada bilangan bulat bertemu dengan simbol pengurangan,
+    maka hasil perhitungannya akan dijumlahkan.\r\n\n3. Perkalian ( x )\nJika dua
+    bilang positif dijumlahkan, maka akan menghasilkan bilangan bulat positif. Sementara,
+    perkalian yang melibatkan dua bilangan bulat negatif akan menghasilkan bilangan
+    bulat positif. Namun, jika bilang bulat positif dan bilangan bulat negatif dikalikan,
+    maka hasilnya adalah bilangan bulat negatif.\r\n\n4. Pembagian ( : )\nTerlepas
+    suatu bilangan positif atau negatif, jika dua bilangan bulat dengan jenis yang
+    sama dibagi, maka akan menghasilkan bilangan bulat positif. Namun, jika membagi
+    bilangan bulat positif dengan bilangan bulat negatif, maka hasilnya adalah bilangan
+    bulat negatif. Konsepnya pada dasarnya sama dengan konsep operasi hitung perkalian.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -2394,17 +2793,17 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 5
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -2423,7 +2822,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -119.7829, z: 0, w: -1219.1151}
+  m_margin: {x: 0, y: -0.24159239, z: 0, w: -0.30760187}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2465,7 +2864,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 95.5}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1250418059935012002
 CanvasRenderer:
@@ -2495,7 +2894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ide Pokok
+  m_text: IDE POKOK ATAU GAGASAN UTAMA DALAM CERITA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -2669,7 +3068,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2734,7 +3133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 8011924258835472751}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 5911806458767750824}
 --- !u!1 &4686635613340919193
 GameObject:
@@ -2786,7 +3185,7 @@ GameObject:
   - component: {fileID: 937440573668354627}
   - component: {fileID: 4458672535155993193}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: objek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2809,7 +3208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -183}
+  m_AnchoredPosition: {x: 400, y: -180}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &937440573668354627
@@ -2883,6 +3282,7 @@ RectTransform:
   - {fileID: 3301798773467031023}
   - {fileID: 2030298265591465760}
   - {fileID: 7640045417800664158}
+  - {fileID: 7902879906331083668}
   m_Father: {fileID: 6632423192881779072}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2904,12 +3304,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -2967,7 +3367,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 95.5}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3147532763495820627
 CanvasRenderer:
@@ -2997,7 +3397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fotosintesis
+  m_text: FOTOSINTESIS TUMBUHAN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -3091,7 +3491,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5238102422221468392}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3120,12 +3520,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -3221,7 +3621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1520, y: -28}
+  m_AnchoredPosition: {x: 1517.8, y: 0.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5000018, y: 0.5}
 --- !u!222 &2021109303174552792
@@ -3422,7 +3822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Norma Sosial
+  m_text: Nilai dan Norma Sosial
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -3529,6 +3929,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &6262274872503119832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6042994539794374843}
+  - component: {fileID: 6548610379433163546}
+  - component: {fileID: 1537531120097367553}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6042994539794374843
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6262274872503119832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6632423191058006463}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 350, y: 750}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6548610379433163546
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6262274872503119832}
+  m_CullTransparentMesh: 1
+--- !u!114 &1537531120097367553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6262274872503119832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a446cb3bc0fbf304db296280feaa21b5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6284285976234287701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,6 +4081,153 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6522994924002386030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7902879906331083668}
+  - component: {fileID: 2858417896399254181}
+  - component: {fileID: 3350751371816224697}
+  - component: {fileID: 7028065114468994930}
+  - component: {fileID: 1298565671503203567}
+  m_Layer: 5
+  m_Name: link
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7902879906331083668
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6522994924002386030}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6205432172802306550}
+  m_Father: {fileID: 5257327865099798385}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 110}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2858417896399254181
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6522994924002386030}
+  m_CullTransparentMesh: 1
+--- !u!114 &3350751371816224697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6522994924002386030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ab56a76f27fa1464d86c587b647ec9c6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7028065114468994930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6522994924002386030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3350751371816224697}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1298565671503203567}
+        m_TargetAssemblyTypeName: LinkMateri, Assembly-CSharp
+        m_MethodName: OpenURL
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://guru.kemdikbud.go.id/bukti-karya/video/73241
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1298565671503203567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6522994924002386030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7181a0a14908c4fa6c8485f88efbd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6632423190847190384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3773,6 +4396,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6632423191264164923}
+  - {fileID: 6042994539794374843}
   m_Father: {fileID: 6632423191618174470}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3933,82 +4557,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6632423191120432471
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6632423191120432456}
-  - component: {fileID: 6632423191120432458}
-  - component: {fileID: 6632423191120432457}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &6632423191120432456
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6632423191120432471}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6632423192415821938}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 500, y: -315}
-  m_SizeDelta: {x: 800, y: 450}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6632423191120432458
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6632423191120432471}
-  m_CullTransparentMesh: 1
---- !u!114 &6632423191120432457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6632423191120432471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 60264c9987945094a94feb0ec093e9b1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6632423191149519014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,12 +4723,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6632423192415821938}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 506.137}
+  m_SizeDelta: {x: 800, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6632423191206375809
 CanvasRenderer:
@@ -4210,7 +4758,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ini adalah tempat kumpulan dari pencapaian yang telah didapat!
+  m_text: 'Selama menjalankan misi, Boyo akan menemukan berbagai item yang akan membantu
+    dalam menyelesaikan permainan ini. Pencapaian adalah tempat penyimpanan item
+    yang berisi kumpulan materi yang dapat dibaca kembali ketika sedang menjalankan
+    misi.
+
+
+    Kamu tidak perlu khawatir itemnya akan hilang, karena progress mendapatkan
+    item akan tersimpan dan kamu bisa membacanya kembali ketika selesai bermain.
+    Menyenangkan bukan!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -4244,17 +4800,17 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 5
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -4273,7 +4829,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -44.24361}
+  m_margin: {x: 0, y: 116.647835, z: 0, w: -44.24361}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4323,7 +4879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -170, y: 374.99957}
+  m_AnchoredPosition: {x: -170, y: 570.00006}
   m_SizeDelta: {x: 340, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &6632423191264164926
@@ -4743,12 +5299,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -4806,7 +5362,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6632423191745835599
 CanvasRenderer:
@@ -4836,7 +5392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Panduan
+  m_text: PANDUAN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -5010,7 +5566,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5075,7 +5631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 6632423191684016090}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 6632423191839841224}
 --- !u!1 &6632423191953382160
 GameObject:
@@ -5207,12 +5763,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -5339,7 +5895,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5404,7 +5960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 6632423192144214911}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 6632423192146161793}
 --- !u!1 &6632423192160380571
 GameObject:
@@ -5511,7 +6067,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5576,7 +6132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 6632423192876343061}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 6632423192160380575}
 --- !u!1 &6632423192415821937
 GameObject:
@@ -5609,7 +6165,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6632423191745835597}
-  - {fileID: 6632423191120432456}
   - {fileID: 6632423191206375823}
   m_Father: {fileID: 6632423192881779072}
   m_RootOrder: 0
@@ -5634,10 +6189,10 @@ MonoBehaviour:
   m_Padding:
     m_Left: 5
     m_Right: 5
-    m_Top: 40
-    m_Bottom: 40
+    m_Top: 20
+    m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 0
+  m_Spacing: 35
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -5899,7 +6454,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5964,7 +6519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 6632423192415821937}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 6632423192781379648}
 --- !u!1 &6632423192876343061
 GameObject:
@@ -5999,6 +6554,7 @@ RectTransform:
   - {fileID: 4289023949910600895}
   - {fileID: 8329943459636100431}
   - {fileID: 4272907954598675627}
+  - {fileID: 7299820364780884806}
   m_Father: {fileID: 6632423192881779072}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6020,12 +6576,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -6204,7 +6760,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6632423192890047826}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6215,8 +6771,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 453, y: 0}
-  m_SizeDelta: {x: 50, y: 680}
+  m_AnchoredPosition: {x: 450, y: 0.000030517578}
+  m_SizeDelta: {x: 45, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6632423192890047830
 CanvasRenderer:
@@ -6239,7 +6795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}
+  m_Color: {r: 0.21176472, g: 0.11764707, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6417,7 +6973,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 99.269}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &641362127868690760
 CanvasRenderer:
@@ -6447,7 +7003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pendidikan Pancasila
+  m_text: PENDIDIKAN PANCASILA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -6811,7 +7367,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -6876,7 +7432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 5056597275683345402}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 4972232249012036496}
 --- !u!1 &7456765993379169464
 GameObject:
@@ -6990,7 +7546,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 1058.002}
+  m_SizeDelta: {x: 800, y: 2700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5995433923529022437
 CanvasRenderer:
@@ -7020,65 +7576,39 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '>>Pengertian Interaksi Sosial:
-
-    Interaksi sosial adalah hubungan antara
-    individu atau kelompok yang melibatkan pertukaran informasi, pendapat, dan perilaku.
-
-    Interaksi
-    sosial dapat terjadi dalam berbagai skala, seperti antarindividu, antarkelompok,
-    dan antarmasyarakat.
-
-
-    >> Jenis-jenis Interaksi Sosial:
-
-    Interaksi sosial
-    langsung: Interaksi yang terjadi secara langsung antara individu atau kelompok,
-    seperti percakapan, diskusi, dan kolaborasi.
-
-    Interaksi sosial tidak langsung:
-    Interaksi yang terjadi melalui media atau teknologi komunikasi, seperti surat,
-    telepon, dan media sosial.
-
-
-    >> Faktor-faktor yang Mempengaruhi Interaksi
-    Sosial:
-
-    Nilai dan norma sosial: Nilai dan norma yang berlaku dalam masyarakat
-    memengaruhi cara individu berinteraksi dan membangun hubungan sosial.
-
-    Perbedaan
-    budaya: Perbedaan budaya antarindividu atau kelompok dapat memengaruhi cara berinteraksi
-    dan memahami satu sama lain.
-
-    Peran sosial: Peran yang dimainkan oleh individu
-    dalam masyarakat juga memengaruhi interaksi sosial.
-
-
-    >>Pentingnya Nilai
-    dan Norma dalam Masyarakat:
-
-    Nilai adalah prinsip atau keyakinan yang dianggap
-    penting dalam masyarakat, sementara norma adalah aturan atau tata cara yang mengatur
-    tingkah laku dalam masyarakat.
-
-    Nilai dan norma membantu menjaga harmoni
-    dan stabilitas sosial, serta mempromosikan perilaku yang sesuai dengan kepentingan
-    bersama.
-
-    Contoh nilai dan norma yang umum di masyarakat, seperti tolong-menolong,
-    menghormati orang tua, dan menghargai perbedaan.
-
-
-    >> Tantangan dalam Interaksi
-    Sosial:
-
-    Konflik sosial: Konflik dapat timbul akibat perbedaan pandangan,
-    kepentingan, atau sumber daya, dan mempengaruhi interaksi sosial di dalam masyarakat.
-
-    Diskriminasi:
-    Perlakuan tidak adil atau diskriminasi terhadap individu atau kelompok tertentu
-    dapat mengganggu harmoni sosial.'
+  m_text: "TAHUKAH KAMU!\n\nPoster berjudul \"Hidup Rukun\" yang ditemukan Boyo merupakan
+    salah satu penggambaran perilaku yang menunjukan adanya nilai dan norma dalam
+    masyarakat loh. Nah, apasih maksud dari nilai dan norma dalam masyarakat itu?
+    \n\nNilai adalah segala sesuatu yang dianggap baik dan buruk di dalam masyarakat.
+    Nilai dapat dijadikan dasar pertimbangan setiap individu dalam menentukan sikap
+    serta mengambil keputusan. Nilai sosial ini memiliki hubungan terhadap norma-norma
+    yang berlaku di masyarakat. Ada beberapa nilai sosial yang perlu diketahui, diantaranya:\n\n1.
+    Nilai Material : segala sesuatu yang berguna bagi tubuh manusia. Contohnya, pakaian,
+    obat-obatan.\r\n2. Nilai Vital : segala sesuatu yang berguna bagi manusia untuk
+    melaksanakan aktivitasnya. Contohnya, buku dan perlengkapan alat tulis bagi pelajar.\r\n\r3.
+    Nilai Kerohanian : segala sesuatu yang berguna bagi batin (rohani) manusia.\n\nNorma
+    adalah seperangkat aturan berupa perintah atau larangan yang ditetapkan berdasarkan
+    kesepakatan bersama. Bedanya dengan nilai, norma bersifat nyata, tegas, dan jelas.
+    Pelanggar norma akan diberi hukuman (sanksi) tertentu. Macam-macam norma sosial
+    dikelompokkan menjadi dua, yaitu berdasarkan tingkatan sanksinya dan berdasarkan
+    sumbernya.\n\nA. Berdasarkan Tingkatan Sanksi\n1. Cara (usage), perbuatan atau
+    perilaku yang dilakukan seseorang dalam sebuah kelompok masyarakat, tetapi tidak
+    dilakukan secara terus menerus. Contohnya, cara berpakaian yang baik dan sopan.\n2.
+    Kebiasaan (folkways), perbuatan yang dilakukan secara berulang-ulang dan memiliki
+    tujuan jelas yang dianggap baik (benar). Contohnya, menghormati orang tua.\n3.
+    Tata Kelakuan (mores), aturan-aturan yang telah diterima oleh masyarakat. Contohnya,
+    larangan mencuri.\n4. Adat Istiadat (custom), kumpulan tata kelakuan yang bersifat
+    kekal dan menyatu sangat kuat dengan masyarakat yang menganutnya.\n\nB. Berdasarkan
+    Sumbernya:\n1.  Norma Agama, bersumber dari Tuhan Yang Maha Esa, sehingga sifatnya
+    mutlak dan harus ditaati oleh setiap pemeluk agama. Contohnya, melaksanakan ibadah.\n2.
+    Norma Kesusilaan (Norma Moral), bersumber dari hati nurani manusia untuk menentukan
+    mana perbuatan yang baik dan buruk. Contohnya, bersikap jujur.\n3. Norma Kesopanan,
+    bersumber dari pergaulan seseorang di masyarakat. Contohnya, sikap hormat kepada
+    orang tua.\n4. Norma Hukum, norma yang didasarkan pada undang-undang tertulis
+    yang dibuat secara resmi oleh badan negara. Contohnya, tertib berlalu lintas.\n5.
+    Norma Kebiasaan (Norma Kelaziman), bersumber dari tradisi budaya masyarakat.
+    Contoh: mencuci tangan sebelum makan.\n\nUntuk mempelajari materi lebih lanjut,
+    kamu bisa klik tombol dibawah ini.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -7112,17 +7642,17 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 5
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -7141,7 +7671,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -119.7829, z: 0, w: -1219.1151}
+  m_margin: {x: 0, y: 2.8936157, z: 0, w: 12.218503}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7213,7 +7743,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Memilah Sampah
+  m_text: 'Sampah Organik dan
+
+    Non-organik'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -7336,12 +7868,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 60
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 34.7
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -7399,7 +7931,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 705.815, y: 1058.002}
+  m_SizeDelta: {x: 800, y: 1400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5178230923141487856
 CanvasRenderer:
@@ -7429,16 +7961,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ide pokok atau gagasan utama adalah sebuah topik yang akan dibahas di
-    dalam sebuah paragraf.\n\nJenis jenis ide pokok paragraf bacaan :\n1. Paragraf
-    Deduktif\nParagraf ini memiliki ciri khas di mana ide pokok akan disampaikan
+  m_text: "TAHUKAH KAMU!\n\nBoyo menemukan sebuah buku cerita yang menarik. Dia dapat
+    langsung mengenali cerita tersebut merupakan cerita yang menarik karena sudah
+    mengetahui ide pokok dari cerita tersebut. Jadi, apasih ide pokok itu?\n\nSecara
+    sederhana, ide pokok atau gagasan utama adalah sebuah topik yang akan dibahas
+    di dalam sebuah paragraf. Dalam sebuah paragraf, ide pokok dapat dikenali diantaranya:\n\n1.
+    Paragraf Deduktif\nParagraf ini memiliki ciri khas di mana ide pokok akan disampaikan
     pada awal kalimat. Karenanya, paragraf deduktif mempunyai alur tulisan dari khusus
     ke umum.\n\n2. Paragraf Induktif\nCiri khas dari paragraf induktif adalah ide
     pokok yang diposisikan di akhir tulisan. Itu sebabnya paragraf induktif memiliki
     alur penulisan dari umum ke khusus. \n\n3. Paragraf Campuran\nParagraf ini menjadi
     gabungan dari ide pokok yang diletakkan di awal dan akhir kalimat. Adapun alur
     yang dimiliki paragraf campuran adalah dari khusus ke umum dan kembali lagi ke
-    khusus.\n\n4.Paragraf Deskriptif\nJenis ini memungkinkan ide pokok untuk diletakkan
+    khusus.\n\n4. Paragraf Deskriptif\nJenis ini memungkinkan ide pokok untuk diletakkan
     di semua bagian paragraf. Artinya, setiap kalimat akan membahas inti dari pembicaraan
     yang langsung ingin disampaikan oleh penulis."
   m_isRightToLeft: 0
@@ -7474,17 +8009,17 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 5
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -7545,7 +8080,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 95.5}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6422208546848119980
 CanvasRenderer:
@@ -7575,7 +8110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Memilah Sampah
+  m_text: "MEMILAH JENIS SAMPAH \nORGANIK DAN NON-ORGANIK"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -7749,7 +8284,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -7814,7 +8349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievmentList: {fileID: 5238102422221468392}
   neutral: {fileID: 21300000, guid: a87e1e5f0e587d841b3e393b81b2efdd, type: 3}
-  highlight: {fileID: 21300000, guid: 585c5cf489513cd4ba6bd0ecfcb5f972, type: 3}
+  highlight: {fileID: 21300000, guid: 0040c30bc652f194e8b095c758f17d47, type: 3}
   noteButton: {fileID: 8048882836325709186}
 --- !u!1 &9003946635846778561
 GameObject:
@@ -7852,7 +8387,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 781.994, y: 95.5}
+  m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8896767358939172127
 CanvasRenderer:
@@ -7882,7 +8417,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Norma Sosial
+  m_text: 'NILAI DAN NORMA SOSIAL
+
+    DALAM MASYARAKAT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
   m_sharedMaterial: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
@@ -7993,7 +8530,7 @@ PrefabInstance:
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: sprites.Array.data[4]
       value: 
-      objectReference: {fileID: -1633680491, guid: 0938b5d4cce43ea4ba23d6d2a9ba73c8, type: 3}
+      objectReference: {fileID: 21300000, guid: bc0b7ee3590a8a346bc54ae229ef27fa, type: 3}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: sprites.Array.data[5]
       value: 
@@ -8048,7 +8585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[1].title
-      value: Arloji Mahal!
+      value: Arloji Antik!
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[2].title
@@ -8072,7 +8609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[0].description
-      value: Pencapaian Perkembang Biakan Telah Dibuka!
+      value: Pencapaian Perkembangbiakan Telah Dibuka!
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[1].description
@@ -8100,7 +8637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[5].description
-      value: Pencapaia Matematika Telah Dibuka!
+      value: Pencapaian Matematika Telah Dibuka!
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[5].spriteIndex
@@ -8108,7 +8645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[6].description
-      value: Pencapaia Memilah Sampah Telah Dibuka!
+      value: Pencapaian Memilah Sampah Telah Dibuka!
       objectReference: {fileID: 0}
     - target: {fileID: 5207956033937694043, guid: 20e6102192ed6e5429cd2675246bfdd7, type: 3}
       propertyPath: achievmentData.Array.data[6].spriteIndex
