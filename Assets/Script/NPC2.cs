@@ -9,6 +9,7 @@ public class NPC2 : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
+    private string cacheDialogueText;
     [SerializeField] GameObject panelChapter;
     public string[] dialogue;
     private int index;
@@ -25,6 +26,7 @@ public class NPC2 : MonoBehaviour
 
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        cacheDialogueText=dialogueText.text;
     }
     void Update()
     {
@@ -41,7 +43,7 @@ public class NPC2 : MonoBehaviour
             }
         }
 
-        if(dialogueText.text == dialogue[index])
+        if(dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
         {
             contButton.SetActive(true);
         }
@@ -49,7 +51,7 @@ public class NPC2 : MonoBehaviour
 
     public void zeroText()
     {
-        dialogueText.text = "";
+        dialogueText.text = cacheDialogueText;
         index = 0;
         dialoguePanel.SetActive(false);
     }

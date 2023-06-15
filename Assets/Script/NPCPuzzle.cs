@@ -9,10 +9,12 @@ public class NPCPuzzle : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] GameObject puzzle;
-    [SerializeField] GameObject button;    
+    [SerializeField] GameObject button;
     [SerializeField] TMP_Text dialogueText;
+    private string chaceDialogueText;
     // [SerializeField] Image dialogueImage;
     [SerializeField] string[] dialogue;
+    [SerializeField] string[] dialogueWinPuzzle;
     // [SerializeField] Sprite KarakterImage;
     // [SerializeField] TMP_Text dialogueName;
     // [SerializeField] string KaraterName;
@@ -25,14 +27,21 @@ public class NPCPuzzle : MonoBehaviour
     [SerializeField] UnityEvent notifAchievement;
     AudioManager audioManager;
 
-    bool dialogOff=false;
+    bool dialogOff = false;
 
-    private void Awake() {
+    [SerializeField] hiddenManager hiddenManager;
+
+
+
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        chaceDialogueText=dialogueText.text;
     }
+    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
             {
@@ -45,57 +54,98 @@ public class NPCPuzzle : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-
-        if(dialogueText.text == dialogue[index])
+        if (hiddenManager.IsPuzzleWin == false)
         {
-            contButton.SetActive(true);
+            if (dialogueText.text == dialogue[index]||dialogueText.text==chaceDialogueText)
+            {
+                contButton.SetActive(true);
+            }
         }
+        else if (hiddenManager.IsPuzzleWin == true)
+        {
+            if (dialogueText.text == dialogueWinPuzzle[index]||dialogueText.text==chaceDialogueText)
+            {
+                contButton.SetActive(true);
+            }
+        }
+        
     }
 
     public void zeroText()
     {
-        dialogueText.text = "";
+        dialogueText.text = chaceDialogueText;
         index = 0;
         dialoguePanel.SetActive(false);
     }
 
     IEnumerator Typing()
     {
-        foreach (char letter in dialogue[index].ToCharArray())
+        if (hiddenManager.IsPuzzleWin == false)
         {
-            
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(wordSpeed);
-            audioManager.PlaySFX(audioManager.Typing);
+
+            foreach (char letter in dialogue[index].ToCharArray())
+            {
+
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(wordSpeed);
+                audioManager.PlaySFX(audioManager.Typing);
+            }
+        }
+        else if (hiddenManager.IsPuzzleWin == true)
+        {
+            foreach (char letter in dialogueWinPuzzle[index].ToCharArray())
+            {
+
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(wordSpeed);
+                audioManager.PlaySFX(audioManager.Typing);
+            }
+
         }
     }
 
     public void NextLine()
     {
         contButton.SetActive(false);
-
-        if(index < dialogue.Length - 1)
+        if (hiddenManager.IsPuzzleWin == false)
         {
-            index++;
-            dialogueText.text = "";
-            StartCoroutine(Typing());
+            if (index < dialogue.Length - 1)
+            {
+                index++;
+                dialogueText.text = "";
+                StartCoroutine(Typing());
+            }
+
+            else
+            {
+                puzzle.SetActive(true);
+                Debug.Log("test");
+                zeroText();
+            }
         }
-
-        else
+        else if (hiddenManager.IsPuzzleWin == true)
         {
-            puzzle.SetActive(true);
-            Debug.Log("test");
-            zeroText();
+            if (index < dialogueWinPuzzle.Length - 1)
+            {
+                index++;
+                dialogueText.text = "";
+                StartCoroutine(Typing());
+            }
+            else
+            {
+                zeroText();
+                notifAchievement.Invoke();
+            }
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")||dialogOff==false)
+        if (other.CompareTag("Player") || dialogOff == false)
         {
             //To Activate notif in the npc
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            
+
             playerIsClose = true;
             button.SetActive(true);
             // dialogueImage.sprite = KarakterImage;
@@ -103,7 +153,7 @@ public class NPCPuzzle : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) 
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -115,7 +165,7 @@ public class NPCPuzzle : MonoBehaviour
             notifAchievement.Invoke();
             dialoguePanel.SetActive(value: false);
             zeroText();
-            dialogOff=true;
+            dialogOff = true;
         }
     }
 }

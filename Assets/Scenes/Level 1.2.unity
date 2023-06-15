@@ -509,6 +509,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f12256d332acae847864b0181192819b, type: 3}
+--- !u!114 &28926341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+  m_PrefabInstance: {fileID: 28926340}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e724e29e0d70e104aab74a6f48689b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87750743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,7 +2855,7 @@ PrefabInstance:
       objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
-      value: 'Boyo : Apa kamu sedang mencari sesuatu?'
+      value: 'Boyo : Halo ka!'
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687771914900, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_IsActive
@@ -3682,6 +3693,8 @@ MonoBehaviour:
   dialogueText: {fileID: 1700475907}
   dialogue:
   - 
+  - 'Mrs. Yumna : Halo!'
+  - 'Boyo : Sepertinya kamu sedang mencari sesuatu?'
   - 'Mrs.Yumma : Saya sedang mencari sebuah arloji'
   - 'Mrs.Yumma : Apakah kamu melihatnya?'
   - 'Mrs.Yumma : Jika kau menemukannya, aku akan memberikan apapun untukmu'
@@ -3695,11 +3708,17 @@ MonoBehaviour:
   - 'Mrs.Yumma : Oh kamu mau masuk PETA, Coba jawab soal yang saya berikan'
   - 'Mrs.Yumma : Jika sudah berhasil, temui ajudan saya di depan!'
   - 'Boyo : Baik'
+  dialogueWinQuiz:
+  - 
+  - 'Mrs. Yumna : Halo!'
+  - 'Mrs. Yumna : Silahkan temui ajudan saya di depan!'
+  - 'Boyo : Baik'
   button: {fileID: 1640472780}
   contButton: {fileID: 112433088}
   quiz: {fileID: 1268480327}
-  wordSpeed: 0.000001
+  wordSpeed: 0.06
   playerIsClose: 0
+  quizManager: {fileID: 28926341}
 --- !u!95 &1530146081
 Animator:
   serializedVersion: 5
@@ -4141,7 +4160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.376622, y: 6.33006, z: -10}
+  m_LocalPosition: {x: -13.385416, y: 6.33004, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6090,7 +6109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7116885, y: -1.4700309, z: 0}
+  m_LocalPosition: {x: -4.7072916, y: -1.4700209, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -9,6 +9,8 @@ public class NPCQuiz : MonoBehaviour
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
     public string[] dialogue;
+    public string[] dialogueWinQuiz;
+    private string cacheDialogueText;
     private int index;
     [SerializeField] GameObject button;
 
@@ -18,14 +20,20 @@ public class NPCQuiz : MonoBehaviour
     [SerializeField] bool playerIsClose;
     AudioManager audioManager;
 
-    bool dialogOn=false;
+    [SerializeField] QuizManager quizManager;
 
-    private void Awake() {
+
+    bool dialogOn = false;
+
+
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        cacheDialogueText = dialogueText.text;
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
             {
@@ -37,36 +45,59 @@ public class NPCQuiz : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-
-        if(dialogueText.text == dialogue[index])
+        if (quizManager.IsQuizWin == false)
         {
-            contButton.SetActive(true);
+            if (dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
+            {
+                contButton.SetActive(true);
+            }
+        }
+        else if (quizManager.IsQuizWin == true)
+        {
+            if (dialogueText.text == dialogueWinQuiz[index] || dialogueText.text == cacheDialogueText)
+            {
+                contButton.SetActive(true);
+            }
         }
     }
 
     public void zeroText()
     {
-        dialogueText.text = "";
+        dialogueText.text = cacheDialogueText;
         index = 0;
         dialoguePanel.SetActive(false);
     }
 
     IEnumerator Typing()
     {
-        foreach (char letter in dialogue[index].ToCharArray())
+        if (quizManager.IsQuizWin == false)
         {
-            
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(wordSpeed);
-            audioManager.PlaySFX(audioManager.Typing);
+            foreach (char letter in dialogue[index].ToCharArray())
+            {
+
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(wordSpeed);
+                audioManager.PlaySFX(audioManager.Typing);
+            }
+        }
+        else if (quizManager.IsQuizWin == true)
+        {
+            foreach (char letter in dialogueWinQuiz[index].ToCharArray())
+            {
+
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(wordSpeed);
+                audioManager.PlaySFX(audioManager.Typing);
+            }
+
         }
     }
 
     public void NextLine()
     {
         contButton.SetActive(false);
-
-        if(index < dialogue.Length - 1)
+        if(quizManager.IsQuizWin==false){
+        if (index < dialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
@@ -78,11 +109,23 @@ public class NPCQuiz : MonoBehaviour
             quiz.SetActive(true);
             zeroText();
         }
+        }else if(quizManager.IsQuizWin==true){
+            if (index < dialogueWinQuiz.Length - 1)
+            {
+                index++;
+                dialogueText.text = "";
+                StartCoroutine(Typing());
+            }
+            else
+            {
+                zeroText();
+            }
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")||dialogOn==false)
+        if (other.CompareTag("Player") || dialogOn == false)
         {
             playerIsClose = true;
             // dialoguePanel.SetActive(true);
@@ -90,7 +133,7 @@ public class NPCQuiz : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) 
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -98,7 +141,7 @@ public class NPCQuiz : MonoBehaviour
             button.SetActive(false);
             dialoguePanel.SetActive(value: false);
             zeroText();
-            dialogOn=true;
+            dialogOn = true;
         }
     }
 }

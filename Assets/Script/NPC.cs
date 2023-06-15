@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] GameObject button;
     [SerializeField] TMP_Text dialogueText;
+    private string cacheDialogueText;
     // [SerializeField] Image dialogueImage;
     [SerializeField] string[] dialogue;
     // [SerializeField] Sprite KarakterImage;
@@ -28,6 +29,7 @@ public class NPC : MonoBehaviour
 
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        cacheDialogueText=dialogueText.text;
     }
     void Update()
     {
@@ -45,7 +47,7 @@ public class NPC : MonoBehaviour
             }
         }
 
-        if(dialogueText.text == dialogue[index])
+        if(dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
         {
             contButton.SetActive(true);
         }
@@ -53,7 +55,7 @@ public class NPC : MonoBehaviour
 
     public void zeroText()
     {
-        dialogueText.text = "";
+        dialogueText.text = cacheDialogueText;
         index = 0;
         dialoguePanel.SetActive(false);
     }
