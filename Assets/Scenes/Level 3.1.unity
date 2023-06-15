@@ -442,7 +442,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &241457824
 GameObject:
@@ -807,7 +807,7 @@ MonoBehaviour:
   button: {fileID: 1577639679}
   dialogueText: {fileID: 1726364812}
   dialogue:
-  - 
+  - 'Boyo : Hey kampung kita kenapa seperti ini?'
   - 'Cewe Remaja : Ada yang serang kampung kita kak...'
   - 'Boyo : Hahh... kok bisa'
   - 'Boyo : Siapa yang tega menyerang kampung kita?'
@@ -1618,7 +1618,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2860294882886050066, guid: 20c087d7580bde24f9ad1354234aaf76, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2860294882886050066, guid: 20c087d7580bde24f9ad1354234aaf76, type: 3}
       propertyPath: m_LocalScale.x
@@ -1943,8 +1943,8 @@ MonoBehaviour:
   button: {fileID: 1908614032}
   dialogueText: {fileID: 1661641560}
   dialogue:
-  - 
-  - 'Boyo : Hati-hati dek jangan disitu, bahaya...'
+  - 'Bocah Cowo : Tolongggg.... Kebakaran'
+  - 'Boyo : Hati-hati dek jangan disitu, bahaya. Cari tempat yang aman..'
   contButton: {fileID: 964668290}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -3978,7 +3978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.410315, y: 5.05838, z: -10}
+  m_LocalPosition: {x: 16.410559, y: 5.05838, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4955,7 +4955,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3382744873214841458, guid: 9c80276bd324b2b409502ae74a0eefc5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3382744873214841458, guid: 9c80276bd324b2b409502ae74a0eefc5, type: 3}
       propertyPath: m_LocalScale.x
@@ -5280,7 +5280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2448425, y: -0.49419117, z: 0}
+  m_LocalPosition: {x: 3.2447205, y: -0.49419117, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

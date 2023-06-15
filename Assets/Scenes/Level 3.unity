@@ -919,7 +919,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505982363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.4, y: 2.4, z: 0}
+  m_LocalPosition: {x: -0.9800005, y: 2.24, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1277,7 +1277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2551262385646346970, guid: 05c3885d9dde8e340b0e93f99647e94f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2551262385646346970, guid: 05c3885d9dde8e340b0e93f99647e94f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1832,7 +1832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954497706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.88, y: 2.95, z: 0}
+  m_LocalPosition: {x: 2.54, y: 2.42, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 2321380445436325284}
   dialogueText: {fileID: 2321380445142478411}
   dialogue:
-  - 
+  - 'Bapak PNS : Hey nak, bisakah bantu anak saya untuk mengerti tentang norma?'
   - 'Boyo : Boleh pak, dengan senang hati'
   button: {fileID: 1577639679}
   contButton: {fileID: 2321380446245321900}
@@ -3762,7 +3762,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.499894, y: 5.0683703, z: -10}
+  m_LocalPosition: {x: 13.499903, y: 5.0683703, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4886,7 +4886,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042914254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: 1.24, z: 0}
+  m_LocalPosition: {x: 7.16, y: 1.24, z: 0}
   m_LocalScale: {x: 0.32272798, y: 0.32272798, z: 0.32272798}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5005,7 +5005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000052928925, y: -0.0791862, z: 0}
+  m_LocalPosition: {x: 0.00004863739, y: -0.0791862, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

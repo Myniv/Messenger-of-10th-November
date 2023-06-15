@@ -46,9 +46,10 @@ public class NPCQuiz : MonoBehaviour
 
     public void zeroText()
     {
-        dialogueText.text = "";
+        dialogueText.text = dialogue[index];
         index = 0;
         dialoguePanel.SetActive(false);
+        contButton.SetActive(true);
     }
 
     IEnumerator Typing()

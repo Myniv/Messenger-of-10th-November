@@ -905,7 +905,7 @@ MonoBehaviour:
   button: {fileID: 1577639679}
   dialogueText: {fileID: 1726364812}
   dialogue:
-  - 
+  - 'Cewe Remaja : Halo kak boyo...'
   - 'Boyo : Halo...'
   contButton: {fileID: 618974951}
   wordSpeed: 0.06
@@ -1291,7 +1291,7 @@ PrefabInstance:
       objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
-      value: 'Cewe Remaja : Halo kak... '
+      value: 'Cewe Remaja : Halo kak boyo....'
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066734, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1884,7 +1884,7 @@ MonoBehaviour:
   button: {fileID: 1908614032}
   dialogueText: {fileID: 1661641560}
   dialogue:
-  - 
+  - 'Bocah Cowo : Kak, mau kemana kak? aku boleh ikut tidak?'
   - 'Boyo : Hey anak kecil, kamu tidak boleh ikut ya, bermain saja sama temanmu yang
     lain'
   contButton: {fileID: 964668290}
@@ -2258,9 +2258,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1601100494}
   dialogueText: {fileID: 1876173877}
   dialogue:
-  - 
+  - 'Tukang gotong rumput : Hei nak, saya ada pertanyaan yang harus dijawab'
   - 'Boyo : Pertanyaan apa ya pak?'
-  - 'Tukang daun : nanti juga kamu tau, jawab dengan benar ya...'
+  - 'Tukang daun : pertanyaannya tentang fotosintesis'
   button: {fileID: 1690068300}
   contButton: {fileID: 1527544866}
   quiz: {fileID: 1911266156}
@@ -4198,7 +4198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.907095, y: 5.20549, z: -10}
+  m_LocalPosition: {x: -15.907085, y: 5.20549, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5459,7 +5459,7 @@ MonoBehaviour:
   button: {fileID: 241457824}
   dialogueText: {fileID: 2321380445142478411}
   dialogue:
-  - 
+  - Buku siapa ya yang jatuh?
   - Bagus banget bukunya...
   contButton: {fileID: 2321380446245321900}
   wordSpeed: 0.06
@@ -5870,7 +5870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.001452446, y: -0.107744694, z: 0}
+  m_LocalPosition: {x: -0.0014572144, y: -0.107744694, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -1377,7 +1377,7 @@ MonoBehaviour:
   button: {fileID: 1075302918}
   dialogueText: {fileID: 507260788}
   dialogue:
-  - 
+  - Wah bagus sekali, sepertinya mahal
   - Apa aku jual saja ya?
   - Ahh tapikan kata ibu tidak boleh mengambil hak yang bukan punya kita
   - Tapi aku bawa saja deh, siapa tau nanti ada yang mencarinya
@@ -2888,7 +2888,7 @@ MonoBehaviour:
   button: {fileID: 1915356965}
   dialogueText: {fileID: 1656415549}
   dialogue:
-  - ppp
+  - 'Pedagang Keliling : Hei Nak, bisa bantu saya untuk mencari sesuatu?'
   - 'Boyo : Mencari apa pak?'
   - 'Pedagang Keliling : Mencari hewan ternak saya yang berkembang biak secara vivipar'
   - 'Boyo : Boleh pak, mari saya bantu carikan'
@@ -4628,7 +4628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.559454, y: 5.29118, z: -10}
+  m_LocalPosition: {x: -16.559679, y: 5.29118, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6324,7 +6324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.49771786, y: 0.30486035, z: 0}
+  m_LocalPosition: {x: -0.49760532, y: 0.30486035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -309,8 +309,8 @@ RectTransform:
   - {fileID: 1908614037}
   - {fileID: 1577639684}
   - {fileID: 183895234}
-  - {fileID: 2321380445436325287}
   - {fileID: 1661641559}
+  - {fileID: 2321380445436325287}
   - {fileID: 1287418189}
   - {fileID: 1745860530}
   - {fileID: 8300934638769641248}
@@ -842,7 +842,7 @@ MonoBehaviour:
   button: {fileID: 1577639679}
   dialogueText: {fileID: 2321380445142478411}
   dialogue:
-  - 
+  - Meow....
   contButton: {fileID: 2321380446245321900}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -942,7 +942,7 @@ Transform:
   - {fileID: 1475603527}
   - {fileID: 496501578}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &505982368
 Animator:
@@ -1860,7 +1860,8 @@ MonoBehaviour:
   button: {fileID: 1908614032}
   dialogueText: {fileID: 1661641560}
   dialogue:
-  - 
+  - 'Boyo :  Bu... Boyo pamit berangkat dulu ya... untuk mengantarkan surat ke markas
+    PETA'
   - 'Ibu Boyo : Buat apa nak memangnya?'
   - 'Boyo : Aku mendapatkan amanah dari seseorang untuk mengantarkan surat ini ke
     markas PETA bu'
@@ -1964,7 +1965,7 @@ Transform:
   - {fileID: 397972736}
   - {fileID: 1654649508}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &954497712
 Animator:
@@ -2163,7 +2164,7 @@ MonoBehaviour:
   button: {fileID: 183895230}
   dialogueText: {fileID: 21654264}
   dialogue:
-  - 
+  - Pohon apa ini?
   - Kok tumbuhnya cepat sekali ya...
   contButton: {fileID: 358730338}
   wordSpeed: 0.06
@@ -3777,7 +3778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091008, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091008, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4119,7 +4120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.17741, y: 5.3176203, z: -10}
+  m_LocalPosition: {x: -13.177712, y: 5.31758, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5075,7 +5076,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5697594, y: 0.0007147789, z: 0}
+  m_LocalPosition: {x: -1.5696082, y: 0.00073480606, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5727,7 +5728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091008, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8677014688005091008, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_AnchorMax.x

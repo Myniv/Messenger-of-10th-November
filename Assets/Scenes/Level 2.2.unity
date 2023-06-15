@@ -1062,7 +1062,7 @@ MonoBehaviour:
   button: {fileID: 1908614032}
   dialogueText: {fileID: 1661641560}
   dialogue:
-  - 
+  - 'Cewe Remaja : Hati-hati kak, disana Penjaganya galak'
   contButton: {fileID: 964668290}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 2321380445436325284}
   dialogueText: {fileID: 2321380445142478411}
   dialogue:
-  - 
+  - 'Boyo : Permisi pak, saya ingin memberikan surat ini apakah dipersilahkan?'
   - 'Bapak PNS : Bisa saja, tetapi kamu harus menyelesaikan kuis yang saya berikan
     terlebih dahulu'
   - 'Boyo : Baik pak'
@@ -2315,7 +2315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1030426769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2428,7 +2428,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1600633471}
   panelChapter: {fileID: 846484172}
   dialogue:
-  - 
+  - 'Satpam : Baiklah, kamu dipersilahkan masuk'
   - 'Boyo : Terima kasih pak'
   contButton: {fileID: 1645955874}
   wordSpeed: 0.06
@@ -3168,7 +3168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 1.8800011, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 1.799998, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -4438,7 +4438,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 8.29
+  orthographic size: 8.41
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4462,7 +4462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.11543, y: 4.9416003, z: -10}
+  m_LocalPosition: {x: -23.90182, y: 5.0616403, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1834991180}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 8.29
+    OrthographicSize: 8.41
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -5606,7 +5606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.8922853, y: -0.3207996, z: 0}
+  m_LocalPosition: {x: -4.999091, y: -0.42082095, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

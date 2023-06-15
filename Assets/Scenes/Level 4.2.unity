@@ -1990,7 +1990,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1934587085}
   dialogueText: {fileID: 2011691187}
   dialogue:
-  - 
+  - 'Boyo : Permisi pak, Saya ingin memberikan surat, apakah dipersilahkan?'
   - 'Penjaga : Sebelum kau memberikan surat tersebut, kamu harus menjawab pertanyaan
     dariku terlebih dahulu'
   - 'Penjaga : Setelah selesai, baru saya kasih izin untuk masuk'
@@ -2400,7 +2400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2860294882886050066, guid: 20c087d7580bde24f9ad1354234aaf76, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2860294882886050066, guid: 20c087d7580bde24f9ad1354234aaf76, type: 3}
       propertyPath: m_LocalScale.x
@@ -3953,7 +3953,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1686429658
 GameObject:
@@ -4033,7 +4033,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.732516, y: 6.53547, z: -10}
+  m_LocalPosition: {x: -15.73253, y: 6.53547, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6473,7 +6473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00016880035, y: 0.82012415, z: 0}
+  m_LocalPosition: {x: 0.00017547607, y: 0.82012415, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

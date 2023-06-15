@@ -2368,7 +2368,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 744944102}
   dialogueText: {fileID: 744944101}
   dialogue:
-  - 
+  - 'Tukang Koran : Nak bisa bantu saya untuk menghitung koran?'
   - 'Boyo : Boleh pak, kebetulan saya ada kalkulator untuk menghitungnya'
   - 'Tukang Koran : Terima kasih ya nak'
   - 'Tukang Koran : Setelah semuanya selesai, akan saya kasih koran gratis untukmu'
@@ -2966,8 +2966,8 @@ MonoBehaviour:
   button: {fileID: 1477228269}
   dialogueText: {fileID: 2143940601}
   dialogue:
-  - 
-  - 'Boyo : Maaf pak, tidak dulu. Soalnya saya buru buru'
+  - 'Tukang Jeruk : Nak mau beli buah jeruknya tidak?'
+  - 'Boyo : Maaf pak, lain kali ya. Soalnya saya buru buru'
   contButton: {fileID: 83413842}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -3224,8 +3224,8 @@ MonoBehaviour:
   button: {fileID: 1386348193}
   dialogueText: {fileID: 1251823174}
   dialogue:
-  - 
-  - Aku bereskan dulu deh, sesuai dengan jenis sampahnya
+  - Duh berantakan sekali sampahnya
+  - Aku bersihkan dulu deh, sesuai dengan jenis sampahnya
   contButton: {fileID: 1251823172}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -4771,7 +4771,7 @@ MonoBehaviour:
   button: {fileID: 1640472780}
   dialogueText: {fileID: 1494990154}
   dialogue:
-  - 
+  - Aku menemukan kalkulator
   - Aku ambil deh, siapa tau ada yang butuh bantuan untuk menghitung sesuatu
   contButton: {fileID: 928080792}
   wordSpeed: 0.06
@@ -6355,7 +6355,7 @@ MonoBehaviour:
   button: {fileID: 601343097}
   dialogueText: {fileID: 1718779641}
   dialogue:
-  - 
+  - 'Tukang Koran : Ini nak Koran gratis untukmu'
   - 'boyo : Terima kasih pak'
   contButton: {fileID: 1142402818}
   wordSpeed: 0.06
