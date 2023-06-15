@@ -2807,16 +2807,23 @@ MonoBehaviour:
   dialogueText: {fileID: 1656415549}
   dialogue:
   - ppp
-  - 'Boyo : Mencari apa pak?'
-  - 'Pedagang Keliling : Mencari hewan ternak saya yang berkembang biak secara vivipar'
+  - 'Boyo : Halo Pak'
+  - 'Boyo : Sedang encari apa pak?'
+  - 'Peternak : Mencari hewan ternak saya yang berkembang biak secara vivipar'
   - 'Boyo : Boleh pak, mari saya bantu carikan'
-  - 'Pedagang Keliling : Terima kasih ya nak'
+  - 'Peternak : Terima kasih ya nak'
+  dialogueWinPuzzle:
+  - Halo Nak!
+  - 'Boyo : Halo Pak!'
+  - 'Peternak : Terimakasih banyak ya nak telah membantu saya!'
+  - 'Boyo : Sama sama pak'
   contButton: {fileID: 1656415548}
   wordSpeed: 0.03
   playerIsClose: 0
   notifAchievement:
     m_PersistentCalls:
       m_Calls: []
+  hiddenManager: {fileID: 1939807503}
 --- !u!111 &954497713
 Animation:
   m_ObjectHideFlags: 0
@@ -4199,7 +4206,7 @@ PrefabInstance:
       objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
-      value: 'Pedagang Keliling : Hei Nak, bisa bantu saya untuk mencari sesuatu?'
+      value: 'Peternak : Halo nak!'
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_VerticalAlignment
@@ -4570,7 +4577,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.575708, y: 5.29118, z: -10}
+  m_LocalPosition: {x: -16.56551, y: 5.29118, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6282,7 +6289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.48959064, y: 0.30486035, z: 0}
+  m_LocalPosition: {x: -0.49468994, y: 0.30486035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

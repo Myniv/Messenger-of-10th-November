@@ -509,6 +509,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f12256d332acae847864b0181192819b, type: 3}
+--- !u!114 &28926341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+  m_PrefabInstance: {fileID: 28926340}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e724e29e0d70e104aab74a6f48689b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87750743
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +836,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2007332847}
+        m_TargetAssemblyTypeName: AchievementManager, Assembly-CSharp
+        m_MethodName: EarnAchievment
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Surat Rahasia!
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!61 &375945750
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -948,6 +971,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 87750747}
     m_Modifications:
+    - target: {fileID: 2546084225911224877, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546084225911224877, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 723013628}
+    - target: {fileID: 2546084225911224877, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadingScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546084225911224877, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LoadingScreen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546084225911224877, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3740164686068921897, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -998,27 +1041,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 952475319}
+      objectReference: {fileID: 723013628}
     - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: LoadingScene
       objectReference: {fileID: 0}
     - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: LoadingScreen, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744540553932884475, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8744540554086968702, guid: 49d271cf62ba877419193ded14a9be6a, type: 3}
       propertyPath: m_Name
@@ -1850,6 +1897,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 735011260}
     m_Modifications:
+    - target: {fileID: 5514151613107899643, guid: 04f0f02d8fbfaca43a65ccab359f6665, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5514151613107899643, guid: 04f0f02d8fbfaca43a65ccab359f6665, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 578715699
+      objectReference: {fileID: 0}
     - target: {fileID: 7161827375382389522, guid: 04f0f02d8fbfaca43a65ccab359f6665, type: 3}
       propertyPath: m_Name
       value: Dog1_Walk
@@ -2330,7 +2385,7 @@ PrefabInstance:
       objectReference: {fileID: 19675773220024130, guid: 37d365c62030eed4fab68ee3cbbb91a0, type: 2}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_text
-      value: 'Boyo : Apa kamu sedang mencari sesuatu?'
+      value: 'Boyo : Halo!'
       objectReference: {fileID: 0}
     - target: {fileID: 8677014687762066732, guid: 817f7c3c86c9c8b4ea18b12a0f1b7d6b, type: 3}
       propertyPath: m_VerticalAlignment
@@ -2644,6 +2699,14 @@ PrefabInstance:
     - target: {fileID: 4584271576369584410, guid: a0b023875f496764f805d4c4c23b6afc, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4584271576369584411, guid: a0b023875f496764f805d4c4c23b6afc, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4584271576369584411, guid: a0b023875f496764f805d4c4c23b6afc, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 578715699
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0b023875f496764f805d4c4c23b6afc, type: 3}
@@ -3054,6 +3117,8 @@ MonoBehaviour:
   dialogueText: {fileID: 1700475907}
   dialogue:
   - 
+  - 'Mrs. Yumna : Halo!'
+  - 'Boyo : Kamu sedang ngapain ka?'
   - 'Mrs.Yumma : Saya sedang mencari sebuah arloji'
   - 'Mrs.Yumma : Apakah kamu melihatnya?'
   - 'Mrs.Yumma : Jika kau menemukannya, aku akan memberikan apapun untukmu'
@@ -3067,11 +3132,18 @@ MonoBehaviour:
   - 'Mrs.Yumma : Oh kamu mau masuk PETA, Coba jawab soal yang saya berikan'
   - 'Mrs.Yumma : Jika sudah berhasil, temui ajudan saya di depan!'
   - 'Boyo : Baik'
+  dialogueWinQuiz:
+  - 
+  - 'Mrs. Yumna : Halo!'
+  - 'Mrs. Yumna : Terimakasih ya telah menemukan arloji tersebut..'
+  - 'Boyo : Sama sama'
+  - 'Mrs. Yumna : Sekarang silahkan kamu temui ajudan saya di depan'
   button: {fileID: 1640472780}
   contButton: {fileID: 112433088}
   quiz: {fileID: 1268480327}
   wordSpeed: 0.000001
   playerIsClose: 0
+  quizManager: {fileID: 28926341}
 --- !u!95 &1530146081
 Animator:
   serializedVersion: 5
@@ -3513,7 +3585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.400503, y: 6.33002, z: -10}
+  m_LocalPosition: {x: -13.38552, y: 6.33004, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3970,6 +4042,14 @@ PrefabInstance:
     - target: {fileID: 5186831981484988431, guid: 22b463e36e78f5843904b3ea55e21654, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103669816270309667, guid: 22b463e36e78f5843904b3ea55e21654, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103669816270309667, guid: 22b463e36e78f5843904b3ea55e21654, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 578715699
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22b463e36e78f5843904b3ea55e21654, type: 3}
@@ -4526,6 +4606,10 @@ PrefabInstance:
     - target: {fileID: 6566282877539345501, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632423190993405966, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
+      propertyPath: m_SortingOrder
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6632423191111985874, guid: 12f6a760d17b2bb4cb3bb4d7dea28dc8, type: 3}
       propertyPath: m_Name
@@ -5494,7 +5578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.699748, y: -1.4700109, z: 0}
+  m_LocalPosition: {x: -4.7072396, y: -1.4700209, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
