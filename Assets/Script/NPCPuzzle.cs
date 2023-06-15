@@ -36,9 +36,13 @@ public class NPCPuzzle : MonoBehaviour
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        chaceDialogueText=dialogueText.text;
     }
-    
+
+    private void Start()
+    {
+        chaceDialogueText = dialogueText.text;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
@@ -56,19 +60,19 @@ public class NPCPuzzle : MonoBehaviour
         }
         if (hiddenManager.IsPuzzleWin == false)
         {
-            if (dialogueText.text == dialogue[index]||dialogueText.text==chaceDialogueText)
+            if (dialogueText.text == dialogue[index] || dialogueText.text == chaceDialogueText)
             {
                 contButton.SetActive(true);
             }
         }
         else if (hiddenManager.IsPuzzleWin == true)
         {
-            if (dialogueText.text == dialogueWinPuzzle[index]||dialogueText.text==chaceDialogueText)
+            if (dialogueText.text == dialogueWinPuzzle[index] || dialogueText.text == chaceDialogueText)
             {
                 contButton.SetActive(true);
             }
         }
-        
+
     }
 
     public void zeroText()

@@ -22,15 +22,20 @@ public class NPC2 : MonoBehaviour
     AudioManager audioManager;
     [SerializeField] UnityEvent finishDialog;
 
-    bool dialogOn=false;
+    bool dialogOn = false;
 
-    private void Awake() {
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        cacheDialogueText=dialogueText.text;
+    }
+
+    private void Start()
+    {
+        cacheDialogueText = dialogueText.text;
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
             {
@@ -43,7 +48,7 @@ public class NPC2 : MonoBehaviour
             }
         }
 
-        if(dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
+        if (dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
         {
             contButton.SetActive(true);
         }
@@ -60,7 +65,7 @@ public class NPC2 : MonoBehaviour
     {
         foreach (char letter in dialogue[index].ToCharArray())
         {
-            
+
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
             audioManager.PlaySFX(audioManager.Typing);
@@ -71,7 +76,7 @@ public class NPC2 : MonoBehaviour
     {
         contButton.SetActive(false);
 
-        if(index < dialogue.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
@@ -87,16 +92,16 @@ public class NPC2 : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")||dialogOn==false)
+        if (other.CompareTag("Player") || dialogOn == false)
         {
             playerIsClose = true;
             button.SetActive(true);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) 
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -104,7 +109,7 @@ public class NPC2 : MonoBehaviour
             dialoguePanel.SetActive(false);
             button.SetActive(false);
             zeroText();
-            dialogOn=true;
+            dialogOn = true;
         }
     }
 }

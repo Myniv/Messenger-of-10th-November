@@ -2373,11 +2373,16 @@ MonoBehaviour:
   - 'Tukang Koran : Terima kasih ya nak'
   - 'Tukang Koran : Setelah semuanya selesai, akan saya kasih koran gratis untukmu'
   - 'Boyo : Baik Pak'
+  dialogueWinQuiz:
+  - 
+  - Terimakasih banyak nak telah membantu
+  - Sama sama pak
   button: {fileID: 222562074}
   contButton: {fileID: 744944099}
   quiz: {fileID: 2086272930}
   wordSpeed: 0.06
   playerIsClose: 0
+  quizManager: {fileID: 2086272932}
 --- !u!95 &715004427
 Animator:
   serializedVersion: 5
@@ -2542,6 +2547,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5993808047933840325, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
   m_PrefabInstance: {fileID: 2074912635}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &738271811 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8684048285406390429, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+  m_PrefabInstance: {fileID: 2074912635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738271809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c64172a6f4497948988fad64e45bd89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &744944098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3226,12 +3242,16 @@ MonoBehaviour:
   dialogue:
   - 
   - Aku bereskan dulu deh, sesuai dengan jenis sampahnya
+  dialogueWinPuzzle:
+  - 
+  - Aku sudah membereskan sampah ini
   contButton: {fileID: 1251823172}
   wordSpeed: 0.06
   playerIsClose: 0
   notifAchievement:
     m_PersistentCalls:
       m_Calls: []
+  hiddenManager: {fileID: 738271811}
 --- !u!1 &915605875
 GameObject:
   m_ObjectHideFlags: 0
@@ -8465,6 +8485,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2691393361015787605, guid: f12256d332acae847864b0181192819b, type: 3}
   m_PrefabInstance: {fileID: 2086272929}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2086272932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5858761053628613359, guid: f12256d332acae847864b0181192819b, type: 3}
+  m_PrefabInstance: {fileID: 2086272929}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e724e29e0d70e104aab74a6f48689b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2123375166
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,15 +25,20 @@ public class NPC : MonoBehaviour
     [SerializeField] UnityEvent notifAchievement;
     AudioManager audioManager;
 
-    bool dialogOn=false;
+    bool dialogOn = false;
 
-    private void Awake() {
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        cacheDialogueText=dialogueText.text;
+    }
+
+    private void Start()
+    {
+        cacheDialogueText = dialogueText.text;
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
             {
@@ -47,7 +52,7 @@ public class NPC : MonoBehaviour
             }
         }
 
-        if(dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
+        if (dialogueText.text == dialogue[index] || dialogueText.text == cacheDialogueText)
         {
             contButton.SetActive(true);
         }
@@ -64,7 +69,7 @@ public class NPC : MonoBehaviour
     {
         foreach (char letter in dialogue[index].ToCharArray())
         {
-            
+
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
             audioManager.PlaySFX(audioManager.Typing);
@@ -75,7 +80,7 @@ public class NPC : MonoBehaviour
     {
         contButton.SetActive(false);
 
-        if(index < dialogue.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
@@ -90,14 +95,14 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-            //To Activate notif in the npc
-            gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            
-        if (other.CompareTag("Player")||dialogOn==false)
+        //To Activate notif in the npc
+        gameObject.transform.GetChild(0).gameObject.SetActive(true);
+
+        if (other.CompareTag("Player") || dialogOn == false)
         {
-            
+
             playerIsClose = true;
             button.SetActive(true);
             // dialogueImage.sprite = KarakterImage;
@@ -105,18 +110,18 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) 
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             //To Deactivate notif in the npc
             gameObject.transform.GetChild(0).gameObject.SetActive(false);
-            
+
             playerIsClose = false;
             dialoguePanel.SetActive(value: false);
             button.SetActive(false);
             zeroText();
-            dialogOn=true;
+            dialogOn = true;
         }
     }
 }

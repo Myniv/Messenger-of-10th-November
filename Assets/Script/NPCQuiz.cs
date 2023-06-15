@@ -29,6 +29,10 @@ public class NPCQuiz : MonoBehaviour
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+    private void Start()
+    {
         cacheDialogueText = dialogueText.text;
     }
     void Update()
@@ -96,20 +100,23 @@ public class NPCQuiz : MonoBehaviour
     public void NextLine()
     {
         contButton.SetActive(false);
-        if(quizManager.IsQuizWin==false){
-        if (index < dialogue.Length - 1)
+        if (quizManager.IsQuizWin == false)
         {
-            index++;
-            dialogueText.text = "";
-            StartCoroutine(Typing());
-        }
+            if (index < dialogue.Length - 1)
+            {
+                index++;
+                dialogueText.text = "";
+                StartCoroutine(Typing());
+            }
 
-        else
-        {
-            quiz.SetActive(true);
-            zeroText();
+            else
+            {
+                quiz.SetActive(true);
+                zeroText();
+            }
         }
-        }else if(quizManager.IsQuizWin==true){
+        else if (quizManager.IsQuizWin == true)
+        {
             if (index < dialogueWinQuiz.Length - 1)
             {
                 index++;
