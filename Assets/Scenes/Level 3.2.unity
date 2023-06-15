@@ -2753,12 +2753,16 @@ MonoBehaviour:
   - 
   - Aku harus mencari benda yang lainnya sebagai bukti
   - Setelah itu, aku akan kembali ke markas PETA untuk memberitahu mrs.Yumma
+  dialogueWinPuzzle:
+  - 
+  - Aku harus kembali ke markas PETA
   contButton: {fileID: 2071181201}
   wordSpeed: 0.06
   playerIsClose: 0
   notifAchievement:
     m_PersistentCalls:
       m_Calls: []
+  hiddenManager: {fileID: 1805597903}
 --- !u!1 &1152510578
 GameObject:
   m_ObjectHideFlags: 0
@@ -4605,7 +4609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.912806, y: 5.11955, z: -10}
+  m_LocalPosition: {x: 12.906275, y: 5.11954, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5139,6 +5143,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5993808047933840325, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
   m_PrefabInstance: {fileID: 1805597900}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1805597903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8684048285406390429, guid: b57e3b48813b2da4db33e9c7358bfb2b, type: 3}
+  m_PrefabInstance: {fileID: 1805597900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805597901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c64172a6f4497948988fad64e45bd89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1834991174
 GameObject:
   m_ObjectHideFlags: 0
@@ -6107,7 +6122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.0835972, y: -0.08477616, z: 0}
+  m_LocalPosition: {x: 3.0868626, y: -0.08477116, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
