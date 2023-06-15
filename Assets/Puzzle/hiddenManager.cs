@@ -19,6 +19,7 @@ public class hiddenManager : MonoBehaviour
     public TMP_Text textGagal;
     private List<GameObject> selectedGameObjects = new List<GameObject>();
     AudioManager audioManager;
+    [SerializeField] LevelManager levelManager;
     private void Awake() {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
@@ -75,6 +76,7 @@ public class hiddenManager : MonoBehaviour
                 audioManager.PlaySFX(audioManager.CorrectAnswer);
                 if (countItemFind >= itemTarget.Length)
                 {
+                    levelManager.AddMiniGamesFinish();
                     panelFinish.SetActive(true);
                 }
                 var selectedGameObject = EventSystem.current.currentSelectedGameObject.gameObject;

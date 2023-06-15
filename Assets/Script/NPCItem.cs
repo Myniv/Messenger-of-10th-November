@@ -9,13 +9,13 @@ public class NPCItem : MonoBehaviour
 {
     [SerializeField] GameObject nextPanel;
     [SerializeField] TMP_Text confirmText;
+    [SerializeField] LevelManager levelManager;
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.CompareTag("Player"))
         {
-            //playerIsClose = true;
-            nextPanel.SetActive(true);
+            levelManager.IsMiniGamesFinish();
         }
     }
 
