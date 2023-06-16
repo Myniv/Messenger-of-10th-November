@@ -7,13 +7,19 @@ public class LeftMove : Character , IPointerDownHandler, IPointerUpHandler
 {
 
     [SerializeField] Character character;
+    AudioManager audioManager;
+    
     bool m_FacingRight=false;
 
     bool isPressed = false;
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Update()
     {
         if (isPressed)
         {
+            audioManager.PlaySFX(audioManager.footstep);
             character.transform.Translate(-character.force * Time.deltaTime, 0, 0);
         }
     }
