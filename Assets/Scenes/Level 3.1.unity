@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 505982364}
   - component: {fileID: 505982368}
   m_Layer: 0
-  m_Name: NPC CeweRemaja
+  m_Name: NPC Batuk
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -833,7 +833,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.49, y: 1.53}
+    oldSize: {x: 0.55, y: 1.36}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -883,7 +883,7 @@ SpriteRenderer:
   m_SortingLayerID: 578715699
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1378778770, guid: c679b28d3f154bf45bc2217092617de0, type: 3}
+  m_Sprite: {fileID: 1032933061, guid: 9cd5562d13d72564f9de1bf200dc92d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -921,7 +921,7 @@ Animator:
   m_GameObject: {fileID: 505982363}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28e1e2dd078ba3748b0056d89b4579a7, type: 2}
+  m_Controller: {fileID: 9100000, guid: ca653099443593249bea2259a2d69a71, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1810,7 +1810,7 @@ GameObject:
   - component: {fileID: 954497708}
   - component: {fileID: 954497712}
   m_Layer: 0
-  m_Name: NPC BocahCowo
+  m_Name: NPC Nangis
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1857,7 +1857,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.44, y: 1.34}
+    oldSize: {x: 0.8, y: 0.93}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1907,7 +1907,7 @@ SpriteRenderer:
   m_SortingLayerID: 578715699
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -388835273, guid: c679b28d3f154bf45bc2217092617de0, type: 3}
+  m_Sprite: {fileID: 106288680, guid: 309bc606708155f428ce713ead590562, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -1945,7 +1945,7 @@ Animator:
   m_GameObject: {fileID: 954497706}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fa952489b7c81664c8517900973ef3fc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 30ec159902d4b4d4ea244b581637540c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3899,7 +3899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686429658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.421288, y: 5.0583405, z: -10}
+  m_LocalPosition: {x: 16.44443, y: 5.0582404, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5068,7 +5068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123375166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.239356, y: -0.49417138, z: 0}
+  m_LocalPosition: {x: 3.227785, y: -0.4941213, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
