@@ -20,17 +20,19 @@ public class hiddenManager : MonoBehaviour
     private List<GameObject> selectedGameObjects = new List<GameObject>();
     AudioManager audioManager;
     [SerializeField] LevelManager levelManager;
-    private bool isPuzzleWin=false;
-    public bool IsPuzzleWin { get => isPuzzleWin;}
+    private bool isPuzzleWin = false;
+    public bool IsPuzzleWin { get => isPuzzleWin; }
 
-    private void Awake() {
+    private void Awake()
+    {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
-    void Update() {
+    void Update()
+    {
         if (DOTween.IsTweening(transform))
             return;
     }
-    private void Start() 
+    private void Start()
     {
         RandomItemPos();
 
@@ -40,7 +42,7 @@ public class hiddenManager : MonoBehaviour
     }
     void RandomIndex()
     {
-        for(int i = 0; i < randomIndexs.Length; i++) 
+        for (int i = 0; i < randomIndexs.Length; i++)
         {
             int a = randomIndexs[i];
             // int b = Random.Range(0, randomIndexs.Length);
@@ -50,27 +52,27 @@ public class hiddenManager : MonoBehaviour
     }
     void RandomItemTarget()
     {
-        for(int i = 0; i < itemTarget.Length; i++) 
+        for (int i = 0; i < itemTarget.Length; i++)
         {
             itemTarget[i].GetComponent<Image>().sprite = item.transform.GetChild(randomIndexs[i]).GetComponent<Image>().sprite;
         }
     }
-    public void RandomItemPos() 
+    public void RandomItemPos()
     {
-        int randomSave = Random.Range(0,ControlPos.Instance.saveItemsPos.Count);
+        int randomSave = Random.Range(0, ControlPos.Instance.saveItemsPos.Count);
 
-        for(int i = 0; i < item.transform.childCount; i++) 
+        for (int i = 0; i < item.transform.childCount; i++)
         {
             item.transform.GetChild(i).transform.localPosition = ControlPos.Instance.saveItemsPos[randomSave].itemPos[i];
 
             item.transform.GetChild(i).gameObject.SetActive(true);
         }
     }
-    public void ButtonItem() 
+    public void ButtonItem()
     {
-        for(int i = 0; i < itemTarget.Length; i++) 
-        {    
-            if(EventSystem.current.currentSelectedGameObject.GetComponent<Image>().sprite == itemTarget[i].GetComponent<Image>().sprite)
+        for (int i = 0; i < itemTarget.Length; i++)
+        {
+            if (EventSystem.current.currentSelectedGameObject.GetComponent<Image>().sprite == itemTarget[i].GetComponent<Image>().sprite)
             {
                 itemTarget[i].GetComponent<Image>().color = Color.white;
 
@@ -81,7 +83,8 @@ public class hiddenManager : MonoBehaviour
                 {
                     levelManager.AddMiniGamesFinish();
                     panelFinish.SetActive(true);
-                    isPuzzleWin=true;
+                    textGagal.text = "Selamat! Kamu telah menyelesaikan mini game ini!";
+                    isPuzzleWin = true;
                 }
                 var selectedGameObject = EventSystem.current.currentSelectedGameObject.gameObject;
                 selectedGameObject.SetActive(false);
@@ -90,10 +93,11 @@ public class hiddenManager : MonoBehaviour
             }
             else
             {
-                if(i == itemTarget.Length - 1)
+                if (i == itemTarget.Length - 1)
                 {
                     Debug.Log("salah");
-                    if(countHealth > 0) {
+                    if (countHealth > 0)
+                    {
 
                         health.transform.GetChild(countHealth - 1).gameObject.SetActive(false);
                         countHealth -= 1;
@@ -102,31 +106,32 @@ public class hiddenManager : MonoBehaviour
                     else
                     {
                         panelFinish.SetActive(true);
-                        textGagal.text = "Misi Gagal";
+                        textGagal.text = "Ohh tidak, kamu gagal menyelesaikan mini game ini. Apakah ingin mengulanginya? atau membuka catatan terlebih dahulu?";
                     }
                 }
             }
-            
+
         }
     }
-    public void Ulangi () 
+    public void Ulangi()
     {
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        countHealth=3;
+        countHealth = 3;
         countItemFind = 0;
-        for(int i = 0; i < countHealth; i++) 
+        for (int i = 0; i < countHealth; i++)
         {
             health.transform.GetChild(i).gameObject.SetActive(true);
         }
-        for(int i = 0; i < selectedGameObjects.Count; i++) {
+        for (int i = 0; i < selectedGameObjects.Count; i++)
+        {
             selectedGameObjects[i].SetActive(true);
 
         }
         selectedGameObjects.Clear();
 
-        for(int i = 0; i < itemTarget.Length; i++) 
+        for (int i = 0; i < itemTarget.Length; i++)
         {
-                itemTarget[i].GetComponent<Image>().color = Color.black;
+            itemTarget[i].GetComponent<Image>().color = Color.black;
         }
 
         RandomItemPos();

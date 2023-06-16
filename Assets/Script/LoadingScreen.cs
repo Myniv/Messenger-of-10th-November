@@ -23,4 +23,8 @@ public class LoadingScreen : MonoBehaviour
             yield return null;
         }
     }
+
+    public void QuitGame(){
+        Application.Quit();
+    }
 }
